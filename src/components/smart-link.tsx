@@ -8,7 +8,6 @@ type SmartLinkProps = {
   className?: string;
   rel?: string;
   children: React.ReactNode;
-  newTab?: boolean;
 };
 
 export default function SmartLink({
@@ -17,21 +16,24 @@ export default function SmartLink({
   className,
   rel,
   children,
-  newTab = true,
 }: SmartLinkProps) {
   const onClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    const key = 'ad_seen_once';
-    const seen = typeof window !== 'undefined' ? window.sessionStorage.getItem(key) : '1';
-    const targetUrl = seen ? href : adHref;
+    const keyBase = `${adHref}::${href}`;
+    const key = 'ad_click_' + encodeURIComponent(keyBase);
+    const countStr = typeof window !== 'undefined' ? window.sessionStorage.getItem(key) : '0';
+    const count = Number(countStr || '0');
     if (typeof window !== 'undefined') {
       e.preventDefault();
-      try {
-        window.sessionStorage.setItem(key, '1');
-      } catch {}
-      if (newTab) {
-        window.open(targetUrl, '_blank', 'noopener,noreferrer');
+      if (count === 0) {
+        try {
+          window.sessionStorage.setItem(key, '1');
+        } catch {}
+        window.open(adHref, '_blank', 'noopener,noreferrer');
       } else {
-        window.location.href = targetUrl;
+        try {
+          window.sessionStorage.setItem(key, '0');
+        } catch {}
+        window.location.href = href;
       }
     }
   };
@@ -39,7 +41,6 @@ export default function SmartLink({
   return (
     <a
       href={href}
-      target={newTab ? '_blank' : undefined}
       rel={rel}
       className={className}
       onClick={onClick}

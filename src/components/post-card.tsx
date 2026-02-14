@@ -5,6 +5,10 @@ import { Shield, Cpu, Calendar, User } from 'lucide-react';
 
 export default function PostCard({ post }: { post: Post }) {
   const Icon = post.category === 'Cybersecurity' ? Shield : Cpu;
+  const previewText =
+    (post.description && post.description.trim().length > 0)
+      ? post.description
+      : (post.content?.summary ? post.content.summary.slice(0, 160) : 'Read the latest update on this topic.');
   const categoryPath =
     post.category === 'Cybersecurity' ? 'cybersecurity' :
     post.category === 'Tech' ? 'tech' :
@@ -43,7 +47,7 @@ export default function PostCard({ post }: { post: Post }) {
           </h2>
         </Link>
         <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
-          {post.description}
+          {previewText}
         </p>
         <div className="flex items-center gap-4 pt-3 text-xs text-muted-foreground border-t">
           <span className="flex items-center gap-1">

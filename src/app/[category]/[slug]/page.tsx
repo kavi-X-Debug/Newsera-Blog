@@ -61,16 +61,19 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 
   const canonicalPath = `/${categoryToPath(post.category)}/${post.slug}`;
   const canonicalUrl = `https://newsera.blog${canonicalPath}`;
+  const desc = (post.description && post.description.trim().length > 0)
+    ? post.description
+    : (post.content?.summary ? post.content.summary.slice(0, 160) : undefined);
 
   return {
     title: post.title,
-    description: post.description?.slice(0, 160),
+    description: desc,
     alternates: { canonical: canonicalUrl },
     openGraph: {
       type: "article",
       url: canonicalUrl,
       title: post.title,
-      description: post.description,
+      description: desc,
       publishedTime: post.date,
       authors: [post.author],
       images: post.image ? [{ url: post.image }] : undefined,
@@ -78,7 +81,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     twitter: {
       card: "summary_large_image",
       title: post.title,
-      description: post.description,
+      description: desc,
       images: post.image ? [post.image] : undefined,
       site: "@newsera_blog",
     },
@@ -108,6 +111,10 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
   const relatedPosts = [...sameCategory, ...crossCategory];
 
   const SMARTLINK_URL = "https://www.effectivegatecpm.com/p428afnuf?key=e9e0ec5bd99ea342a1f5a24c3a632855";
+  const descriptionText =
+    (post.description && post.description.trim().length > 0)
+      ? post.description
+      : (post.content?.summary ? post.content.summary.slice(0, 160) : "");
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
@@ -236,27 +243,27 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
           </footer>
         </article>
       </div>
-      <Script
-        id="post-json-ld"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": ["Article", "NewsArticle"],
-            "headline": post.title,
-            "datePublished": post.date,
-            "author": {
-              "@type": "Organization",
-              "name": "News Era"
-            },
-            "description": post.description,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": `https://newsera.blog/${categoryToPath(post.category)}/${post.slug}`
-            }
-          })
-        }}
-      />
+        <Script
+          id="post-json-ld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["Article", "NewsArticle"],
+              "headline": post.title,
+              "datePublished": post.date,
+              "author": {
+                "@type": "Organization",
+                "name": "News Era"
+              },
+            "description": descriptionText,
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": `https://newsera.blog/${categoryToPath(post.category)}/${post.slug}`
+              }
+            })
+          }}
+        />
     </div>
   );
 }
