@@ -16,6 +16,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/tech" className="text-sm hover:text-primary transition-colors">Tech</Link></li>
               <li><Link href="/cybersecurity" className="text-sm hover:text-primary transition-colors">Cybersecurity</Link></li>
+              <li><Link href="/sports" className="text-sm hover:text-primary transition-colors">Sports News</Link></li>
+              <li><Link href="/business" className="text-sm hover:text-primary transition-colors">Business / Economic News</Link></li>
+              <li><Link href="/politics" className="text-sm hover:text-primary transition-colors">Political News</Link></li>
+              <li><Link href="/science" className="text-sm hover:text-primary transition-colors">Science &amp; Technology News</Link></li>
             </ul>
           </div>
           <div>

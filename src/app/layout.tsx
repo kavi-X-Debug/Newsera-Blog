@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   authors: [{ name: "News Era Team" }],
   icons: {
     icon: [
+      { url: "https://ibb.co/CpdzkDGN" },
       { url: "/icon.svg" },
       { url: "/favicon.ico" },
       { url: "/favicon.png", type: "image/png" }
