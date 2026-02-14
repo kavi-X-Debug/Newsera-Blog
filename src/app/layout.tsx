@@ -9,23 +9,27 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Newsera.blog | Tech & Cybersecurity News",
-    template: "%s | Newsera.blog"
+    default: "News Era | Tech & Cybersecurity News",
+    template: "%s | News Era"
   },
   description: "Stay updated with the latest in technology and cybersecurity. Your reliable source for tech insights.",
   keywords: ["tech news", "cybersecurity", "tech insights", "newsera"],
-  authors: [{ name: "Newsera Team" }],
+  authors: [{ name: "News Era Team" }],
   icons: {
     icon: [
       { url: "/favicon.ico" },
       { url: "/favicon.png", type: "image/png" }
     ]
   },
+  twitter: {
+    card: "summary_large_image",
+    site: "@newsera_blog"
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://newsera.blog",
-    siteName: "Newsera.blog",
+    siteName: "News Era",
   },
 };
 

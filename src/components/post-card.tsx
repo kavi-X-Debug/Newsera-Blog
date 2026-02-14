@@ -5,6 +5,13 @@ import { Shield, Cpu, Calendar, User } from 'lucide-react';
 
 export default function PostCard({ post }: { post: Post }) {
   const Icon = post.category === 'Cybersecurity' ? Shield : Cpu;
+  const categoryPath =
+    post.category === 'Cybersecurity' ? 'cybersecurity' :
+    post.category === 'Tech' ? 'tech' :
+    post.category === 'Sports News' ? 'sports' :
+    post.category === 'Business / Economic News' ? 'business' :
+    post.category === 'Political News' ? 'politics' :
+    post.category === 'Science & Technology News' ? 'science' : 'tech';
 
   return (
     <article className="group flex flex-col space-y-3 border rounded-xl overflow-hidden hover:shadow-lg transition-all bg-card">
@@ -14,6 +21,7 @@ export default function PostCard({ post }: { post: Post }) {
             src={post.image} 
             alt={post.title}
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
           />
         ) : (
           <>
@@ -27,7 +35,7 @@ export default function PostCard({ post }: { post: Post }) {
           <Icon size={12} />
           {post.category}
         </div>
-        <Link href={`/post/${post.slug}`}>
+        <Link href={`/${categoryPath}/${post.slug}`}>
           <h2 className="text-xl font-bold group-hover:text-primary transition-colors leading-tight line-clamp-2">
             {post.title}
           </h2>

@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Privacy Policy",
-  description: "Read the privacy policy of Newsera.blog.",
+  description: "Read the privacy policy of News Era.",
 };
 
 export default function PrivacyPage() {
@@ -10,7 +10,7 @@ export default function PrivacyPage() {
       <div className="prose prose-slate dark:prose-invert">
         <p>Last updated: February 14, 2026</p>
         <p>
-          At Newsera.blog, we take your privacy seriously. This policy outlines how we handle data and your interactions with our news service.
+          At News Era, we take your privacy seriously. This policy outlines how we handle data and your interactions with our news service.
         </p>
         <h2 className="text-2xl font-bold mt-8">Data Collection</h2>
         <p>

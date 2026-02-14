@@ -17,11 +17,15 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold tracking-tighter text-primary">Newsera<span className="text-muted-foreground">.blog</span></span>
+            <span className="text-xl font-bold tracking-tighter text-primary">News Era</span>
           </Link>
           <div className="hidden md:flex gap-6">
             <Link href="/tech" className="text-sm font-medium transition-colors hover:text-primary">Tech</Link>
             <Link href="/cybersecurity" className="text-sm font-medium transition-colors hover:text-primary">Cybersecurity</Link>
+            <Link href="/sports" className="text-sm font-medium transition-colors hover:text-primary">Sports</Link>
+            <Link href="/business" className="text-sm font-medium transition-colors hover:text-primary">Business</Link>
+            <Link href="/politics" className="text-sm font-medium transition-colors hover:text-primary">Politics</Link>
+            <Link href="/science" className="text-sm font-medium transition-colors hover:text-primary">Science & Tech</Link>
           </div>
         </div>
 
@@ -50,6 +54,10 @@ export default function Navbar() {
         <div className="md:hidden border-b bg-background px-4 py-4 space-y-4">
           <Link href="/tech" className="block text-sm font-medium" onClick={() => setIsOpen(false)}>Tech</Link>
           <Link href="/cybersecurity" className="block text-sm font-medium" onClick={() => setIsOpen(false)}>Cybersecurity</Link>
+          <Link href="/sports" className="block text-sm font-medium" onClick={() => setIsOpen(false)}>Sports News</Link>
+          <Link href="/business" className="block text-sm font-medium" onClick={() => setIsOpen(false)}>Business / Economic News</Link>
+          <Link href="/politics" className="block text-sm font-medium" onClick={() => setIsOpen(false)}>Political News</Link>
+          <Link href="/science" className="block text-sm font-medium" onClick={() => setIsOpen(false)}>Science & Technology News</Link>
         </div>
       )}
     </nav>

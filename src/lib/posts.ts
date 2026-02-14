@@ -6,7 +6,13 @@ export interface Post {
   slug: string;
   date: string;
   description: string;
-  category: 'Tech' | 'Cybersecurity';
+  category:
+    | 'Tech'
+    | 'Cybersecurity'
+    | 'Sports News'
+    | 'Business / Economic News'
+    | 'Political News'
+    | 'Science & Technology News';
   image?: string | null;
   content: {
     summary: string;

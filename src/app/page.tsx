@@ -13,8 +13,8 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tighter">
           The Future of <span className="text-primary">Tech</span> & <span className="text-blue-600 dark:text-blue-400">Security</span>
         </h1>
-        <p className="text-xl text-muted-foreground max-w-[700px] mx-auto">
-          Expert news, insights, and analysis for the modern digital era. Stay ahead of the curve with Newsera.blog.
+        <p className="text-muted-foreground max-w-2xl">
+          Expert news, insights, and analysis for the modern digital era. Stay ahead of the curve with News Era.
         </p>
       </section>
 

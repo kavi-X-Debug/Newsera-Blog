@@ -1,5 +1,5 @@
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { format } from "date-fns";
 import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-react";
 import Link from "next/link";
@@ -17,15 +17,34 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = getPostBySlug(slug);
   if (!post) return {};
 
+  const categoryPath =
+    post.category === "Cybersecurity" ? "cybersecurity" :
+    post.category === "Tech" ? "tech" :
+    post.category === "Sports News" ? "sports" :
+    post.category === "Business / Economic News" ? "business" :
+    post.category === "Political News" ? "politics" :
+    post.category === "Science & Technology News" ? "science" : "tech";
+  const canonicalUrl = `https://newsera.blog/${categoryPath}/${post.slug}`;
+
   return {
     title: post.title,
-    description: post.description,
+    description: post.description?.slice(0, 160),
+    alternates: { canonical: canonicalUrl },
     openGraph: {
+      type: "article",
+      url: canonicalUrl,
       title: post.title,
       description: post.description,
-      type: "article",
       publishedTime: post.date,
       authors: [post.author],
+      images: post.image ? [{ url: post.image }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: post.image ? [post.image] : undefined,
+      site: "@newsera_blog",
     },
   };
 }
@@ -37,6 +56,15 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   if (!post) {
     notFound();
   }
+
+  const categoryPath =
+    post.category === "Cybersecurity" ? "cybersecurity" :
+    post.category === "Tech" ? "tech" :
+    post.category === "Sports News" ? "sports" :
+    post.category === "Business / Economic News" ? "business" :
+    post.category === "Political News" ? "politics" :
+    post.category === "Science & Technology News" ? "science" : "tech";
+  redirect(`/${categoryPath}/${post.slug}`);
 
   const Icon = post.category === "Cybersecurity" ? Shield : Cpu;
   const allPosts = getAllPosts();

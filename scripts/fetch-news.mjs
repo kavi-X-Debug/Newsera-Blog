@@ -16,15 +16,26 @@ const FEEDS = [
 
 const CYBER_KEYWORDS = ['security', 'hacker', 'cyber', 'vulnerability', 'breach', 'exploit', 'malware', 'ransomware', 'attack', 'patch'];
 const TECH_KEYWORDS = ['ai', 'apple', 'google', 'microsoft', 'smartphone', 'gadget', 'software', 'hardware', 'app', 'launch'];
+const SPORTS_KEYWORDS = ['sport', 'game', 'match', 'tournament', 'league', 'cup', 'goal', 'score', 'player', 'coach', 'team', 'nba', 'nfl', 'mlb', 'premier league', 'fifa', 'olympic'];
+const BUSINESS_KEYWORDS = ['business', 'market', 'stock', 'stocks', 'shares', 'ipo', 'earnings', 'revenue', 'profit', 'loss', 'funding', 'merger', 'acquisition', 'economy', 'economic', 'inflation', 'gdp', 'forex', 'trade'];
+const POLITICS_KEYWORDS = ['election', 'policy', 'government', 'senate', 'congress', 'parliament', 'minister', 'president', 'prime minister', 'law', 'bill', 'regulation', 'sanction', 'diplomatic', 'geopolitics'];
+const SCI_TECH_KEYWORDS = ['science', 'research', 'study', 'space', 'nasa', 'astronomy', 'physics', 'chemistry', 'biology', 'genetics', 'lab', 'experiment', 'technology', 'tech'];
 
 function getCategory(title, content, defaultCat) {
   const text = (title + ' ' + content).toLowerCase();
-  let cyberCount = CYBER_KEYWORDS.filter(k => text.includes(k)).length;
-  let techCount = TECH_KEYWORDS.filter(k => text.includes(k)).length;
-  
-  if (cyberCount > techCount && cyberCount > 0) return 'Cybersecurity';
-  if (techCount > cyberCount && techCount > 0) return 'Tech';
-  return defaultCat;
+  const counts = {
+    'Cybersecurity': CYBER_KEYWORDS.filter(k => text.includes(k)).length,
+    'Tech': TECH_KEYWORDS.filter(k => text.includes(k)).length,
+    'Sports News': SPORTS_KEYWORDS.filter(k => text.includes(k)).length,
+    'Business / Economic News': BUSINESS_KEYWORDS.filter(k => text.includes(k)).length,
+    'Political News': POLITICS_KEYWORDS.filter(k => text.includes(k)).length,
+    'Science & Technology News': SCI_TECH_KEYWORDS.filter(k => text.includes(k)).length,
+  };
+  let best = { cat: defaultCat, score: 0 };
+  for (const [cat, score] of Object.entries(counts)) {
+    if (score > best.score) best = { cat, score };
+  }
+  return best.score > 0 ? best.cat : defaultCat;
 }
 
 function generateSlug(title) {
@@ -126,11 +137,11 @@ async function fetchNews() {
             takeaways: [
               `Analyze how this ${category} shift affects your current digital setup.`,
               `Stay proactive by implementing recommended security patches or software updates.`,
-              `Monitor Newsera.blog for further developments on this story.`
+              `Monitor News Era for further developments on this story.`
             ]
           },
           link: item.link,
-          author: item.creator || 'Newsera Team'
+          author: item.creator || 'News Era Team'
         };
 
         allPosts.push(post);

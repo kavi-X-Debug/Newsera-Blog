@@ -1,8 +1,8 @@
 import { Mail, Globe, Shield } from "lucide-react";
 
 export const metadata = {
-  title: "Contact Us",
-  description: "Get in touch with the Newsera.blog team.",
+  title: "Contact",
+  description: "Get in touch with the News Era team.",
 };
 
 export default function ContactPage() {
@@ -40,7 +40,7 @@ export default function ContactPage() {
       <div className="border rounded-xl p-8 bg-muted/20 text-center">
         <h2 className="text-2xl font-bold mb-4">Follow Our Updates</h2>
         <p className="text-muted-foreground mb-6">
-          Newsera.blog is constantly evolving. Stay tuned for more features and updates.
+          News Era is constantly evolving. Stay tuned for more features and updates.
         </p>
         <div className="flex justify-center gap-6">
           <Globe className="text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
