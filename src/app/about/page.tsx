@@ -1,6 +1,6 @@
 export const metadata = {
   title: "About Us",
-  description: "Learn more about Newsera.blog and our mission to provide automated tech and cybersecurity news.",
+  description: "Learn more about Newsera.blog and our mission to provide the latest tech and cybersecurity news.",
 };
 
 export default function AboutPage() {
@@ -9,14 +9,14 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold tracking-tight">About Newsera.blog</h1>
       <div className="prose prose-slate dark:prose-invert lg:prose-xl">
         <p>
-          Newsera.blog is a cutting-edge, fully automated news platform dedicated to bringing you the most relevant updates in Technology and Cybersecurity.
+          Newsera.blog is a premier news platform dedicated to bringing you the most relevant updates in Technology and Cybersecurity.
         </p>
         <p>
           Our mission is to filter through the noise of the digital world and deliver high-quality, structured insights that matter to tech enthusiasts and security professionals alike, specifically tailored for our audience in the US, UK, Canada, and Australia.
         </p>
         <h2 className="text-2xl font-bold mt-8">How It Works</h2>
         <p>
-          Using advanced automation workflows, we fetch the latest news from world-renowned sources like TechCrunch, The Verge, Wired, and specialized security outlets. Each post is automatically categorized, summarized, and structured to provide you with the essential "What Happened" and "Why It Matters" without the fluff.
+          We monitor the latest news from world-renowned sources like TechCrunch, The Verge, Wired, and specialized security outlets. Each post is carefully categorized, summarized, and structured to provide you with the essential "What Happened" and "Why It Matters" without the fluff.
         </p>
         <h2 className="text-2xl font-bold mt-8">Our Goal</h2>
         <p>

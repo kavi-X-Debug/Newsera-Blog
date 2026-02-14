@@ -12,9 +12,15 @@ export const metadata: Metadata = {
     default: "Newsera.blog | Tech & Cybersecurity News",
     template: "%s | Newsera.blog"
   },
-  description: "Stay updated with the latest in technology and cybersecurity. Automated news for the tech-savvy.",
-  keywords: ["tech news", "cybersecurity", "automation", "newsera"],
+  description: "Stay updated with the latest in technology and cybersecurity. Your reliable source for tech insights.",
+  keywords: ["tech news", "cybersecurity", "tech insights", "newsera"],
   authors: [{ name: "Newsera Team" }],
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" }
+    ]
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

@@ -7,6 +7,7 @@ export interface Post {
   date: string;
   description: string;
   category: 'Tech' | 'Cybersecurity';
+  image?: string | null;
   content: {
     summary: string;
     impact: string;

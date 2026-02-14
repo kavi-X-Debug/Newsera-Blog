@@ -9,8 +9,18 @@ export default function PostCard({ post }: { post: Post }) {
   return (
     <article className="group flex flex-col space-y-3 border rounded-xl overflow-hidden hover:shadow-lg transition-all bg-card">
       <div className="aspect-video w-full bg-muted relative flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 group-hover:scale-105 transition-transform duration-500" />
-        <Icon size={48} className="text-primary/40 relative z-10" />
+        {post.image ? (
+          <img 
+            src={post.image} 
+            alt={post.title}
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        ) : (
+          <>
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 group-hover:scale-105 transition-transform duration-500" />
+            <Icon size={48} className="text-primary/40 relative z-10" />
+          </>
+        )}
       </div>
       <div className="p-4 pt-0 space-y-2">
         <div className="flex items-center gap-2 text-xs font-semibold text-primary uppercase tracking-widest">

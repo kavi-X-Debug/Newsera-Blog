@@ -14,7 +14,7 @@ export default function Home() {
           The Future of <span className="text-primary">Tech</span> & <span className="text-blue-600 dark:text-blue-400">Security</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-[700px] mx-auto">
-          Automated news, insights, and analysis for the modern digital era. Stay ahead of the curve with Newsera.blog.
+          Expert news, insights, and analysis for the modern digital era. Stay ahead of the curve with Newsera.blog.
         </p>
       </section>
 
@@ -47,7 +47,7 @@ export default function Home() {
       <section className="bg-primary/5 rounded-2xl p-8 md:p-12 text-center space-y-6">
         <h2 className="text-3xl font-bold">Never Miss an Update</h2>
         <p className="text-muted-foreground max-w-md mx-auto">
-          We track the web's most reliable sources to bring you 3 essential updates every single day.
+          We curate the web's most reliable sources to bring you 3 essential updates every single day.
         </p>
         <div className="flex justify-center gap-4">
           <div className="flex -space-x-2">

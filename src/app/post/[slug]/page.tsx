@@ -12,8 +12,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) return {};
 
   return {
@@ -29,8 +30,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound();
@@ -46,12 +48,33 @@ export default function PostPage({ params }: { params: { slug: string } }) {
   const SMARTLINK_URL = "#"; 
 
   return (
-    <div className="max-w-4xl mx-auto space-y-8">
-      <Link href="/" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-        <ChevronLeft size={16} /> Back to Home
+    <div className="max-w-6xl mx-auto py-8 px-4">
+      <Link 
+        href="/" 
+        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8 group"
+      >
+        <ChevronLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
+        Back to Home
       </Link>
 
-      <article className="space-y-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <article className="lg:col-span-2 space-y-8">
+          {/* Header with Image or Icon */}
+          <div className="aspect-video w-full bg-muted rounded-2xl flex items-center justify-center relative overflow-hidden mb-8 border">
+            {post.image ? (
+              <img 
+                src={post.image} 
+                alt={post.title}
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            ) : (
+              <>
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10" />
+                <Icon size={120} className="text-primary/20 relative z-10" />
+              </>
+            )}
+          </div>
+
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-xs font-medium text-primary uppercase tracking-wider">
             <Icon size={14} />
@@ -75,7 +98,17 @@ export default function PostPage({ params }: { params: { slug: string } }) {
         <div className="prose prose-slate dark:prose-invert max-w-none space-y-8">
           <section className="space-y-4">
             <h2 className="text-2xl font-bold">What Happened?</h2>
-            <p className="text-lg leading-relaxed">{post.content.summary}</p>
+            <p className="text-lg leading-relaxed whitespace-pre-wrap">{post.content.summary}</p>
+            <div className="pt-2">
+              <a 
+                href={post.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-primary hover:underline flex items-center gap-1 text-sm font-medium"
+              >
+                Read full article on source <ExternalLink size={14} />
+              </a>
+            </div>
           </section>
 
           <section className="space-y-4">
@@ -134,25 +167,8 @@ export default function PostPage({ params }: { params: { slug: string } }) {
           </div>
         </footer>
       </article>
+      </div>
 
-      {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "NewsArticle",
-            "headline": post.title,
-            "datePublished": post.date,
-            "author": {
-              "@type": "Organization",
-              "name": "Newsera.blog"
-            },
-            "description": post.description,
-            "category": post.category
-          })
-        }}
-      />
     </div>
   );
 }

@@ -36,6 +36,44 @@ function generateSlug(title) {
     .trim();
 }
 
+function extractImage(item) {
+  // 1. Try enclosure
+  if (item.enclosure && item.enclosure.url && item.enclosure.type?.startsWith('image/')) {
+    return item.enclosure.url;
+  }
+  // 2. Try media:content (often in 'media:content' or item['media:content'])
+  const mediaContent = item['media:content'] || item.mediaContent;
+  if (mediaContent && mediaContent.$ && mediaContent.$.url) {
+    return mediaContent.$.url;
+  }
+  if (Array.isArray(mediaContent) && mediaContent[0] && mediaContent[0].$ && mediaContent[0].$.url) {
+    return mediaContent[0].$.url;
+  }
+  // 3. Try parsing from content/summary
+  const content = item.content || item.contentSnippet || '';
+  
+  // Try to find image in media:group or similar structures
+  if (item['media:group'] && item['media:group']['media:content']) {
+    const groupMedia = item['media:group']['media:content'];
+    if (Array.isArray(groupMedia) && groupMedia[0] && groupMedia[0].$ && groupMedia[0].$.url) {
+      return groupMedia[0].$.url;
+    }
+  }
+
+  // 4. Try parsing all tags for any URL that looks like an image
+  for (const key in item) {
+    if (typeof item[key] === 'string' && item[key].match(/\.(jpg|jpeg|png|webp|gif)(\?.*)?$/i)) {
+      if (item[key].startsWith('http')) return item[key];
+    }
+  }
+
+  const imgMatch = content.match(/<img[^>]+src="([^">]+)"/);
+  if (imgMatch && imgMatch[1]) {
+    return imgMatch[1];
+  }
+  return null;
+}
+
 async function fetchNews() {
   const postsDir = path.join(process.cwd(), 'content', 'posts');
   if (!fs.existsSync(postsDir)) {
@@ -65,24 +103,30 @@ async function fetchNews() {
 
         const category = getCategory(title, content, feed.category);
         const date = new Date(item.pubDate || item.isoDate || Date.now());
+        const imageUrl = extractImage(item);
         
-        // Simple "rewriting" logic for Tier-1 audience
-        const summary = item.contentSnippet || item.content || 'No summary available.';
-        const cleanSummary = summary.split('\n')[0].substring(0, 300) + '...';
+        // Improved content extraction for a richer post
+        const fullContent = item.content || item.contentSnippet || '';
+        const cleanSummary = fullContent
+          .replace(/<[^>]*>/g, '') // Remove HTML tags
+          .replace(/\s+/g, ' ')    // Normalize whitespace
+          .trim()
+          .substring(0, 1000) + '...';
 
         const post = {
           title,
           slug,
           date: date.toISOString(),
-          description: item.contentSnippet?.substring(0, 160) || title,
+          description: item.contentSnippet?.substring(0, 160).replace(/\s+/g, ' ').trim() || title,
           category,
+          image: imageUrl,
           content: {
             summary: cleanSummary,
-            impact: `This development in ${category.toLowerCase()} highlights the evolving landscape of technology. For users in the US, UK, Canada, and Australia, staying informed about these changes is crucial for digital safety and productivity.`,
+            impact: `The implications of this ${category.toLowerCase()} update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.`,
             takeaways: [
-              `Stay updated with the latest ${category} trends.`,
-              `Ensure your systems are patched and secure.`,
-              `Follow Newsera.blog for more updates.`
+              `Analyze how this ${category} shift affects your current digital setup.`,
+              `Stay proactive by implementing recommended security patches or software updates.`,
+              `Monitor Newsera.blog for further developments on this story.`
             ]
           },
           link: item.link,

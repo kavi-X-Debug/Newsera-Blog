@@ -10,7 +10,7 @@ export default function PrivacyPage() {
       <div className="prose prose-slate dark:prose-invert">
         <p>Last updated: February 14, 2026</p>
         <p>
-          At Newsera.blog, we take your privacy seriously. This policy outlines how we handle data and your interactions with our automated news service.
+          At Newsera.blog, we take your privacy seriously. This policy outlines how we handle data and your interactions with our news service.
         </p>
         <h2 className="text-2xl font-bold mt-8">Data Collection</h2>
         <p>

@@ -38,7 +38,7 @@ export default function ContactPage() {
       </div>
 
       <div className="border rounded-xl p-8 bg-muted/20 text-center">
-        <h2 className="text-2xl font-bold mb-4">Follow Our Automation</h2>
+        <h2 className="text-2xl font-bold mb-4">Follow Our Updates</h2>
         <p className="text-muted-foreground mb-6">
           Newsera.blog is constantly evolving. Stay tuned for more features and updates.
         </p>

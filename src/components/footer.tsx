@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Newsera.blog</h3>
             <p className="text-sm text-muted-foreground">
-              Your automated source for the latest in technology and cybersecurity news. Delivering insights daily.
+              Your trusted source for the latest in technology and cybersecurity news. Delivering insights daily.
             </p>
           </div>
           <div>
