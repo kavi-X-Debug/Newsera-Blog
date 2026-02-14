@@ -5,6 +5,22 @@ import crypto from 'crypto';
 
 const parser = new Parser();
 
+function normalizeImageUrl(raw, pageUrl) {
+  if (!raw) return null;
+  try {
+    let u = raw.trim();
+    if (u.startsWith('//')) return `https:${u}`;
+    if (u.startsWith('http://')) return u.replace(/^http:\/\//i, 'https://');
+    if (u.startsWith('/')) {
+      return new URL(u, pageUrl || 'https://').toString();
+    }
+    // data URLs or already absolute https/http
+    return u;
+  } catch {
+    return null;
+  }
+}
+
 const FEEDS = [
   { url: 'https://techcrunch.com/feed/', category: 'Tech' },
   { url: 'https://www.theverge.com/rss/index.xml', category: 'Tech' },
@@ -47,42 +63,75 @@ function generateSlug(title) {
     .trim();
 }
 
-function extractImage(item) {
+async function fetchOgImage(articleUrl) {
+  if (!articleUrl) return null;
+  try {
+    const controller = new AbortController();
+    const t = setTimeout(() => controller.abort(), 5000);
+    const res = await fetch(articleUrl, {
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; NewsEraBot/1.0; +https://newsera.blog)',
+        'Accept-Language': 'en-US,en;q=0.9'
+      }
+    });
+    clearTimeout(t);
+    if (!res.ok) return null;
+    const html = await res.text();
+    const meta = (name) => {
+      const re = new RegExp(`<meta[^>]+(?:property|name)=[\"']${name}[\"'][^>]+content=[\"']([^\"'>]+)[\"'][^>]*>`, 'i');
+      const m = html.match(re);
+      return m && m[1] ? m[1] : null;
+    };
+    return normalizeImageUrl(
+      meta('og:image') ||
+      meta('twitter:image') ||
+      meta('twitter:image:src'),
+      articleUrl
+    );
+  } catch {
+    return null;
+  }
+}
+
+async function extractImage(item) {
   // 1. Try enclosure
   if (item.enclosure && item.enclosure.url && item.enclosure.type?.startsWith('image/')) {
-    return item.enclosure.url;
+    return normalizeImageUrl(item.enclosure.url, item.link);
   }
   // 2. Try media:content (often in 'media:content' or item['media:content'])
   const mediaContent = item['media:content'] || item.mediaContent;
   if (mediaContent && mediaContent.$ && mediaContent.$.url) {
-    return mediaContent.$.url;
+    return normalizeImageUrl(mediaContent.$.url, item.link);
   }
   if (Array.isArray(mediaContent) && mediaContent[0] && mediaContent[0].$ && mediaContent[0].$.url) {
-    return mediaContent[0].$.url;
+    return normalizeImageUrl(mediaContent[0].$.url, item.link);
   }
   // 3. Try parsing from content/summary
-  const content = item.content || item.contentSnippet || '';
+  const content = item['content:encoded'] || item.content || item.contentSnippet || '';
   
   // Try to find image in media:group or similar structures
   if (item['media:group'] && item['media:group']['media:content']) {
     const groupMedia = item['media:group']['media:content'];
     if (Array.isArray(groupMedia) && groupMedia[0] && groupMedia[0].$ && groupMedia[0].$.url) {
-      return groupMedia[0].$.url;
+      return normalizeImageUrl(groupMedia[0].$.url, item.link);
     }
   }
 
   // 4. Try parsing all tags for any URL that looks like an image
   for (const key in item) {
     if (typeof item[key] === 'string' && item[key].match(/\.(jpg|jpeg|png|webp|gif)(\?.*)?$/i)) {
-      if (item[key].startsWith('http')) return item[key];
+      if (item[key].startsWith('http')) return normalizeImageUrl(item[key], item.link);
     }
   }
 
   const imgMatch = content.match(/<img[^>]+src="([^">]+)"/);
   if (imgMatch && imgMatch[1]) {
-    return imgMatch[1];
+    return normalizeImageUrl(imgMatch[1], item.link);
   }
-  return null;
+  // 5. Fallback: fetch OG/Twitter image from article page
+  const og = await fetchOgImage(item.link);
+  return og ? normalizeImageUrl(og, item.link) : null;
 }
 
 async function fetchNews() {
@@ -114,7 +163,7 @@ async function fetchNews() {
 
         const category = getCategory(title, content, feed.category);
         const date = new Date(item.pubDate || item.isoDate || Date.now());
-        const imageUrl = extractImage(item);
+        const imageUrl = await extractImage(item);
         
         // Improved content extraction for a richer post
         const fullContent = item.content || item.contentSnippet || '';
