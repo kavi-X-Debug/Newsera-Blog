@@ -106,7 +106,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
       : [];
   const relatedPosts = [...sameCategory, ...crossCategory];
 
-  const SMARTLINK_URL = "#";
+  const SMARTLINK_URL = "https://www.effectivegatecpm.com/p428afnuf?key=e9e0ec5bd99ea342a1f5a24c3a632855";
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
@@ -168,9 +168,9 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
               <p className="text-lg leading-relaxed whitespace-pre-wrap">{post.content.summary}</p>
               <div className="pt-2">
                 <a
-                  href={post.link}
+                  href={SMARTLINK_URL}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="text-primary hover:underline flex items-center gap-1 text-sm font-medium"
                 >
                   Read full article on source <ExternalLink size={14} />
@@ -206,7 +206,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                 <a
                   href={SMARTLINK_URL}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-lg"
                 >
                   {post.category === "Cybersecurity" ? "Protect Your Device" : "Check Recommended Tool"}

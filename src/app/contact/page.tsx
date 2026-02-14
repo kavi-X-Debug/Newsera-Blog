@@ -22,7 +22,11 @@ export default function ContactPage() {
           <p className="text-muted-foreground">
             For general inquiries and support, reach out to us at:
           </p>
-          <p className="font-semibold text-primary">support@newsera.blog</p>
+          <p className="font-semibold text-primary">
+            <a href="mailto:kavishchathur2002@gmail.com" className="hover:underline">
+              kavishchathur2002@gmail.com
+            </a>
+          </p>
         </div>
 
         <div className="border rounded-xl p-6 space-y-4 bg-card">
@@ -33,7 +37,11 @@ export default function ContactPage() {
           <p className="text-muted-foreground">
             For advertising or partnership opportunities, contact:
           </p>
-          <p className="font-semibold text-blue-600">partners@newsera.blog</p>
+          <p className="font-semibold text-blue-600">
+            <a href="mailto:kavishchathur2002@gmail.com" className="hover:underline">
+              kavishchathur2002@gmail.com
+            </a>
+          </p>
         </div>
       </div>
 
