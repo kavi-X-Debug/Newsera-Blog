@@ -6,6 +6,7 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import Script from "next/script";
 import PostCard from "@/components/post-card";
+import SmartLink from "@/components/smart-link";
 
 function categoryToPath(category: Post["category"]): string {
   switch (category) {
@@ -167,14 +168,14 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
               <h2 className="text-2xl font-bold">What Happened?</h2>
               <p className="text-lg leading-relaxed whitespace-pre-wrap">{post.content.summary}</p>
               <div className="pt-2">
-                <a
-                  href={SMARTLINK_URL}
-                  target="_blank"
+                <SmartLink
+                  href={post.link}
+                  adHref={SMARTLINK_URL}
                   rel="nofollow sponsored noopener noreferrer"
                   className="text-primary hover:underline flex items-center gap-1 text-sm font-medium"
                 >
                   Read full article on source <ExternalLink size={14} />
-                </a>
+                </SmartLink>
               </div>
             </section>
 
@@ -203,15 +204,15 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                 <p className="text-muted-foreground">
                   Enhance your digital security and stay protected with our recommended tools.
                 </p>
-                <a
-                  href={SMARTLINK_URL}
-                  target="_blank"
+                <SmartLink
+                  href={post.link}
+                  adHref={SMARTLINK_URL}
                   rel="nofollow sponsored noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-lg"
                 >
                   {post.category === "Cybersecurity" ? "Protect Your Device" : "Check Recommended Tool"}
                   <ExternalLink size={20} />
-                </a>
+                </SmartLink>
                 <p className="text-[10px] text-muted-foreground uppercase tracking-widest">Sponsored Content</p>
               </div>
             </section>
