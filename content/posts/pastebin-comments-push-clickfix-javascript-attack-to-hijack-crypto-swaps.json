@@ -1,0 +1,19 @@
+{
+  "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
+  "slug": "pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps",
+  "date": "2026-02-15T15:17:27.000Z",
+  "description": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in th",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/12/05/Cryptocurrency.jpg",
+  "content": {
+    "summary": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hijack Bitcoin swap transactions and redirect funds to attacker-controlled wallets. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
+  "author": "Lawrence Abrams"
+}
