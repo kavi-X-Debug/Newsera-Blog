@@ -1,0 +1,19 @@
+{
+  "title": "New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS",
+  "slug": "new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns",
+  "date": "2026-02-16T00:29:00.000Z",
+  "description": "Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/05/07/hacker-box.jpg",
+  "content": {
+    "summary": "Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/",
+  "author": "Lawrence Abrams"
+}
