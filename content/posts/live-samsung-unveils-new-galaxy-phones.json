@@ -1,0 +1,19 @@
+{
+  "title": "Live: Samsung unveils new Galaxy phones",
+  "slug": "live-samsung-unveils-new-galaxy-phones",
+  "date": "2026-02-25T17:00:00.000Z",
+  "description": "We're here in San Francisco, where Samsung is set to unveil its new Galaxy S26 series phones and probably some accessories to go with them starting at 1PM ET. K",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/static-unpk-invitation_1x1_1080x1080_lettermark.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "We're here in San Francisco, where Samsung is set to unveil its new Galaxy S26 series phones and probably some accessories to go with them starting at 1PM ET. Keep in mind this isn't Samsung's foldy phone event, which usually occurs in the summer. One of the things we're most curious about is whether the RAMageddon has impacted prices for these phones. And, of course, whether there are any new AI features to discuss. Stick around for the news and banter. (function(n){function c(t,i){n[e](h,function(n){var r,u;if(n&amp;&amp;(r=n[n.message?\"message\":\"data\"]+\"\",r&amp;&amp;r.substr&amp;&amp;r.substr(0,3)===\"nc:\")&amp;&amp;(u=r.split(\":\"),u[1]===i))switch(u[2]){case\"h\":t.style.height=u[3]+\"px\";return;case\"scrolltotop\":t.scrollIntoView();return}},!1)}for(var t,u,f,i,s,e=n.addEventListener?\"addEventListener\":\"attachEvent\",h=e===\"attachEvent\"?\"onmessage\":\"message\",o=n.document.querySelectorAll(\".live-center-embed\"),r=0;r&lt;o.length;r++)(t=o[r],t.getAttribute(&quot;data-rendered&quot;))||(u=t....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.theverge.com/tech/881355/live-blog-samsung-galaxy-unpacked-2026",
+  "author": "News Era Team"
+}

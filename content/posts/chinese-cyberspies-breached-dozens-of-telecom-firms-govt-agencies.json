@@ -1,0 +1,19 @@
+{
+  "title": "Chinese cyberspies breached dozens of telecom firms, govt agencies",
+  "slug": "chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies",
+  "date": "2026-02-25T17:00:15.000Z",
+  "description": "Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/03/07/Telecom.jpg",
+  "content": {
+    "summary": "Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
+  "author": "Bill Toulas"
+}
