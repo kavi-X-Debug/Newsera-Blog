@@ -1,0 +1,19 @@
+{
+  "title": "Hands on with Aqara’s new Matter-compatible camera",
+  "slug": "hands-on-with-aqaras-new-matter-compatible-camera",
+  "date": "2026-03-17T08:00:00.000Z",
+  "description": "The Aqara G350 is the first camera you can buy that has support for Matter. The first Matter camera is here - sort of. Camera support came to the smart home s",
+  "category": "Cybersecurity",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/8A0A5561.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "The Aqara G350 is the first camera you can buy that has support for Matter. The first Matter camera is here - sort of. Camera support came to the smart home standard last year, and Aqara's Camera Hub G350 is the first to support it. The G350, which was announced at CES, launched this week and is a pan-and-tilt indoor security camera with up to 4K video resolution. Today, the G350 only supports Matter on Samsung SmartThings, as none of the other platforms have added Matter 1.5 yet. I've only had the camera setup for a day, and it took several firmware updates before I could connect it as a Matter camera. So far, all it can do is stream a live feed, which is far less than what Samsung promises Matter cameras in Smar … Read the full story at The Verge....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.theverge.com/tech/895326/aqara-g350-matter-camera-samsung-smartthings-hands-on-review",
+  "author": "News Era Team"
+}
