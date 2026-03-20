@@ -1,0 +1,19 @@
+{
+  "title": "International joint action disrupts world’s largest DDoS botnets",
+  "slug": "international-joint-action-disrupts-worlds-largest-ddos-botnets",
+  "date": "2026-03-20T08:05:12.000Z",
+  "description": "Authorities from the United States, Germany, and Canada have taken down Command and Control (C2) infrastructure used by the Aisuru, KimWolf, JackSkid, and Mossa",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/11/26/bot.jpg",
+  "content": {
+    "summary": "Authorities from the United States, Germany, and Canada have taken down Command and Control (C2) infrastructure used by the Aisuru, KimWolf, JackSkid, and Mossad botnets to infect Internet of Things (IoT) devices. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/aisuru-kimwolf-jackskid-and-mossad-botnets-disrupted-in-joint-action/",
+  "author": "Sergiu Gatlan"
+}
