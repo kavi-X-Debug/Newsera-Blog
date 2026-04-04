@@ -1,0 +1,19 @@
+{
+  "title": "Device code phishing attacks surge 37x as new kits spread online",
+  "slug": "device-code-phishing-attacks-surge-37x-as-new-kits-spread-online",
+  "date": "2026-04-04T14:17:38.000Z",
+  "description": "Device code phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to hijack accounts have surged more than 37 times this year. [...]",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg",
+  "content": {
+    "summary": "Device code phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to hijack accounts have surged more than 37 times this year. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+  "author": "Bill Toulas"
+}
