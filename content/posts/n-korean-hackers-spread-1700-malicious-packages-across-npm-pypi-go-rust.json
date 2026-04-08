@@ -1,0 +1,19 @@
+{
+  "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
+  "slug": "n-korean-hackers-spread-1700-malicious-packages-across-npm-pypi-go-rust",
+  "date": "2026-04-08T07:47:00.000Z",
+  "description": "The North Korea-linked persistent campaign known as Contagious Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and P",
+  "category": "Cybersecurity",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiJCapdeJ9Q-yAbFZ7EG69FNg_jPvK7YptY2C7TN6txlcPM_bvVrcbqN1bi-vy2IFi8Ai485K-DZblHR8XwZxdch90kWSv48wjvZF7oj0wy0IMd-B7VPuSiUbSFSJKAlErnSUZWjyVOf-Fyy-LqlxLbGLA7rxIkxlgc6_WRyCNH3XWDLb5GtnmjvxFjUrt/s1600/pack.jpg",
+  "content": {
+    "summary": "The North Korea-linked persistent campaign known&nbsp;as Contagious&nbsp;Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems. \"The threat actor's packages were designed to impersonate legitimate developer tooling [...], while quietly functioning as malware loaders, extending Contagious Interview’s established playbook into a coordinated...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
+  "author": "info@thehackernews.com (The Hacker News)"
+}
