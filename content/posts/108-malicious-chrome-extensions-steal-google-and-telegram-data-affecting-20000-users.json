@@ -1,0 +1,19 @@
+{
+  "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
+  "slug": "108-malicious-chrome-extensions-steal-google-and-telegram-data-affecting-20000-users",
+  "date": "2026-04-14T08:35:00.000Z",
+  "description": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-",
+  "category": "Cybersecurity",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEOmjr311c0yBDI593joFXQLaRdpm6DY67lbFv83YcYlRHaJkpocwXjDZDsV9F9DM-SavZwCOZ-fg10ncUJyW3ODlfBjqG6aK_ytdBfvXFGLswxeJ69oiZXfhGKdCgVO0Angg_qlYB6oAZYo-JQRKn4toBGWcS7OTDwPV0rkus7eNw-9BllIGJa2nkeKXn/s1600/chrome-telegram.jpg",
+  "content": {
+    "summary": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page&nbsp;visited. According to Socket, the extensions are published...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
+  "author": "info@thehackernews.com (The Hacker News)"
+}
