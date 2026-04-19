@@ -1,0 +1,19 @@
+{
+  "title": "Apple account change alerts abused to send phishing emails",
+  "slug": "apple-account-change-alerts-abused-to-send-phishing-emails",
+  "date": "2026-04-19T16:03:01.000Z",
+  "description": "Apple account change notifications are being abused to send fake iPhone purchase phishing scams within legitimate emails sent from Apple's servers, increasing l",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2023/09/11/apple_triangle.jpg",
+  "content": {
+    "summary": "Apple account change notifications are being abused to send fake iPhone purchase phishing scams within legitimate emails sent from Apple's servers, increasing legitimacy and potentially allowing them to bypass spam filters. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
+  "author": "Lawrence Abrams"
+}
