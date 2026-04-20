@@ -1,0 +1,19 @@
+{
+  "title": "Cloud development platform Vercel was hacked",
+  "slug": "cloud-development-platform-vercel-was-hacked",
+  "date": "2026-04-19T19:54:52.000Z",
+  "description": "Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to",
+  "category": "Cybersecurity",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Screenshot-2026-04-19-at-3.53.46PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to be a member of ShinyHunters, which was behind the recent hack of Rockstar Games, posted some data online, including employee names, email addresses, and activity time stamps. Vercel confirmed in a post on X that a \"security incident\" had occurred, and that it impacted a \"limited subset\" of its customers. Vercel said that a compromised third-party AI tool was the avenue for attack, though it did not specify which third-party was involved. We've identified a security incident that inv … Read the full story at The Verge....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.theverge.com/tech/914723/vercel-hacked",
+  "author": "News Era Team"
+}
