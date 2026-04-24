@@ -1,0 +1,19 @@
+{
+  "title": "Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia",
+  "slug": "chinese-apt-abuses-multiple-cloud-tools-to-spy-on-mongolia",
+  "date": "2026-04-24T01:00:00.000Z",
+  "description": "The threat actor gave itself plenty of options to support command and control, tapping Microsoft Outlook, Slack, Discord, and file.io for online espionage.",
+  "category": "Tech",
+  "image": null,
+  "content": {
+    "summary": "The threat actor gave itself plenty of options to support command and control, tapping Microsoft Outlook, Slack, Discord, and file.io for online espionage....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-abuses-cloud-tools-spy-mongolia",
+  "author": "Nate Nelson"
+}
