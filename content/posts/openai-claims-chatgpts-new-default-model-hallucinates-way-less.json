@@ -1,0 +1,19 @@
+{
+  "title": "OpenAI claims ChatGPT’s new default model hallucinates way less",
+  "slug": "openai-claims-chatgpts-new-default-model-hallucinates-way-less",
+  "date": "2026-05-05T17:00:00.000Z",
+  "description": "OpenAI's newest default model for ChatGPT might not make stuff up as much. Hallucinations have been an ongoing problem for AI models, but OpenAI says its new GP",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "OpenAI's newest default model for ChatGPT might not make stuff up as much. Hallucinations have been an ongoing problem for AI models, but OpenAI says its new GPT-5.5 Instant model has \"significant improvements in factuality across the board.\" The company claims that, based on \"internal evaluations,\" GPT-5.5 Instant produced \"52.5% fewer hallucinated claims\" than its Instant model for GPT-5.3 \"on high-stakes prompts covering areas like medicine, law, and finance.\" GPT-5.5 Instant also \"reduced inaccurate claims by 37.3% on especially challenging conversations users had flagged for factual errors.\" OpenAI also claims that GPT-5.5 Instant is … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.theverge.com/ai-artificial-intelligence/924225/openai-chatgpt-default-model-gpt-5-5-instant",
+  "author": "News Era Team"
+}
