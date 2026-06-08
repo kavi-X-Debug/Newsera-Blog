@@ -1,0 +1,19 @@
+{
+  "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
+  "slug": "hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal",
+  "date": "2026-06-07T23:20:02.000Z",
+  "description": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interf",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2022/09/13/Windows_Terminal.jpg",
+  "content": {
+    "summary": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+  "author": "Mayank Parmar"
+}
