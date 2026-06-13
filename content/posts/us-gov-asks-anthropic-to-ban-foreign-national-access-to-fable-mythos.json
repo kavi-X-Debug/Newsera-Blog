@@ -1,0 +1,19 @@
+{
+  "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
+  "slug": "us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos",
+  "date": "2026-06-13T10:01:32.000Z",
+  "description": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png",
+  "content": {
+    "summary": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes the basis, calling the cited jailbreak narrow and the capability widely available elsewhere. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+  "author": "Ax Sharma"
+}
