@@ -1,0 +1,19 @@
+{
+  "title": "SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection",
+  "slug": "sprysocks-windows-variant-abuses-kernel-drivers-to-evade-detection",
+  "date": "2026-06-16T20:11:48.000Z",
+  "description": "FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and",
+  "category": "Tech",
+  "image": null,
+  "content": {
+    "summary": "FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
+  "author": "Rob Wright"
+}
