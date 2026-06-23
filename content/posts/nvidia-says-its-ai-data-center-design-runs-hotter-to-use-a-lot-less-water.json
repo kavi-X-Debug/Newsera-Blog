@@ -1,0 +1,19 @@
+{
+  "title": "Nvidia says its AI data center design runs hotter to use a lot less water",
+  "slug": "nvidia-says-its-ai-data-center-design-runs-hotter-to-use-a-lot-less-water",
+  "date": "2026-06-22T23:24:32.000Z",
+  "description": "Public pushback against data centers has emphasized their water and energy consumption, and now Nvidia is highlighting its claim that the Rubin generation refer",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "Public pushback against data centers has emphasized their water and energy consumption, and now Nvidia is highlighting its claim that the Rubin generation reference design for a fully liquid-cooled data center has \"eliminated massive amounts of power usage and pretty much all water usage.\" Still, it doesn't address all of the concerns around AI data centers, including during their construction, and for the power generation requirements of the massive facilities. Also, as Gizmodo points out, Nvidia's blog post doesn't mention the cost of building this style of data center vs. one using less efficient air cooling, but claims that \"every cloud … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
+  "author": "News Era Team"
+}
