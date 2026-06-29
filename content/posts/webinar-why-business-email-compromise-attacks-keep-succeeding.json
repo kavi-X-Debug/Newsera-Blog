@@ -1,0 +1,19 @@
+{
+  "title": "Webinar: Why business email compromise attacks keep succeeding",
+  "slug": "webinar-why-business-email-compromise-attacks-keep-succeeding",
+  "date": "2026-06-29T12:14:22.000Z",
+  "description": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defe",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/06/27/blacksuit-hacker.jpg",
+  "content": {
+    "summary": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defenses to detect. This webinar explores how behavioral AI can help identify sophisticated email threats and automate response workflows. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
+  "author": "BleepingComputer"
+}
