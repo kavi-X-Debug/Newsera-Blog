@@ -1,0 +1,19 @@
+{
+  "title": "US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals",
+  "slug": "us-cybersecurity-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals",
+  "date": "2026-07-11T01:01:28.000Z",
+  "description": "Independent cybersecurity journalist Brian Krebs reported in May that a security researcher with cyber firm GitGuardian alerted him to reams of exposed password",
+  "category": "Cybersecurity",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/cisa-2240293485.jpg?resize=1200,800",
+  "content": {
+    "summary": "Independent cybersecurity journalist Brian Krebs reported in May that a security researcher with cyber firm GitGuardian alerted him to reams of exposed passwords stored in a publicly accessible GitHub repository, which an employee of a CISA contractor had uploaded....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/",
+  "author": "Zack Whittaker"
+}
