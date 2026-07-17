@@ -1,0 +1,19 @@
+{
+  "title": "Windows Server 2022 reach end of mainstream support in 90 days",
+  "slug": "windows-server-2022-reach-end-of-mainstream-support-in-90-days",
+  "date": "2026-07-17T09:10:15.000Z",
+  "description": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving secu",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/04/15/Windows_Server.jpg",
+  "content": {
+    "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
+  "author": "Sergiu Gatlan"
+}
