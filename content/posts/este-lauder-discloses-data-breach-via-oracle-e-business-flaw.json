@@ -1,0 +1,19 @@
+{
+  "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
+  "slug": "este-lauder-discloses-data-breach-via-oracle-e-business-flaw",
+  "date": "2026-07-20T22:39:30.000Z",
+  "description": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human r",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/07/20/estee.jpg",
+  "content": {
+    "summary": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+  "author": "Bill Toulas"
+}
