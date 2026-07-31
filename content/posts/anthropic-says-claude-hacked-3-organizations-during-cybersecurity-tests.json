@@ -1,0 +1,19 @@
+{
+  "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
+  "slug": "anthropic-says-claude-hacked-3-organizations-during-cybersecurity-tests",
+  "date": "2026-07-31T01:24:26.000Z",
+  "description": "In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluati",
+  "category": "Cybersecurity",
+  "image": "https://media.wired.com/photos/6a6bef5432fc2d440b7d5e3e/191:100/w_1280,c_limit/Business_Claude-Escape.jpg",
+  "content": {
+    "summary": "In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/",
+  "author": "Louise Matsakis, Lily Hay Newman"
+}
