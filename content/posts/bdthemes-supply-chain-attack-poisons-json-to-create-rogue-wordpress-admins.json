@@ -1,0 +1,19 @@
+{
+  "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+  "slug": "bdthemes-supply-chain-attack-poisons-json-to-create-rogue-wordpress-admins",
+  "date": "2026-08-11T05:48:44.000Z",
+  "description": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) pl",
+  "category": "Cybersecurity",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96gU64z_xM5LiLI39IXPndJ1felnUkfQmWxQ2sGfE9r_yYK6AKPLV3x6uVWeZxZoEsJwy0h7OUHILX1sAbwc6MYHpIeeTvCVeH52TnCInqqjjRPW4-Sx7gPPq4abN7ltCnClrjRhDDqyON8UBxcKFjoyubm7CeEgaZos3j4OCLJdRozfEOrDX1rPsnSoF/s1600/wordpress.jpg",
+  "content": {
+    "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. \"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository,\" Wordfence researcher Paolo Tresso said....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+  "author": "info@thehackernews.com (The Hacker News)"
+}
