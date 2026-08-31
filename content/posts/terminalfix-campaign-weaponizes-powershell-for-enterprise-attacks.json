@@ -1,0 +1,19 @@
+{
+  "title": "'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks",
+  "slug": "terminalfix-campaign-weaponizes-powershell-for-enterprise-attacks",
+  "date": "2026-08-31T20:25:36.000Z",
+  "description": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.",
+  "category": "Cybersecurity",
+  "image": null,
+  "content": {
+    "summary": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
+  "author": "Alexander Culafi"
+}
