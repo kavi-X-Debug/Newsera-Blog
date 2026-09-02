@@ -1,0 +1,19 @@
+{
+  "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+  "slug": "old-unpatched-flaws-give-attackers-access-to-philippines-nuclear-agency",
+  "date": "2026-09-02T01:00:00.000Z",
+  "description": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+  "category": "Cybersecurity",
+  "image": null,
+  "content": {
+    "summary": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+  "author": "Robert Lemos"
+}
