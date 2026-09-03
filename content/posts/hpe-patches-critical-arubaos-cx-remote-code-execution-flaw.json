@@ -1,0 +1,19 @@
+{
+  "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+  "slug": "hpe-patches-critical-arubaos-cx-remote-code-execution-flaw",
+  "date": "2026-09-03T18:28:12.000Z",
+  "description": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2021/05/27/HPE-headpic.jpg",
+  "content": {
+    "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+  "author": "Bill Toulas"
+}
