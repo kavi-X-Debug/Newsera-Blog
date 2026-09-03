@@ -1,0 +1,19 @@
+{
+  "title": "Microsoft says KB5120998 Windows update resets desktop settings",
+  "slug": "microsoft-says-kb5120998-windows-update-resets-desktop-settings",
+  "date": "2026-09-03T12:16:32.000Z",
+  "description": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/09/22/Windows-11.jpg",
+  "content": {
+    "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+  "author": "Sergiu Gatlan"
+}
