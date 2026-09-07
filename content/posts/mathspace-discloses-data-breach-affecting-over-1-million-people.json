@@ -1,0 +1,19 @@
+{
+  "title": "Mathspace discloses data breach affecting over 1 million people",
+  "slug": "mathspace-discloses-data-breach-affecting-over-1-million-people",
+  "date": "2026-09-07T13:05:11.000Z",
+  "description": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breach",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/09/07/0_Mathspace.jpg",
+  "content": {
+    "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+  "author": "Sergiu Gatlan"
+}
