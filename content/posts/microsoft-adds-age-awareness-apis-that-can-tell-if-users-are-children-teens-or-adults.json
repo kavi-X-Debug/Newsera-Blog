@@ -1,0 +1,19 @@
+{
+  "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+  "slug": "microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults",
+  "date": "2026-09-09T01:16:27.000Z",
+  "description": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their",
+  "category": "Tech",
+  "image": null,
+  "content": {
+    "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+  "author": "Mayank Parmar"
+}
