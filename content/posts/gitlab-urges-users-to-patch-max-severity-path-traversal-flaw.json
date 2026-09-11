@@ -1,0 +1,19 @@
+{
+  "title": "GitLab urges users to patch max severity path traversal flaw",
+  "slug": "gitlab-urges-users-to-patch-max-severity-path-traversal-flaw",
+  "date": "2026-09-11T11:15:22.000Z",
+  "description": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/02/04/GitLab.jpg",
+  "content": {
+    "summary": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+  "author": "Sergiu Gatlan"
+}
