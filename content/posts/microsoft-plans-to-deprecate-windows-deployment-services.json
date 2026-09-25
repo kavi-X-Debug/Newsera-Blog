@@ -1,0 +1,19 @@
+{
+  "title": "Microsoft plans to deprecate Windows Deployment Services",
+  "slug": "microsoft-plans-to-deprecate-windows-deployment-services",
+  "date": "2026-09-25T12:40:59.000Z",
+  "description": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/04/15/Windows_Server.jpg",
+  "content": {
+    "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+  "author": "Sergiu Gatlan"
+}
