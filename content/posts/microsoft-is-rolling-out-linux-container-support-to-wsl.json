@@ -1,0 +1,19 @@
+{
+  "title": "Microsoft is rolling out Linux container support to WSL",
+  "slug": "microsoft-is-rolling-out-linux-container-support-to-wsl",
+  "date": "2026-09-30T00:40:57.000Z",
+  "description": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/12/15/Windows-Subsystem-for-Linux-WSL.jpg",
+  "content": {
+    "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+  "author": "Mayank Parmar"
+}
