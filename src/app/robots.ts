@@ -6,8 +6,10 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
+        disallow: ['/search', '/post/'],
       },
     ],
-    sitemap: 'https://newsera.blog/sitemap.xml',
+    sitemap: ['https://newsera.blog/sitemap.xml', 'https://newsera.blog/news-sitemap.xml'],
+    host: 'https://newsera.blog',
   };
 }

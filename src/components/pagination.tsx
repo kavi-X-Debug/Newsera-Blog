@@ -9,9 +9,15 @@ type Props = {
   total: number;
   from: number;
   to: number;
+  params?: Record<string, string>;
 };
 
-const href = (basePath: string, n: number) => (n === 1 ? basePath : `${basePath}?page=${n}`);
+function buildHref(basePath: string, n: number, params: Record<string, string> = {}) {
+  const qs = new URLSearchParams(params);
+  if (n > 1) qs.set('page', String(n));
+  const str = qs.toString();
+  return str ? `${basePath}?${str}` : basePath;
+}
 
 const base =
   'inline-flex h-10 min-w-10 items-center justify-center gap-1 rounded-md border px-3 text-sm font-medium shadow-sm transition-colors';
@@ -28,8 +34,9 @@ function EdgeButton({ to, label, disabled, children }: { to: string; label: stri
   );
 }
 
-export default function Pagination({ basePath, page, totalPages, total, from, to }: Props) {
+export default function Pagination({ basePath, page, totalPages, total, from, to, params }: Props) {
   if (totalPages <= 1) return null;
+  const href = (_: string, n: number) => buildHref(basePath, n, params);
 
   return (
     <div className="flex flex-col items-center gap-3 pt-4">
@@ -91,6 +98,9 @@ export default function Pagination({ basePath, page, totalPages, total, from, to
         </EdgeButton>
       </nav>
       <form action={basePath} method="get" className="flex items-center gap-2 text-sm">
+        {Object.entries(params ?? {}).map(([k, v]) => (
+          <input key={k} type="hidden" name={k} value={v} />
+        ))}
         <label htmlFor="page-jump" className="text-muted-foreground">
           Go to page
         </label>
