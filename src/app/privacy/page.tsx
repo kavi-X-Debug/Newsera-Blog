@@ -16,13 +16,13 @@ export default function PrivacyPage() {
         <p>
           We do not require user registration or personal information to browse our news articles. We may use standard web analytics tools (like Google Analytics) to understand general traffic patterns and optimize our site for users in Tier-1 countries.
         </p>
-        <h2 className="text-2xl font-bold mt-8">Monetization & Cookies</h2>
+        <h2 className="text-2xl font-bold mt-8">Advertising & Cookies</h2>
         <p>
-          We use third-party advertising partners, such as Adsterra, to support our platform. These partners may use cookies or similar technologies to provide relevant advertisements based on your interests. We do not use aggressive pop-ups or automatic redirects.
+          We do not currently display third-party advertisements, and we do not use pop-ups or automatic redirects.
         </p>
         <h2 className="text-2xl font-bold mt-8">External Links</h2>
         <p>
-          Our posts may contain links to external websites, including original news sources and sponsored tools. We are not responsible for the privacy practices or content of these external sites.
+          Our posts may contain links to external websites, such as the original news sources. We are not responsible for the privacy practices or content of these external sites.
         </p>
         <h2 className="text-2xl font-bold mt-8">Contact Us</h2>
         <p>
