@@ -1,13 +1,21 @@
 import { getPostsByCategory } from "@/lib/posts";
 import PostCard from "@/components/post-card";
+import Pagination from "@/components/pagination";
+import { paginate } from "@/lib/pagination";
 
 export const metadata = {
   title: "Tech News",
   description: "Latest technology updates, gadget launches, and software breakthroughs.",
 };
 
-export default function TechPage() {
-  const posts = getPostsByCategory("Tech");
+export default async function TechPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string }>;
+}) {
+  const { page: rawPage } = await searchParams;
+  const all = getPostsByCategory("Tech");
+  const { items: posts, ...pager } = paginate(all, rawPage);
 
   return (
     <div className="space-y-8">
@@ -18,11 +26,14 @@ export default function TechPage() {
         </p>
       </div>
 
-      {posts.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {posts.map((post) => (
-            <PostCard key={post.slug} post={post} />
-          ))}
+      {all.length > 0 ? (
+        <div className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {posts.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
+          </div>
+          <Pagination basePath="/tech" {...pager} />
         </div>
       ) : (
         <div className="text-center py-20 border rounded-lg bg-muted/20">
