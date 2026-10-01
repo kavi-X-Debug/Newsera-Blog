@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes';
-import { Moon, Sun, Menu, X } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { Moon, Sun, Menu, X, Search } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
 import { CATEGORIES } from '@/lib/categories';
 
 export default function Navbar() {
@@ -12,6 +12,8 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const searchRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => setMounted(true), []);
 
@@ -21,6 +23,29 @@ export default function Navbar() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [isOpen]);
+
+  useEffect(() => {
+    if (searchOpen) searchRef.current?.focus();
+  }, [searchOpen]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setSearchOpen(false);
+        return;
+      }
+      const el = e.target as HTMLElement;
+      const typing = el.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(el.tagName);
+      if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
+  useEffect(() => setSearchOpen(false), [pathname]);
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
 
@@ -48,6 +73,15 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={() => setSearchOpen(!searchOpen)}
+            className="p-2 rounded-md hover:bg-accent"
+            aria-label={searchOpen ? 'Close search' : 'Search news'}
+            aria-expanded={searchOpen}
+            aria-controls="site-search"
+          >
+            {searchOpen ? <X size={20} /> : <Search size={20} />}
+          </button>
           {mounted && (
             <button
               onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
@@ -69,6 +103,29 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+
+      {searchOpen && (
+        <div id="site-search" className="border-t bg-background">
+          <form action="/search" method="get" role="search" className="container mx-auto flex gap-2 px-4 py-3">
+            <input
+              ref={searchRef}
+              type="search"
+              name="q"
+              required
+              placeholder="Search news…"
+              aria-label="Search news"
+              autoComplete="off"
+              className="h-11 flex-1 rounded-md border bg-background px-4 text-base focus:outline-none focus:ring-2 focus:ring-primary"
+            />
+            <button
+              type="submit"
+              className="inline-flex h-11 items-center gap-2 rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground hover:opacity-90"
+            >
+              <Search size={16} /> Search
+            </button>
+          </form>
+        </div>
+      )}
 
       {isOpen && (
         <div id="mobile-menu" className="md:hidden border-b bg-background px-4 py-2">
