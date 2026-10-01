@@ -6,7 +6,6 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import Script from "next/script";
 import PostCard from "@/components/post-card";
-import SmartLink from "@/components/smart-link";
 
 function categoryToPath(category: Post["category"]): string {
   switch (category) {
@@ -110,7 +109,6 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
       : [];
   const relatedPosts = [...sameCategory, ...crossCategory];
 
-  const SMARTLINK_URL = "https://www.effectivegatecpm.com/p428afnuf?key=e9e0ec5bd99ea342a1f5a24c3a632855";
   const descriptionText =
     (post.description && post.description.trim().length > 0)
       ? post.description
@@ -175,14 +173,14 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
               <h2 className="text-2xl font-bold">What Happened?</h2>
               <p className="text-lg leading-relaxed whitespace-pre-wrap">{post.content.summary}</p>
               <div className="pt-2">
-                <SmartLink
+                <a
                   href={post.link}
-                  adHref={SMARTLINK_URL}
-                  rel="nofollow sponsored noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-primary hover:underline flex items-center gap-1 text-sm font-medium"
                 >
                   Read full article on source <ExternalLink size={14} />
-                </SmartLink>
+                </a>
               </div>
             </section>
 
@@ -203,25 +201,6 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                   </li>
                 ))}
               </ul>
-            </section>
-
-            <section className="py-8 text-center border-y">
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold">Recommended for You</h3>
-                <p className="text-muted-foreground">
-                  Enhance your digital security and stay protected with our recommended tools.
-                </p>
-                <SmartLink
-                  href={post.link}
-                  adHref={SMARTLINK_URL}
-                  rel="nofollow sponsored noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-lg"
-                >
-                  {post.category === "Cybersecurity" ? "Protect Your Device" : "Check Recommended Tool"}
-                  <ExternalLink size={20} />
-                </SmartLink>
-                <p className="text-[10px] text-muted-foreground uppercase tracking-widest">Sponsored Content</p>
-              </div>
             </section>
           </div>
 

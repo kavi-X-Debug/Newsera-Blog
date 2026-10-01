@@ -1,11 +1,17 @@
 import { getAllPosts } from "@/lib/posts";
 import PostCard from "@/components/post-card";
 import Link from "next/link";
+import Pagination from "@/components/pagination";
+import { paginate } from "@/lib/pagination";
 import { CATEGORIES } from "@/lib/categories";
 
-export default function Home() {
-  const allPosts = getAllPosts();
-  const latestPosts = allPosts.slice(0, 6);
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string }>;
+}) {
+  const { page: rawPage } = await searchParams;
+  const { items: latestPosts, ...pager } = paginate(getAllPosts(), rawPage);
 
   return (
     <div className="space-y-12">
@@ -31,11 +37,14 @@ export default function Home() {
         </nav>
 
         {latestPosts.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {latestPosts.map((post) => (
-              <PostCard key={post.slug} post={post} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {latestPosts.map((post) => (
+                <PostCard key={post.slug} post={post} />
+              ))}
+            </div>
+            <Pagination basePath="/" {...pager} />
+          </>
         ) : (
           <div className="text-center py-20 border rounded-lg bg-muted/20">
             <p className="text-muted-foreground">No posts yet. Check back soon!</p>
