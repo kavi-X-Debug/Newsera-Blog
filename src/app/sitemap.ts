@@ -23,19 +23,23 @@ function mapCategoryToPath(category: string): string {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const all = getAllPosts();
+  const latest = (cat?: string) => {
+    const d = (cat ? all.filter((p) => p.category === cat) : all)[0]?.date;
+    return d ? new Date(d) : undefined;
+  };
 
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}/`, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
-    { url: `${BASE_URL}/tech`, lastModified: now, changeFrequency: 'daily', priority: 0.8 },
-    { url: `${BASE_URL}/cybersecurity`, lastModified: now, changeFrequency: 'daily', priority: 0.8 },
-    { url: `${BASE_URL}/sports`, lastModified: now, changeFrequency: 'daily', priority: 0.7 },
-    { url: `${BASE_URL}/business`, lastModified: now, changeFrequency: 'daily', priority: 0.7 },
-    { url: `${BASE_URL}/politics`, lastModified: now, changeFrequency: 'daily', priority: 0.7 },
-    { url: `${BASE_URL}/science`, lastModified: now, changeFrequency: 'daily', priority: 0.7 },
-    { url: `${BASE_URL}/about`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE_URL}/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${BASE_URL}/`, lastModified: latest(), changeFrequency: 'daily', priority: 1.0 },
+    { url: `${BASE_URL}/tech`, lastModified: latest('Tech'), changeFrequency: 'daily', priority: 0.8 },
+    { url: `${BASE_URL}/cybersecurity`, lastModified: latest('Cybersecurity'), changeFrequency: 'daily', priority: 0.8 },
+    { url: `${BASE_URL}/sports`, lastModified: latest('Sports News'), changeFrequency: 'daily', priority: 0.7 },
+    { url: `${BASE_URL}/business`, lastModified: latest('Business / Economic News'), changeFrequency: 'daily', priority: 0.7 },
+    { url: `${BASE_URL}/politics`, lastModified: latest('Political News'), changeFrequency: 'daily', priority: 0.7 },
+    { url: `${BASE_URL}/science`, lastModified: latest('Science & Technology News'), changeFrequency: 'daily', priority: 0.7 },
+    { url: `${BASE_URL}/about`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE_URL}/contact`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE_URL}/privacy`, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
   const posts = getAllPosts();

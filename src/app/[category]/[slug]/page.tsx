@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { format } from "date-fns";
 import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-react";
 import Link from "next/link";
-import Script from "next/script";
+import JsonLd from "@/components/json-ld";
+import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
 
 function categoryToPath(category: Post["category"]): string {
@@ -67,10 +68,13 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   return {
     title: post.title,
     description: desc,
+    keywords: postKeywords(post),
     alternates: { canonical: canonicalUrl },
     openGraph: {
       type: "article",
       url: canonicalUrl,
+      section: post.category,
+      tags: postKeywords(post),
       title: post.title,
       description: desc,
       publishedTime: post.date,
@@ -222,25 +226,42 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
           </footer>
         </article>
       </div>
-        <Script
-          id="post-json-ld"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": ["Article", "NewsArticle"],
-              "headline": post.title,
-              "datePublished": post.date,
-              "author": {
-                "@type": "Organization",
-                "name": "News Era"
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "NewsArticle",
+                "@id": `${SITE_URL}/${categoryToPath(post.category)}/${post.slug}#article`,
+                headline: post.title.slice(0, 110),
+                description: descriptionText,
+                image: post.image ? [post.image] : [`${SITE_URL}/opengraph-image`],
+                datePublished: post.date,
+                dateModified: post.date,
+                inLanguage: "en",
+                isAccessibleForFree: true,
+                articleSection: post.category,
+                keywords: postKeywords(post).join(", "),
+                author: { "@type": "Organization", name: "News Era", url: SITE_URL },
+                publisher: {
+                  "@type": "Organization",
+                  name: "News Era",
+                  logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png` },
+                },
+                mainEntityOfPage: {
+                  "@type": "WebPage",
+                  "@id": `${SITE_URL}/${categoryToPath(post.category)}/${post.slug}`,
+                },
               },
-            "description": descriptionText,
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": `https://newsera.blog/${categoryToPath(post.category)}/${post.slug}`
-              }
-            })
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+                  { "@type": "ListItem", position: 2, name: post.category, item: `${SITE_URL}/${categoryToPath(post.category)}` },
+                  { "@type": "ListItem", position: 3, name: post.title, item: `${SITE_URL}/${categoryToPath(post.category)}/${post.slug}` },
+                ],
+              },
+            ],
           }}
         />
     </div>

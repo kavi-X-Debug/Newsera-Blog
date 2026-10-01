@@ -1,9 +1,20 @@
 import { getAllPosts } from "@/lib/posts";
 import PostCard from "@/components/post-card";
+import type { Metadata } from "next";
 import Link from "next/link";
+import { listingMetadata } from "@/lib/seo";
 import Pagination from "@/components/pagination";
 import { paginate } from "@/lib/pagination";
 import { CATEGORIES } from "@/lib/categories";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string }>;
+}): Promise<Metadata> {
+  const { page } = await searchParams;
+  return listingMetadata("/", page);
+}
 
 export default async function Home({
   searchParams,
@@ -20,7 +31,7 @@ export default async function Home({
           The Future of <span className="text-primary">Tech</span> & <span className="text-blue-600 dark:text-blue-400">Security</span>
         </h1>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Expert news, insights, and analysis for the modern digital era. Stay ahead of the curve with News Era.
+          Daily tech news, cybersecurity alerts, AI updates, business and science headlines, each with a clear summary of what happened and why it matters.
         </p>
       </section>
 

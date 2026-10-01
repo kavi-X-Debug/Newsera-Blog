@@ -1,12 +1,18 @@
+import type { Metadata } from "next";
+import { listingMetadata } from "@/lib/seo";
 import { getPostsByCategory } from "@/lib/posts";
 import PostCard from "@/components/post-card";
 import Pagination from "@/components/pagination";
 import { paginate } from "@/lib/pagination";
 
-export const metadata = {
-  title: "Business / Economic News",
-  description: "Markets, earnings, and macroeconomic updates that shape global business.",
-};
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string }>;
+}): Promise<Metadata> {
+  const { page } = await searchParams;
+  return listingMetadata("/business", page);
+}
 
 export default async function BusinessPage({
   searchParams,

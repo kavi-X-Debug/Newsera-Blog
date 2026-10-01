@@ -1,12 +1,18 @@
+import type { Metadata } from "next";
+import { listingMetadata } from "@/lib/seo";
 import { getPostsByCategory } from "@/lib/posts";
 import PostCard from "@/components/post-card";
 import Pagination from "@/components/pagination";
 import { paginate } from "@/lib/pagination";
 
-export const metadata = {
-  title: "Cybersecurity News",
-  description: "Critical security alerts, vulnerability disclosures, and cyber threat analysis.",
-};
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string }>;
+}): Promise<Metadata> {
+  const { page } = await searchParams;
+  return listingMetadata("/cybersecurity", page);
+}
 
 export default async function CybersecurityPage({
   searchParams,
