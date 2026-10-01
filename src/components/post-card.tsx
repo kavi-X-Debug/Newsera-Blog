@@ -1,24 +1,24 @@
 import Link from 'next/link';
 import { format } from 'date-fns';
 import { Post } from '@/lib/posts';
-import { Shield, Cpu, Calendar, User } from 'lucide-react';
+import { Shield, Cpu, Trophy, Briefcase, Landmark, FlaskConical, Calendar, User } from 'lucide-react';
+import { categoryPath } from '@/lib/categories';
 
 export default function PostCard({ post }: { post: Post }) {
-  const Icon = post.category === 'Cybersecurity' ? Shield : Cpu;
+  const icons: Record<string, typeof Cpu> = {
+    Cybersecurity: Shield,
+    'Sports News': Trophy,
+    'Business / Economic News': Briefcase,
+    'Political News': Landmark,
+    'Science & Technology News': FlaskConical,
+  };
+  const Icon = icons[post.category] ?? Cpu;
   const previewText =
     (post.description && post.description.trim().length > 0)
       ? post.description
       : (post.content?.summary ? post.content.summary.slice(0, 160) : 'Read the latest update on this topic.');
-  const categoryPath =
-    post.category === 'Cybersecurity' ? 'cybersecurity' :
-    post.category === 'Tech' ? 'tech' :
-    post.category === 'Sports News' ? 'sports' :
-    post.category === 'Business / Economic News' ? 'business' :
-    post.category === 'Political News' ? 'politics' :
-    post.category === 'Science & Technology News' ? 'science' : 'tech';
-
   return (
-    <article className="group flex flex-col space-y-3 border rounded-xl overflow-hidden hover:shadow-lg transition-all bg-card">
+    <article className="group relative flex flex-col space-y-3 border rounded-xl overflow-hidden hover:shadow-lg focus-within:ring-2 focus-within:ring-primary transition-all bg-card">
       <div className="aspect-video w-full bg-muted relative flex items-center justify-center overflow-hidden">
         {post.image ? (
           <img 
@@ -41,7 +41,7 @@ export default function PostCard({ post }: { post: Post }) {
           <Icon size={12} />
           {post.category}
         </div>
-        <Link href={`/${categoryPath}/${post.slug}`}>
+        <Link href={`/${categoryPath(post.category)}/${post.slug}`} className="after:absolute after:inset-0 focus:outline-none">
           <h2 className="text-xl font-bold group-hover:text-primary transition-colors leading-tight line-clamp-2">
             {post.title}
           </h2>

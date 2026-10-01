@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CATEGORIES } from '@/lib/categories';
 
 export default function Footer() {
   return (
@@ -14,12 +15,9 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold mb-4 uppercase tracking-wider">Categories</h4>
             <ul className="space-y-2">
-              <li><Link href="/tech" className="text-sm hover:text-primary transition-colors">Tech</Link></li>
-              <li><Link href="/cybersecurity" className="text-sm hover:text-primary transition-colors">Cybersecurity</Link></li>
-              <li><Link href="/sports" className="text-sm hover:text-primary transition-colors">Sports News</Link></li>
-              <li><Link href="/business" className="text-sm hover:text-primary transition-colors">Business / Economic News</Link></li>
-              <li><Link href="/politics" className="text-sm hover:text-primary transition-colors">Political News</Link></li>
-              <li><Link href="/science" className="text-sm hover:text-primary transition-colors">Science &amp; Technology News</Link></li>
+              {CATEGORIES.map((c) => (
+                <li key={c.href}><Link href={c.href} className="text-sm hover:text-primary transition-colors">{c.label}</Link></li>
+              ))}
             </ul>
           </div>
           <div>

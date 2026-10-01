@@ -1,11 +1,11 @@
 import { getAllPosts } from "@/lib/posts";
 import PostCard from "@/components/post-card";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { CATEGORIES } from "@/lib/categories";
 
 export default function Home() {
   const allPosts = getAllPosts();
-  const latestPosts = allPosts.slice(0, 5);
+  const latestPosts = allPosts.slice(0, 6);
 
   return (
     <div className="space-y-12">
@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tighter">
           The Future of <span className="text-primary">Tech</span> & <span className="text-blue-600 dark:text-blue-400">Security</span>
         </h1>
-        <p className="text-muted-foreground max-w-2xl">
+        <p className="text-muted-foreground max-w-2xl mx-auto">
           Expert news, insights, and analysis for the modern digital era. Stay ahead of the curve with News Era.
         </p>
       </section>
@@ -21,15 +21,14 @@ export default function Home() {
       <section className="space-y-6">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold tracking-tight">Latest News</h2>
-          <div className="flex gap-4">
-            <Link href="/tech" className="text-sm font-medium hover:underline flex items-center gap-1">
-              Tech <ArrowRight size={14} />
-            </Link>
-            <Link href="/cybersecurity" className="text-sm font-medium hover:underline flex items-center gap-1">
-              Cybersecurity <ArrowRight size={14} />
-            </Link>
-          </div>
         </div>
+        <nav aria-label="Browse by category" className="flex flex-wrap gap-2">
+          {CATEGORIES.map((c) => (
+            <Link key={c.href} href={c.href} className="rounded-full border px-4 py-1.5 text-sm font-medium transition-colors hover:bg-primary hover:text-primary-foreground">
+              {c.label}
+            </Link>
+          ))}
+        </nav>
 
         {latestPosts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
