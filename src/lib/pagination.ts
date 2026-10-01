@@ -16,7 +16,7 @@ export function paginate<T>(items: T[], rawPage: string | undefined, perPage = P
 }
 
 export function pageWindow(page: number, totalPages: number): (number | 'gap')[] {
-  const wanted = new Set([1, totalPages, page - 1, page, page + 1]);
+  const wanted = new Set([1, totalPages, page - 2, page - 1, page, page + 1, page + 2]);
   const nums = [...wanted].filter((n) => n >= 1 && n <= totalPages).sort((a, b) => a - b);
   const out: (number | 'gap')[] = [];
   nums.forEach((n, i) => {

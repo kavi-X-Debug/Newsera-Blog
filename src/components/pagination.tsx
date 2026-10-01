@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight } from 'lucide-react';
 import { pageWindow } from '@/lib/pagination';
 
 type Props = {
@@ -14,7 +14,19 @@ type Props = {
 const href = (basePath: string, n: number) => (n === 1 ? basePath : `${basePath}?page=${n}`);
 
 const base =
-  'inline-flex h-10 min-w-10 items-center justify-center gap-1 rounded-md border px-3 text-sm font-medium transition-colors';
+  'inline-flex h-10 min-w-10 items-center justify-center gap-1 rounded-md border px-3 text-sm font-medium shadow-sm transition-colors';
+
+function EdgeButton({ to, label, disabled, children }: { to: string; label: string; disabled: boolean; children: React.ReactNode }) {
+  return disabled ? (
+    <span aria-disabled="true" aria-label={label} className={`${base} opacity-40 cursor-not-allowed`}>
+      {children}
+    </span>
+  ) : (
+    <Link href={to} aria-label={label} className={`${base} hover:bg-accent`}>
+      {children}
+    </Link>
+  );
+}
 
 export default function Pagination({ basePath, page, totalPages, total, from, to }: Props) {
   if (totalPages <= 1) return null;
@@ -25,6 +37,9 @@ export default function Pagination({ basePath, page, totalPages, total, from, to
         Showing {from}–{to} of {total} articles · Page {page} of {totalPages}
       </p>
       <nav aria-label="Pagination" className="flex flex-wrap items-center justify-center gap-2">
+        <EdgeButton to={href(basePath, 1)} label="First page" disabled={page === 1}>
+          <ChevronsLeft size={16} />
+        </EdgeButton>
         {page > 1 ? (
           <Link href={href(basePath, page - 1)} rel="prev" className={`${base} hover:bg-accent`}>
             <ChevronLeft size={16} /> <span className="hidden sm:inline">Previous</span>
@@ -71,7 +86,29 @@ export default function Pagination({ basePath, page, totalPages, total, from, to
             <span className="hidden sm:inline">Next</span> <ChevronRight size={16} />
           </span>
         )}
+        <EdgeButton to={href(basePath, totalPages)} label="Last page" disabled={page === totalPages}>
+          <ChevronsRight size={16} />
+        </EdgeButton>
       </nav>
+      <form action={basePath} method="get" className="flex items-center gap-2 text-sm">
+        <label htmlFor="page-jump" className="text-muted-foreground">
+          Go to page
+        </label>
+        <input
+          id="page-jump"
+          name="page"
+          type="number"
+          inputMode="numeric"
+          min={1}
+          max={totalPages}
+          defaultValue={page}
+          required
+          className="h-10 w-20 rounded-md border bg-background px-3 text-center"
+        />
+        <button type="submit" className={`${base} bg-primary text-primary-foreground border-primary hover:opacity-90`}>
+          Go
+        </button>
+      </form>
     </div>
   );
 }
