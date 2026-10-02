@@ -4,7 +4,7 @@ import { Post } from '@/lib/posts';
 import { Shield, Cpu, Trophy, Briefcase, Landmark, FlaskConical, Calendar, User } from 'lucide-react';
 import { categoryPath } from '@/lib/categories';
 
-export default function PostCard({ post }: { post: Post }) {
+export default function PostCard({ post, index = 99 }: { post: Post; index?: number }) {
   const icons: Record<string, typeof Cpu> = {
     Cybersecurity: Shield,
     'Sports News': Trophy,
@@ -25,7 +25,8 @@ export default function PostCard({ post }: { post: Post }) {
             src={post.image} 
             alt={post.title}
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
+            loading={index < 3 ? "eager" : "lazy"}
+            fetchPriority={index === 0 ? "high" : "auto"}
             decoding="async"
             referrerPolicy="no-referrer"
           />

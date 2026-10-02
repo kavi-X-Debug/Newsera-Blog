@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/search', '/post/'],
+        disallow: ['/search', '/post/', '/news-page/', '/*/page/'],
       },
     ],
     sitemap: ['https://newsera.blog/sitemap.xml', 'https://newsera.blog/news-sitemap.xml'],

@@ -24,9 +24,9 @@ const base =
 
 function EdgeButton({ to, label, disabled, children }: { to: string; label: string; disabled: boolean; children: React.ReactNode }) {
   return disabled ? (
-    <span aria-disabled="true" aria-label={label} className={`${base} opacity-40 cursor-not-allowed`}>
+    <button type="button" disabled aria-label={label} className={`${base} opacity-40 cursor-not-allowed`}>
       {children}
-    </span>
+    </button>
   ) : (
     <Link href={to} aria-label={label} className={`${base} hover:bg-accent`}>
       {children}

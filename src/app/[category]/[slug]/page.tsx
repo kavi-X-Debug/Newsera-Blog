@@ -6,7 +6,7 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
-import { getKeyPointsInfo } from "@/lib/key-points";
+import { getKeyPointsInfo, getDisplaySummary, hasOriginalImpact, getSourceName } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
@@ -117,6 +117,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
   const relatedPosts = [...sameCategory, ...crossCategory];
 
   const { points: keyPoints, ai: keyPointsAi } = getKeyPointsInfo(post);
+  const sourceName = getSourceName(post);
   const descriptionText =
     (post.description && post.description.trim().length > 0)
       ? post.description
@@ -124,13 +125,21 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
-      <Link
-        href="/"
-        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8 group"
-      >
-        <ChevronLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
-        Back to Home
-      </Link>
+      <nav aria-label="Breadcrumb" className="mb-8 text-sm text-muted-foreground">
+        <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <li>
+            <Link href="/" className="inline-flex items-center gap-1 hover:text-primary transition-colors">
+              <ChevronLeft size={14} aria-hidden="true" /> Home
+            </Link>
+          </li>
+          <li aria-hidden="true">/</li>
+          <li>
+            <Link href={`/${categoryToPath(post.category)}`} className="hover:text-primary transition-colors">
+              {post.category}
+            </Link>
+          </li>
+        </ol>
+      </nav>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         <article className="lg:col-span-2 space-y-8">
@@ -140,7 +149,8 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                 src={post.image}
                 alt={post.title}
                 className="absolute inset-0 w-full h-full object-cover"
-                loading="lazy"
+                loading="eager"
+                fetchPriority="high"
                 decoding="async"
                 referrerPolicy="no-referrer"
               />
@@ -161,19 +171,19 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
             <div className="flex items-center gap-6 text-sm text-muted-foreground border-y py-4">
               <span className="flex items-center gap-1.5">
                 <Calendar size={16} />
-                {format(new Date(post.date), "MMMM dd, yyyy")}
+                <time dateTime={post.date}>{format(new Date(post.date), "MMMM dd, yyyy")}</time>
               </span>
-              <span className="flex items-center gap-1.5">
-                <User size={16} />
-                {post.author}
-              </span>
-              <span className="flex items-center gap-1.5">
-                Last updated: {format(new Date(post.date), "MMMM dd, yyyy")}
-              </span>
+              {post.author && post.author !== "News Era Team" && (
+                <span className="flex items-center gap-1.5">
+                  <User size={16} />
+                  Original report by {post.author}
+                </span>
+              )}
             </div>
-            <div className="text-sm text-muted-foreground">
-              By News Era Team — Independent tech and cybersecurity news for US/UK/CA/AU readers.
-            </div>
+            <p className="text-sm text-muted-foreground">
+              Summarized by News Era{sourceName ? <> from reporting by <a href={post.link} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground">{sourceName}</a></> : null}.{" "}
+              <Link href="/editorial-policy" className="underline underline-offset-2 hover:text-foreground">How we work</Link>
+            </p>
           </header>
 
           <ShareButtons url={`${SITE_URL}/${categoryToPath(post.category)}/${post.slug}`} title={post.title} />
@@ -181,7 +191,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
           <div className="prose prose-slate dark:prose-invert max-w-none space-y-8">
             <section className="space-y-4">
               <h2 className="text-2xl font-bold">What Happened?</h2>
-              <p className="text-lg leading-relaxed whitespace-pre-wrap">{post.content.summary}</p>
+              <p className="text-lg leading-relaxed whitespace-pre-wrap">{getDisplaySummary(post)}</p>
               <div className="pt-2">
                 <a
                   href={post.link}
@@ -194,10 +204,12 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
               </div>
             </section>
 
-            <section className="space-y-4">
-              <h2 className="text-2xl font-bold">Why It Matters</h2>
-              <p className="text-lg leading-relaxed">{post.content.impact}</p>
-            </section>
+            {hasOriginalImpact(post) && (
+              <section className="space-y-4">
+                <h2 className="text-2xl font-bold">Why It Matters</h2>
+                <p className="text-lg leading-relaxed">{post.content.impact}</p>
+              </section>
+            )}
 
             {keyPoints.length > 0 && (
               <section className="space-y-4 bg-muted/30 p-6 rounded-xl border">
@@ -257,6 +269,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                 dateModified: post.date,
                 inLanguage: "en",
                 isAccessibleForFree: true,
+                isBasedOn: post.link,
                 articleSection: post.category,
                 keywords: postKeywords(post).join(", "),
                 author: { "@type": "Organization", name: "News Era", url: SITE_URL },

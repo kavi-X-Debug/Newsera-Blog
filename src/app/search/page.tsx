@@ -7,6 +7,7 @@ import { paginate } from "@/lib/pagination";
 export const metadata: Metadata = {
   title: "Search",
   robots: { index: false, follow: true },
+  alternates: { canonical: "/search" },
 };
 
 export default async function SearchPage({
