@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import JsonLd from "@/components/json-ld";
 import { LISTING_SEO, SITE_KEYWORDS, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
@@ -104,6 +105,7 @@ export default function RootLayout({
           </div>
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
