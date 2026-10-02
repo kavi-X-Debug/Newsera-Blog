@@ -5,6 +5,8 @@ import Link from "next/link";
 import { listingMetadata } from "@/lib/seo";
 import Pagination from "@/components/pagination";
 import NewsletterSignup from "@/components/newsletter-signup";
+import BreakingNews from "@/components/breaking-news";
+import { getBreakingStories } from "@/lib/breaking";
 import { paginate } from "@/lib/pagination";
 import { CATEGORIES } from "@/lib/categories";
 
@@ -23,7 +25,9 @@ export default async function Home({
   searchParams: Promise<{ page?: string }>;
 }) {
   const { page: rawPage } = await searchParams;
-  const { items: latestPosts, ...pager } = paginate(getAllPosts(), rawPage);
+  const allPosts = getAllPosts();
+  const { items: latestPosts, ...pager } = paginate(allPosts, rawPage);
+  const breaking = pager.page === 1 ? getBreakingStories(allPosts) : null;
 
   return (
     <div className="space-y-12">
@@ -35,6 +39,8 @@ export default async function Home({
           Daily tech news, cybersecurity alerts, AI updates, business and science headlines, each with a clear summary of what happened and why it matters.
         </p>
       </section>
+
+      {breaking && <BreakingNews posts={breaking.posts} isBreaking={breaking.isBreaking} />}
 
       <section className="space-y-6">
         <div className="flex items-center justify-between">
