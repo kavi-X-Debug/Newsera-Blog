@@ -41,6 +41,13 @@ export const LISTING_SEO: Record<string, ListingSeo> = {
       'News Era delivers the latest tech news, cybersecurity alerts, AI updates, business and science headlines every day, with clear summaries of what happened and why it matters.',
     keywords: SITE_KEYWORDS,
   },
+  '/breaking': {
+    title: 'Breaking News – Latest Tech & Security Stories (Last 12 Hours)',
+    heading: 'Breaking News',
+    description:
+      'Breaking news from News Era: the newest tech, cybersecurity, AI and business stories published in the last 12 hours.',
+    keywords: ['breaking news', 'latest news', 'news today', 'tech news today', 'cybersecurity news today', 'just in'],
+  },
   '/tech': {
     title: 'Latest Tech News – AI, Apple, Google & Startups',
     heading: 'Tech News',

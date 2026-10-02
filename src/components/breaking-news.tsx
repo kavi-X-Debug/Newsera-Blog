@@ -47,7 +47,10 @@ export default function BreakingNews({ posts, isBreaking }: { posts: Post[]; isB
           <Zap size={20} className="text-amber-400" aria-hidden="true" />
           {isBreaking ? 'Breaking News' : 'Latest Developments'}
         </h2>
-        <span className="text-xs text-slate-300">Stories from the last 24 hours</span>
+        <span className="text-xs text-slate-300">Stories from the last 12 hours</span>
+        <Link href="/breaking" className="ml-auto inline-flex items-center gap-1 text-sm font-medium text-sky-200 underline-offset-4 hover:underline">
+          See all breaking news <ArrowRight size={14} aria-hidden="true" />
+        </Link>
       </header>
 
       <div className="relative grid gap-5 lg:grid-cols-3">

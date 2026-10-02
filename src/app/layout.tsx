@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/next";
 import JsonLd from "@/components/json-ld";
 import AlertBanner from "@/components/alert-banner";
 import { getActiveAlert } from "@/lib/alert";
+import { getLatestPostDate } from "@/lib/breaking";
 import { LISTING_SEO, SITE_KEYWORDS, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -99,7 +100,7 @@ export default function RootLayout({
         >
           <div className="relative flex min-h-screen flex-col">
             <AlertBanner alert={getActiveAlert()} />
-            <Navbar />
+            <Navbar latestPostDate={getLatestPostDate()} />
             <main className="flex-1 container mx-auto px-4 py-8">
               {children}
             </main>
