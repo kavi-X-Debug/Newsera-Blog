@@ -1,8 +1,8 @@
 import type { Post } from '@/lib/posts';
 import { categoryPath } from '@/lib/categories';
 import { getActiveAlert } from '@/lib/alert';
-
-const FRESH_MS = 24 * 60 * 60 * 1000;
+import { BREAKING_WINDOW_MS } from '@/lib/breaking-window';
+import { getAllPosts } from '@/lib/posts';
 
 export interface BreakingStories {
   // True only when an editor has published an alert (content/alert.json) for the lead story.
@@ -10,16 +10,27 @@ export interface BreakingStories {
   posts: Post[];
 }
 
-// "Breaking" is reserved for editor-flagged stories. Otherwise the section shows
-// stories published in the last 24 hours as "Just in", and is hidden when there are none.
+// Every story published within the breaking window (12h) is listed. The red "Breaking"
+// label is still reserved for stories an editor flags in content/alert.json.
+export function getRecentPosts(allPosts: Post[]): Post[] {
+  const cutoff = Date.now() - BREAKING_WINDOW_MS;
+  return allPosts.filter((p) => Date.parse(p.date) >= cutoff);
+}
+
+let latestDate: string | null | undefined;
+// Memoised so the layout does not re-read every post file for each page it renders.
+export function getLatestPostDate(): string | null {
+  if (latestDate === undefined) latestDate = getAllPosts()[0]?.date ?? null;
+  return latestDate;
+}
+
 export function getBreakingStories(allPosts: Post[], limit = 4): BreakingStories {
   const alert = getActiveAlert();
   const lead = alert?.href
     ? allPosts.find((p) => `/${categoryPath(p.category)}/${p.slug}` === alert.href)
     : undefined;
 
-  const cutoff = Date.now() - FRESH_MS;
-  const fresh = allPosts.filter((p) => p !== lead && Date.parse(p.date) >= cutoff);
+  const fresh = getRecentPosts(allPosts).filter((p) => p !== lead);
 
   const posts = (lead ? [lead, ...fresh] : fresh).slice(0, limit);
   return { isBreaking: Boolean(lead), posts };

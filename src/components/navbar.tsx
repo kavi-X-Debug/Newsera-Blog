@@ -6,16 +6,34 @@ import { useTheme } from 'next-themes';
 import { Moon, Sun, Menu, X, Search } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import { CATEGORIES } from '@/lib/categories';
+import { BREAKING_WINDOW_MS } from '@/lib/breaking-window';
 
-export default function Navbar() {
+function LiveDot() {
+  return (
+    <>
+      <span className="relative ml-1.5 inline-flex h-2 w-2 align-middle" aria-hidden="true">
+        <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 motion-safe:animate-ping" />
+        <span className="relative inline-flex h-2 w-2 rounded-full bg-red-600" />
+      </span>
+      <span className="sr-only"> (new stories)</span>
+    </>
+  );
+}
+
+export default function Navbar({ latestPostDate }: { latestPostDate?: string | null }) {
   const { resolvedTheme, setTheme } = useTheme();
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const searchRef = useRef<HTMLInputElement>(null);
+  const [breakingLive, setBreakingLive] = useState(false);
 
   useEffect(() => setMounted(true), []);
+
+  useEffect(() => {
+    setBreakingLive(Boolean(latestPostDate) && Date.now() - Date.parse(latestPostDate as string) < BREAKING_WINDOW_MS);
+  }, [latestPostDate]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -67,6 +85,7 @@ export default function Navbar() {
                 }`}
               >
                 {c.label}
+                {c.href === '/breaking' && breakingLive && <LiveDot />}
               </Link>
             ))}
           </div>
@@ -140,6 +159,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               {c.label}
+              {c.href === '/breaking' && breakingLive && <LiveDot />}
             </Link>
           ))}
         </div>
