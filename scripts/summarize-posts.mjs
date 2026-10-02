@@ -35,7 +35,7 @@ for (const { file, post } of todo.slice(0, limit)) {
     fs.writeFileSync(file, JSON.stringify(post, null, 2));
     points ? done++ : rejected++;
   } catch (err) {
-    if (err instanceof QuotaError) { console.log(`Stopped: ${err.message}. Remaining posts will be done on the next run.`); break; }
+    if (err instanceof QuotaError) { console.log(`Stopped (Gemini limit): ${err.message} Remaining posts will be done on the next run.`); break; }
     if (err instanceof AuthError) { console.error(`Stopped: ${err.message}`); process.exitCode = 1; break; }
     failed++;
     console.error(`Skipped "${post.slug}": ${err.message}`);
