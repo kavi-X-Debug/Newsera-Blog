@@ -4,6 +4,21 @@ export const DEFAULT_MODEL = 'gemini-2.5-flash';
 const RETRY_BASE_MS = Number(process.env.GEMINI_RETRY_BASE_MS || 4000);
 
 export class QuotaError extends Error {}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Reads Google's 429 reply to tell a short per-minute limit from the daily cap.
+async function quotaInfo(res) {
+  const data = await res.json().catch(() => ({}));
+  const message = String(data?.error?.message || 'Gemini rate or daily limit reached').replace(/\s+/g, ' ').slice(0, 240);
+  const details = Array.isArray(data?.error?.details) ? data.error.details : [];
+  const retry = details.find((d) => String(d['@type'] || '').includes('RetryInfo'))?.retryDelay;
+  const fromMessage = message.match(/retry in ([\d.]+)s/i)?.[1];
+  const secs = parseFloat(retry ?? fromMessage ?? '');
+  const violations = details.flatMap((d) => d.violations || []);
+  const perDay = violations.some((v) => /perday/i.test(String(v.quotaId || ''))) || /per day|daily/i.test(message);
+  return { message, perDay, retryMs: Number.isFinite(secs) ? secs * 1000 : null };
+}
 export class AuthError extends Error {}
 
 const SYSTEM = `You write short, neutral news summaries for a technology and cybersecurity news website.
@@ -77,19 +92,29 @@ export async function summarize({ title, text, apiKey, model = process.env.GEMIN
       signal: AbortSignal.timeout(45_000),
     });
 
-  // Google sometimes answers 500/503 ("high demand") or the connection drops; retry a few times.
+  // Retry transient problems. A short per-minute limit is waited out; a daily limit stops the run.
   let res;
-  for (let attempt = 1; attempt <= 4; attempt++) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
     try {
       res = await request();
-      if (res.status !== 500 && res.status !== 503) break;
     } catch (err) {
-      if (attempt === 4) throw err;
+      if (attempt === 5) throw err;
+      await sleep(RETRY_BASE_MS * attempt * attempt);
+      continue;
     }
-    await new Promise((r) => setTimeout(r, RETRY_BASE_MS * attempt * attempt));
+    if (res.status === 429) {
+      const q = await quotaInfo(res);
+      if (q.perDay || q.retryMs === null || q.retryMs > 90_000 || attempt === 5) throw new QuotaError(q.message);
+      await sleep(q.retryMs + 1000);
+      continue;
+    }
+    if (res.status === 500 || res.status === 503) {
+      await sleep(RETRY_BASE_MS * attempt * attempt);
+      continue;
+    }
+    break;
   }
 
-  if (res.status === 429) throw new QuotaError('Gemini rate or daily limit reached');
   if (res.status === 401 || res.status === 403) throw new AuthError(`Gemini rejected the API key (HTTP ${res.status})`);
   if (!res.ok) {
     const data = await res.json().catch(() => ({}));
