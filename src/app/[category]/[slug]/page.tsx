@@ -5,6 +5,7 @@ import { format } from "date-fns";
 import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import JsonLd from "@/components/json-ld";
+import ShareButtons from "@/components/share-buttons";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
 
@@ -172,6 +173,8 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
             </div>
           </header>
 
+          <ShareButtons url={`${SITE_URL}/${categoryToPath(post.category)}/${post.slug}`} title={post.title} />
+
           <div className="prose prose-slate dark:prose-invert max-w-none space-y-8">
             <section className="space-y-4">
               <h2 className="text-2xl font-bold">What Happened?</h2>
@@ -206,6 +209,10 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                 ))}
               </ul>
             </section>
+          </div>
+
+          <div className="border-t pt-6">
+            <ShareButtons url={`${SITE_URL}/${categoryToPath(post.category)}/${post.slug}`} title={post.title} label="Share this article" />
           </div>
 
           <footer className="pt-8 space-y-8">
