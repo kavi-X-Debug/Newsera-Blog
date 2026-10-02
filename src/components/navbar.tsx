@@ -7,13 +7,13 @@ import { Moon, Sun, Menu, X, Search } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import { CATEGORIES } from '@/lib/categories';
 import { BREAKING_WINDOW_MS } from '@/lib/breaking-window';
+import LiveIndicator from '@/components/live-indicator';
 
 function LiveDot() {
   return (
     <>
-      <span className="relative ml-1.5 inline-flex h-2 w-2 align-middle" aria-hidden="true">
-        <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 motion-safe:animate-ping" />
-        <span className="relative inline-flex h-2 w-2 rounded-full bg-red-600" />
+      <span className="ml-1.5 inline-block align-middle">
+        <LiveIndicator className="h-3" />
       </span>
       <span className="sr-only"> (new stories)</span>
     </>

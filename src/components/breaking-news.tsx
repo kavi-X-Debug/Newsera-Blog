@@ -4,6 +4,7 @@ import { ArrowRight, Clock } from 'lucide-react';
 import type { Post } from '@/lib/posts';
 import { categoryPath } from '@/lib/categories';
 import { BREAKING_WINDOW_MS, BREAKING_WINDOW_HOURS } from '@/lib/breaking-window';
+import LiveIndicator from '@/components/live-indicator';
 
 const hrefFor = (p: Post) => `/${categoryPath(p.category)}/${p.slug}`;
 
@@ -57,15 +58,14 @@ export default function BreakingNews({ posts, isBreaking }: { posts: Post[]; isB
       aria-labelledby="breaking-heading"
       className="overflow-hidden rounded-xl border border-slate-800 bg-slate-950 text-slate-100 shadow-lg"
     >
-      <div aria-hidden="true" className="h-1 bg-red-600" />
+      <div aria-hidden="true" className="relative h-1 overflow-hidden bg-red-600">
+        <div className="live-sweep absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-transparent via-white/70 to-transparent" />
+      </div>
 
       <div className="p-5 md:p-8">
         <header className="mb-6 flex flex-wrap items-baseline gap-x-4 gap-y-1 border-b border-slate-800 pb-4">
           <h2 id="breaking-heading" className="flex items-center gap-2.5 text-sm font-bold uppercase tracking-[0.18em] text-white">
-            <span className="relative flex h-2.5 w-2.5" aria-hidden="true">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 motion-safe:animate-ping" />
-              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-red-500" />
-            </span>
+            <LiveIndicator />
             Breaking News
           </h2>
           <p className="text-sm text-slate-400">
