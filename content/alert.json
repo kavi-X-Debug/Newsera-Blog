@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "id": "example-2026-10-01",
+  "level": "security",
+  "headline": "Short, factual headline describing what happened",
+  "slug": "",
+  "href": "",
+  "publishedAt": "2026-10-01T00:00:00Z",
+  "expiresAt": "2026-10-02T00:00:00Z"
+}
