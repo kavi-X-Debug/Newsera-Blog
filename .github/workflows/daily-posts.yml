@@ -25,6 +25,13 @@ jobs:
         
       - name: Fetch Latest News
         run: npm run fetch-news
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Write AI summaries for older posts
+        run: npm run summarize -- --limit=50
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         
       - name: Commit and Push Changes
         run: |

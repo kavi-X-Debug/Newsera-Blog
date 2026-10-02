@@ -2,6 +2,7 @@ import Parser from 'rss-parser';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
+import { summarize, QuotaError, AuthError } from './lib/gemini-summary.mjs';
 
 const parser = new Parser();
 
@@ -209,7 +210,18 @@ async function fetchNews() {
   // We take the top 3 freshest ones that aren't already saved
   const postsToSave = allPosts.slice(0, 3);
 
+  let aiAvailable = Boolean(process.env.GEMINI_API_KEY);
   for (const post of postsToSave) {
+    if (aiAvailable) {
+      try {
+        const points = await summarize({ title: post.title, text: post.content.summary, apiKey: process.env.GEMINI_API_KEY });
+        post.content.keyPoints = points ?? [];
+        post.content.keyPointsBy = points ? 'gemini' : 'gemini-rejected';
+      } catch (err) {
+        if (err instanceof QuotaError || err instanceof AuthError) aiAvailable = false;
+        console.error(`Summary skipped for ${post.slug}: ${err.message}`);
+      }
+    }
     const filePath = path.join(postsDir, `${post.slug}.json`);
     fs.writeFileSync(filePath, JSON.stringify(post, null, 2));
     console.log(`Saved: ${post.slug}`);
