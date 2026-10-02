@@ -1,0 +1,25 @@
+{
+  "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry  ",
+  "slug": "the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry-",
+  "date": "2026-10-02T14:00:10.000Z",
+  "description": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer exp",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/posts/2026/09/27/nord-radar-header.png",
+  "content": {
+    "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Browser-based attacks can evade endpoint detection and response (EDR) systems.",
+      "These attacks may steal sessions, abuse extensions, or manipulate users.",
+      "Browser-level controls could help address these security gaps."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+  "author": "Sponsored by NordLayer Browser"
+}

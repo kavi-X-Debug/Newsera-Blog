@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Cerebras Systems CEO Andrew Feldman will discuss AI scaling at TechCrunch Disrupt 2026.",
+      "He will address the increasing demand for compute, energy, and infrastructure.",
+      "Feldman will also cover how Cerebras handles these constraints and the future if current AI hardware limits are met."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
   "author": "TechCrunch Events"

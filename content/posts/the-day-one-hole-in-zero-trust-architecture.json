@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Zero Trust architecture has a vulnerability during user onboarding.",
+      "Organizations must determine trust before strong authentication is in place.",
+      "Identity verification should occur before issuing credentials or access."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
   "author": "Sponsored by Specops Software"

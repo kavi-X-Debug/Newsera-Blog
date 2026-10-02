@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Grokipedia, an AI-powered competitor to Wikipedia, recently received design updates in a v0.3 update.",
+      "The changes include a new logo and refreshed homepage and live edits page.",
+      "The updated homepage now features a list of featured articles, most-read articles, and a tracker for the latest edits."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
   "author": "News Era Team"

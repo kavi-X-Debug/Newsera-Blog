@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Vivo's X Fold 6 launched in China in June and is now ready for global release.",
+      "The device's size and aspect ratio appear dated compared to newer foldables.",
+      "It features a 6.51-inch cover display and an 8.02-inch inner panel, with a visible crease."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
   "author": "News Era Team"
