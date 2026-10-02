@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple is reportedly developing a smart home camera that provides text event descriptions instead of video footage.",
+      "This camera is part of a new Apple smart home ecosystem.",
+      "It is an offshoot and companion product to the J490 smart home display."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
   "author": "News Era Team"

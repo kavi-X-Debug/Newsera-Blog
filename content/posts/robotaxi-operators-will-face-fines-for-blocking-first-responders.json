@@ -12,7 +12,12 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new California law establishes regulations for autonomous vehicle operators.",
+      "Robotaxi companies will incur fines if their vehicles obstruct first responders."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
   "author": "Kirsten Korosec"
