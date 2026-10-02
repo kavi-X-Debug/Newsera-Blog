@@ -1,0 +1,53 @@
+import type { Post } from '@/lib/posts';
+
+// Boilerplate the feed importer leaves at the end of a summary.
+const TRAILERS: RegExp[] = [
+  /\bRead the full story at\b.*$/i,
+  /\bThe post\b.*\bappeared first on\b.*$/i,
+  /\bThe post\b.*$/i,
+  /\bContinue reading\b.*$/i,
+  /\bRead more\b.*$/i,
+  /\[(?:…|\.\.\.)\]/g,
+];
+
+// A segment ending like this is an abbreviation, not the end of a sentence.
+const ABBREVIATION =
+  /(?:\b(?:Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|Mt|Gen|Sen|Rep|Gov|Lt|Col|Capt|Sgt|Inc|Corp|Co|Ltd|vs|No|Fig|approx|est)\.|\b(?:[A-Za-z]\.){2,}|\b[A-Z]\.|\b[ap]\.m\.|\b(?:e\.g|i\.e)\.)$/;
+
+const MIN_LENGTH = 25;
+const segmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
+
+function clean(text: string): string {
+  let t = text.replace(/\s+/g, ' ').trim();
+  // The importer always appends "..." to the stored summary, even when nothing was cut off.
+  t = t.replace(/\.\.\.$/, '').trim();
+  for (const re of TRAILERS) t = t.replace(re, '').trim();
+  return t;
+}
+
+function sentences(text: string): string[] {
+  const out: string[] = [];
+  for (const { segment } of segmenter.segment(text)) {
+    const s = segment.trim();
+    if (!s) continue;
+    if (out.length > 0 && ABBREVIATION.test(out[out.length - 1])) out[out.length - 1] += ' ' + s;
+    else out.push(s);
+  }
+  return out;
+}
+
+// Up to `max` complete sentences from the article's own text. Nothing is invented or padded:
+// a story with only one usable sentence returns one.
+export function getKeyPoints(post: Post, max = 3): string[] {
+  const text = clean(post.content?.summary || post.description || '');
+  const points: string[] = [];
+
+  for (const s of sentences(text)) {
+    // Skip fragments, and truncated sentences (no closing punctuation, or cut off by an ellipsis).
+    if (s.length < MIN_LENGTH) continue;
+    if (!/[.!?]["”’')\]]?$/.test(s) || /(?:…|\.\.\.)["”’')\]]?$/.test(s)) continue;
+    points.push(s);
+    if (points.length === max) break;
+  }
+  return points;
+}
