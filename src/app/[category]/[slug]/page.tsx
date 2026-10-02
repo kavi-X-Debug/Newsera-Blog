@@ -6,7 +6,7 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
-import { getKeyPoints } from "@/lib/key-points";
+import { getKeyPointsInfo } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
@@ -116,7 +116,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
       : [];
   const relatedPosts = [...sameCategory, ...crossCategory];
 
-  const keyPoints = getKeyPoints(post);
+  const { points: keyPoints, ai: keyPointsAi } = getKeyPointsInfo(post);
   const descriptionText =
     (post.description && post.description.trim().length > 0)
       ? post.description
@@ -212,6 +212,9 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                     </li>
                   ))}
                 </ul>
+                {keyPointsAi && (
+                  <p className="text-xs text-muted-foreground">Summary written with AI from the story&apos;s source text.</p>
+                )}
               </section>
             )}
           </div>

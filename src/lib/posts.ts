@@ -18,6 +18,8 @@ export interface Post {
     summary: string;
     impact: string;
     takeaways: string[];
+    keyPoints?: string[];
+    keyPointsBy?: string;
   };
   link: string;
   author: string;

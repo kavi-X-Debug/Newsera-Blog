@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "fetch-news": "node scripts/fetch-news.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "summarize": "node scripts/summarize-posts.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

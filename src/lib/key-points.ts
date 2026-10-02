@@ -51,3 +51,12 @@ export function getKeyPoints(post: Post, max = 3): string[] {
   }
   return points;
 }
+
+// Prefers the AI-written key points saved with the post; otherwise falls back to the article's own sentences.
+export function getKeyPointsInfo(post: Post, max = 3): { points: string[]; ai: boolean } {
+  const stored = post.content?.keyPoints;
+  if (stored && stored.length > 0 && post.content.keyPointsBy === 'gemini') {
+    return { points: stored.slice(0, max), ai: true };
+  }
+  return { points: getKeyPoints(post, max), ai: false };
+}
