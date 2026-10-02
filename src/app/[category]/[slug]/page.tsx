@@ -6,6 +6,7 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
+import { getKeyPoints } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
@@ -115,6 +116,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
       : [];
   const relatedPosts = [...sameCategory, ...crossCategory];
 
+  const keyPoints = getKeyPoints(post);
   const descriptionText =
     (post.description && post.description.trim().length > 0)
       ? post.description
@@ -197,19 +199,21 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
               <p className="text-lg leading-relaxed">{post.content.impact}</p>
             </section>
 
-            <section className="space-y-4 bg-muted/30 p-6 rounded-xl border">
-              <h2 className="text-xl font-bold flex items-center gap-2">Key Takeaways</h2>
-              <ul className="space-y-2 list-none p-0">
-                {post.content.takeaways.map((item, index) => (
-                  <li key={index} className="flex gap-3 items-start">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center text-sm font-bold mt-0.5">
-                      {index + 1}
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </section>
+            {keyPoints.length > 0 && (
+              <section className="space-y-4 bg-muted/30 p-6 rounded-xl border">
+                <h2 className="text-xl font-bold flex items-center gap-2">Key Takeaways</h2>
+                <ul className="space-y-2 list-none p-0">
+                  {keyPoints.map((item, index) => (
+                    <li key={index} className="flex gap-3 items-start">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center text-sm font-bold mt-0.5">
+                        {index + 1}
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
           </div>
 
           <div className="border-t pt-6">
