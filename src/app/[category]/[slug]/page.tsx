@@ -6,6 +6,7 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
+import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
 
@@ -214,6 +215,8 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
           <div className="border-t pt-6">
             <ShareButtons url={`${SITE_URL}/${categoryToPath(post.category)}/${post.slug}`} title={post.title} label="Share this article" />
           </div>
+
+          <NewsletterSignup />
 
           <footer className="pt-8 space-y-8">
             <div className="flex items-center justify-between">
