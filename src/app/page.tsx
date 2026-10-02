@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { listingMetadata } from "@/lib/seo";
 import Pagination from "@/components/pagination";
+import NewsletterSignup from "@/components/newsletter-signup";
 import { paginate } from "@/lib/pagination";
 import { CATEGORIES } from "@/lib/categories";
 
@@ -63,22 +64,7 @@ export default async function Home({
         )}
       </section>
 
-      <section className="bg-primary/5 rounded-2xl p-8 md:p-12 text-center space-y-6">
-        <h2 className="text-3xl font-bold">Never Miss an Update</h2>
-        <p className="text-muted-foreground max-w-md mx-auto">
-          We curate the web's most reliable sources to bring you 3 essential updates every single day.
-        </p>
-        <div className="flex justify-center gap-4">
-          <div className="flex -space-x-2">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="w-10 h-10 rounded-full border-2 border-background bg-muted flex items-center justify-center text-xs font-bold">
-                U{i}
-              </div>
-            ))}
-          </div>
-          <p className="text-sm font-medium flex items-center">Join 10,000+ tech enthusiasts</p>
-        </div>
-      </section>
+      <NewsletterSignup />
     </div>
   );
 }
