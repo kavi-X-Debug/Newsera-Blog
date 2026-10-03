@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Neko Health, founded by Spotify's Daniel Ek, has raised $700 million.",
+      "The company focuses on body scanning for preventative healthcare.",
+      "Other companies like Midjourney and Function Health are also developing similar preventative health platforms."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/",
   "author": "Theresa Loconsolo"

@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A WordPress compromise used multiple persistence mechanisms.",
+      "Threat actors ensured the payload returned without reinfection.",
+      "The backdoor, codenamed SC, is described as a self-healing mesh."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
   "author": "info@thehackernews.com (The Hacker News)"

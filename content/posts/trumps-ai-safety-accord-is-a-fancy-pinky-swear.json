@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Six major AI companies signed a voluntary agreement with the White House.",
+      "The agreement involves implementing safeguards.",
+      "It is unclear how much this matters."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
   "author": "Maddy Varner"

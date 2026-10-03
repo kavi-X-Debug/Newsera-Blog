@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft's Windows Subsystem for Linux (WSL) now supports Linux containers.",
+      "WSL Containers is generally available.",
+      "This expands WSL's capabilities beyond running Linux distributions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
   "author": "Mayank Parmar"

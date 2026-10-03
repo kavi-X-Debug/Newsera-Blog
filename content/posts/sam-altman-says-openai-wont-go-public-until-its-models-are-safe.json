@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI CEO Sam Altman stated the company will not go public until it can ensure the safety of its AI models.",
+      "Altman emphasized the need for confident safety claims as AI capabilities advance.",
+      "He also noted that delaying an IPO for too long would be detrimental globally."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
   "author": "News Era Team"

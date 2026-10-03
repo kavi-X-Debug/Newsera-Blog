@@ -1,0 +1,25 @@
+{
+  "title": "Sling TV drops its one-day cable passes",
+  "slug": "sling-tv-drops-its-one-day-cable-passes",
+  "date": "2026-10-02T20:00:20.000Z",
+  "description": "Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people to buy a single day of cable TV programming at a time, as reported by",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/STKB311_SLING_TV_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people to buy a single day of cable TV programming at a time, as reported by The Desk. The feature was announced last year and offered a day pass, a weekend pass, and a week-long pass option to be able to watch channels like ESPN and CNN without a full-month cable subscription. But soon after it launched, Disney and Warner Bros. Discovery sued Sling TV over Sling Pass, though a federal judge ruled against Disney in its request for a preliminary injunction to block the feature. \"Sling was built to give our customers the ultimate control over their entertainme … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Sling TV has discontinued its Sling Pass feature.",
+      "This feature previously allowed users to purchase one-day cable TV programming passes.",
+      "The passes offered access to channels like ESPN and CNN without a full monthly subscription."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops",
+  "author": "News Era Team"
+}

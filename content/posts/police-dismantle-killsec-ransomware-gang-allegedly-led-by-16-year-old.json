@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Law enforcement dismantled the KillSec ransomware gang's operations.",
+      "Authorities seized the group's data leak site and servers.",
+      "Three individuals were arrested, and a 16-year-old was identified as the alleged administrator."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
   "author": "Lawrence Abrams"
