@@ -6,6 +6,7 @@ import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-r
 import Link from "next/link";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
+import { isThinPromo } from "@/lib/indexing";
 import { getKeyPointsInfo, getDisplaySummary, hasOriginalImpact, getSourceName } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
@@ -73,6 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     description: desc,
     keywords: postKeywords(post),
     alternates: { canonical: canonicalUrl },
+    ...(isThinPromo(post) ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "article",
       url: canonicalUrl,

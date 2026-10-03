@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/posts';
+import { isThinPromo } from '@/lib/indexing';
 
 const BASE_URL = 'https://newsera.blog';
 
@@ -45,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const posts = getAllPosts();
-  const postRoutes: MetadataRoute.Sitemap = posts.map((post) => {
+  const postRoutes: MetadataRoute.Sitemap = posts.filter((post) => !isThinPromo(post)).map((post) => {
     const categoryPath = mapCategoryToPath(post.category);
     return {
       url: `${BASE_URL}/${categoryPath}/${post.slug}`,

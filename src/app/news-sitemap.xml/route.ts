@@ -1,5 +1,6 @@
 import { getAllPosts } from '@/lib/posts';
 import { categoryPath } from '@/lib/categories';
+import { isThinPromo } from '@/lib/indexing';
 import { SITE_URL, SITE_NAME } from '@/lib/seo';
 
 export const revalidate = 3600;
@@ -11,7 +12,7 @@ const esc = (s: string) =>
 export function GET() {
   const cutoff = Date.now() - 2 * 24 * 60 * 60 * 1000;
   const recent = getAllPosts()
-    .filter((p) => new Date(p.date).getTime() >= cutoff)
+    .filter((p) => new Date(p.date).getTime() >= cutoff && !isThinPromo(p))
     .slice(0, 1000);
 
   const urls = recent
