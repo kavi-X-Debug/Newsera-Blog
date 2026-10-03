@@ -4,9 +4,14 @@ const LISTINGS = ["tech", "cybersecurity", "sports", "business", "politics", "sc
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
+  experimental: {
+    // Inline the small stylesheet so it does not block the first paint.
+    inlineCss: true,
+  },
   images: {
-    // External news images vary by host; keep lazy loading without on-the-fly optimization
-    unoptimized: true,
+    // Article images are resized by our own /api/img route (the free Vercel image quota is too small).
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
   },
   async rewrites() {
     // Keep the public `?page=N` URLs, but serve them from pre-built, cacheable pages.

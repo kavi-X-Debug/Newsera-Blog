@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { format } from 'date-fns';
 import { Post } from '@/lib/posts';
 import { Shield, Cpu, Trophy, Briefcase, Landmark, FlaskConical, Calendar, User } from 'lucide-react';
@@ -21,13 +22,13 @@ export default function PostCard({ post, index = 99 }: { post: Post; index?: num
     <article className="group relative flex flex-col space-y-3 border rounded-xl overflow-hidden hover:shadow-lg focus-within:ring-2 focus-within:ring-primary transition-all bg-card">
       <div className="aspect-video w-full bg-muted relative flex items-center justify-center overflow-hidden">
         {post.image ? (
-          <img 
-            src={post.image} 
+          <Image
+            src={post.image}
             alt={post.title}
-            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading={index < 3 ? "eager" : "lazy"}
-            fetchPriority={index === 0 ? "high" : "auto"}
-            decoding="async"
+            fill
+            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+            className="object-cover group-hover:scale-105 transition-transform duration-500"
+            {...(index === 0 ? { priority: true } : { loading: index < 3 ? ("eager" as const) : ("lazy" as const) })}
             referrerPolicy="no-referrer"
           />
         ) : (
