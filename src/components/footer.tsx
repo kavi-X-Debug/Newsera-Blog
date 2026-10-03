@@ -24,6 +24,8 @@ export default function Footer() {
             <h4 className="text-sm font-semibold mb-4 uppercase tracking-wider">Legal</h4>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-sm hover:text-primary transition-colors">About</Link></li>
+              <li><Link href="/editorial-policy" className="text-sm hover:text-primary transition-colors">Editorial Policy</Link></li>
+              <li><Link href="/corrections" className="text-sm hover:text-primary transition-colors">Corrections</Link></li>
               <li><Link href="/privacy" className="text-sm hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link href="/contact" className="text-sm hover:text-primary transition-colors">Contact</Link></li>
             </ul>

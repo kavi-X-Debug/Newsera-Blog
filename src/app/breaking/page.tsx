@@ -5,32 +5,21 @@ import { getRecentPosts } from "@/lib/breaking";
 import { BREAKING_WINDOW_HOURS } from "@/lib/breaking-window";
 import { listingMetadata } from "@/lib/seo";
 import PostCard from "@/components/post-card";
-import Pagination from "@/components/pagination";
-import { paginate } from "@/lib/pagination";
 
-export const dynamic = "force-dynamic";
+// Rebuilt in the background every 5 minutes; stories drop off 12 hours after they are published.
+export const revalidate = 300;
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ page?: string }>;
-}): Promise<Metadata> {
-  const { page } = await searchParams;
-  const meta = listingMetadata("/breaking", page);
+const MAX_STORIES = 30;
+
+export function generateMetadata(): Metadata {
+  const meta = listingMetadata("/breaking");
   // An empty page would be a thin page, so only let search engines index it while it has stories.
-  return getRecentPosts(getAllPosts()).length > 0
-    ? meta
-    : { ...meta, robots: { index: false, follow: true } };
+  return getRecentPosts(getAllPosts()).length > 0 ? meta : { ...meta, robots: { index: false, follow: true } };
 }
 
-export default async function BreakingPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ page?: string }>;
-}) {
-  const { page: rawPage } = await searchParams;
+export default function BreakingPage() {
   const all = getRecentPosts(getAllPosts());
-  const { items: posts, ...pager } = paginate(all, rawPage);
+  const posts = all.slice(0, MAX_STORIES);
 
   return (
     <div className="space-y-8">
@@ -41,14 +30,11 @@ export default async function BreakingPage({
         </p>
       </div>
 
-      {all.length > 0 ? (
-        <div className="space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.map((post) => (
-              <PostCard key={post.slug} post={post} />
-            ))}
-          </div>
-          <Pagination basePath="/breaking" {...pager} />
+      {posts.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {posts.map((post, i) => (
+            <PostCard key={post.slug} post={post} index={i} />
+          ))}
         </div>
       ) : (
         <div className="text-center py-20 border rounded-lg bg-muted/20 space-y-3">

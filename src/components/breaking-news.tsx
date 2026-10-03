@@ -32,12 +32,13 @@ function Meta({ post }: { post: Post }) {
   );
 }
 
-function Image({ post, className }: { post: Post; className: string }) {
+function Image({ post, className, priority = false }: { post: Post; className: string; priority?: boolean }) {
   return post.image ? (
     <img
       src={post.image}
       alt=""
-      loading="lazy"
+      loading={priority ? "eager" : "lazy"}
+      fetchPriority={priority ? "high" : "auto"}
       decoding="async"
       referrerPolicy="no-referrer"
       className={className}
@@ -83,6 +84,7 @@ export default function BreakingNews({ posts, isBreaking }: { posts: Post[]; isB
           <article className="group relative lg:col-span-3">
             <div className="relative aspect-video overflow-hidden rounded-lg bg-slate-800">
               <Image
+                priority
                 post={lead}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.02]"
               />

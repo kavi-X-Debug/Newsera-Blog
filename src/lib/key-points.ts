@@ -60,3 +60,24 @@ export function getKeyPointsInfo(post: Post, max = 3): { points: string[]; ai: b
   }
   return { points: getKeyPoints(post, max), ai: false };
 }
+
+// The summary text for display: importer leftovers removed and, when possible, only complete sentences.
+export function getDisplaySummary(post: Post): string {
+  const text = clean(post.content?.summary || post.description || '');
+  const complete = sentences(text).filter((x) => /[.!?]["”’')\]]?$/.test(x) && !/(?:…|\.\.\.)["”’')\]]?$/.test(x));
+  return complete.length > 0 ? complete.join(' ') : text;
+}
+
+// The "Why It Matters" text is the same template on every imported post, so it is not shown.
+export function hasOriginalImpact(post: Post): boolean {
+  const impact = post.content?.impact?.trim();
+  return Boolean(impact) && !impact!.startsWith('The implications of this');
+}
+
+export function getSourceName(post: Post): string | null {
+  try {
+    return new URL(post.link).hostname.replace(/^www\./, '');
+  } catch {
+    return null;
+  }
+}

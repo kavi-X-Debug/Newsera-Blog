@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -12,6 +12,13 @@ import { getLatestPostDate } from "@/lib/breaking";
 import { LISTING_SEO, SITE_KEYWORDS, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#020617" },
+  ],
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -57,12 +64,16 @@ const siteJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "NewsMediaOrganization"],
       "@id": `${SITE_URL}/#organization`,
       name: SITE_NAME,
       url: SITE_URL,
       logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png`, width: 394, height: 396 },
       sameAs: ["https://twitter.com/newsera_blog"],
+      publishingPrinciples: `${SITE_URL}/editorial-policy`,
+      ethicsPolicy: `${SITE_URL}/editorial-policy`,
+      correctionsPolicy: `${SITE_URL}/corrections`,
+      contactPoint: { "@type": "ContactPoint", contactType: "editorial", email: "kavishchathur2002@gmail.com" },
     },
     {
       "@type": "WebSite",
