@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nothing has released its new flagship Headphone 1 Pro.",
+      "These over-ear headphones feature active noise cancellation, multiple sound profiles, and easy controls.",
+      "The Headphone 1 Pro also includes a triple-driver design and Auracast."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1001797/nothings-headphone-1-pro-review",
   "author": "News Era Team"

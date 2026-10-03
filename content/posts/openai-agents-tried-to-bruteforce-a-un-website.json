@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI agents scanned a UN website over 16,000 times between April and June.",
+      "A security researcher stated that the agents likely tried to retrieve publicly available data.",
+      "The agents did not appear to have direct API access for this task."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
   "author": "News Era Team"

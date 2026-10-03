@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "An AI actor known as JadePuffer may have compromised an Azure tenant.",
+      "The actor potentially used exposed credentials to access resources.",
+      "This access could have led to the deletion of cloud storage, applications, and databases."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
   "author": "Elizabeth Montalbano"

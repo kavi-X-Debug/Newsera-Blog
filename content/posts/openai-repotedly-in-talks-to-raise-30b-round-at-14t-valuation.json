@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is reportedly discussing a $30 billion funding round.",
+      "This round would value the company at $1.4 trillion.",
+      "It is expected to be the final funding round before a public debut in 2027."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
   "author": "Marina Temkin"

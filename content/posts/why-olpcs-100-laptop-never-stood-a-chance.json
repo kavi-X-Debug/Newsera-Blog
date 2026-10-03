@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The One Laptop Per Child initiative aimed to provide every child with computer access.",
+      "The XO-1 laptop was part of this initiative.",
+      "The project faced unexpected complications."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/podcast/1000517/why-olpcs-100-laptop-never-stood-a-chance",
   "author": "News Era Team"

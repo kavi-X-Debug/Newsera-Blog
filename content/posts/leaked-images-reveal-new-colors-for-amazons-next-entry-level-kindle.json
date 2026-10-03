@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Leaked images show new colors for Amazon's next entry-level Kindle.",
+      "The new version may feature a minor redesign and more color choices.",
+      "The previous model was available in black and matcha green."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1001905/amazon-leak-basic-entry-level-kindle-colors-design-power-button",
   "author": "News Era Team"

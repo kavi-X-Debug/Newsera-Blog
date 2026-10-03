@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Volkswagen will replace the ID.4 crossover with the upcoming ID.Tiguan.",
+      "The ID.Tiguan is expected to launch in Europe in early 2027.",
+      "Volkswagen also confirmed that the ID.Tiguan will come to the US."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev",
   "author": "News Era Team"

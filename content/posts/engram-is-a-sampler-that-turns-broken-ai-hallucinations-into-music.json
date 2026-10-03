@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Thoughtful Things launched Engram, a sampler and groovebox.",
+      "Engram uses AI to process audio and generate new sounds.",
+      "The device operates a custom-trained AI model locally."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "DHS agents tracked and intimidated individuals observing ICE activity in Maine.",
+      "Information about these individuals was stored in a Palantir-built database.",
+      "This information comes from newly unsealed court filings."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/",
   "author": "Maddy Varner, Dhruv Mehrotra"

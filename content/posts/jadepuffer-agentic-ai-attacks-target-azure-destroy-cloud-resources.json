@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The JadePuffer ransomware operator is targeting Azure tenants.",
+      "These agent-driven attacks perform reconnaissance and steal credentials.",
+      "The attacks also destroy core cloud components."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
   "author": "Bill Toulas"
