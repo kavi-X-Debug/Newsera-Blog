@@ -1,33 +1,17 @@
 import sharp from 'sharp';
 import { NextResponse } from 'next/server';
+import { EXTRA_HOSTS, fetchSource, isAllowedHost } from '@/lib/image-proxy';
 
 export const runtime = 'nodejs';
 
-// Hosts the article images come from. Anything else is sent straight to the original image.
-const ALLOWED_HOST_SUFFIXES = [
-  'techcrunch.com',
-  'theverge.com',
-  'vox-cdn.com',
-  'wired.com',
-  'bleepstatic.com',
-  'googleusercontent.com',
-  'thehackernews.com',
-  'darkreading.com',
-  'contentstack.com',
-];
-
-// Local testing only: a comma-separated list of extra hosts that may also be served over http.
-const EXTRA_HOSTS = (process.env.IMAGE_PROXY_EXTRA_HOSTS || '').split(',').map((h) => h.trim()).filter(Boolean);
-
 const WIDTH_BUCKETS = [96, 128, 256, 384, 640, 828, 1080, 1200];
-const MAX_SOURCE_BYTES = 15 * 1024 * 1024;
-const RESIZABLE = /^image\/(jpeg|png|webp|avif)/i;
 
-const isAllowedHost = (host: string) =>
-  EXTRA_HOSTS.includes(host) || ALLOWED_HOST_SUFFIXES.some((s) => host === s || host.endsWith(`.${s}`));
-
-const fallback = (original: string) =>
-  NextResponse.redirect(original, { status: 302, headers: { 'Cache-Control': 'public, s-maxage=600' } });
+// When an image cannot be resized, the visitor is sent to the original; the reason is in X-Img-Fallback.
+const fallback = (original: string, reason: string) =>
+  NextResponse.redirect(original, {
+    status: 302,
+    headers: { 'Cache-Control': 'public, s-maxage=600', 'X-Img-Fallback': reason },
+  });
 
 // Resizes and converts article images to WebP so pages load a few dozen KB instead of megabytes.
 export async function GET(request: Request) {
@@ -45,23 +29,15 @@ export async function GET(request: Request) {
   if (!Number.isFinite(width) || width < 16 || width > 4096) return new NextResponse('Bad request', { status: 400 });
   const httpOk = target.protocol === 'http:' && EXTRA_HOSTS.includes(target.hostname);
   if (target.protocol !== 'https:' && !httpOk) return new NextResponse('Bad request', { status: 400 });
-  if (!isAllowedHost(target.hostname)) return fallback(target.toString());
+  if (!isAllowedHost(target.hostname)) return fallback(target.toString(), 'host not allowed');
 
   const bucket = WIDTH_BUCKETS.find((w) => w >= width) ?? WIDTH_BUCKETS[WIDTH_BUCKETS.length - 1];
 
+  const source = await fetchSource(target);
+  if (!source.ok) return fallback(target.toString(), source.reason);
+
   try {
-    const res = await fetch(target, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NewsEraImages/1.0; +https://newsera.blog)', Accept: 'image/*' },
-      signal: AbortSignal.timeout(8000),
-    });
-    if (!res.ok || !isAllowedHost(new URL(res.url).hostname)) return fallback(target.toString());
-    if (!RESIZABLE.test(res.headers.get('content-type') || '')) return fallback(target.toString());
-    if (Number(res.headers.get('content-length') || 0) > MAX_SOURCE_BYTES) return fallback(target.toString());
-
-    const input = Buffer.from(await res.arrayBuffer());
-    if (input.length > MAX_SOURCE_BYTES) return fallback(target.toString());
-
-    const output = await sharp(input, { failOn: 'none' })
+    const output = await sharp(source.input, { failOn: 'none' })
       .rotate()
       .resize({ width: bucket, withoutEnlargement: true })
       .webp({ quality })
@@ -74,6 +50,6 @@ export async function GET(request: Request) {
       },
     });
   } catch {
-    return fallback(target.toString());
+    return fallback(target.toString(), 'could not convert the image');
   }
 }
