@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { format } from "date-fns";
 import { Shield, Cpu, Calendar, User, ExternalLink, ChevronLeft } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
 import { isThinPromo } from "@/lib/indexing";
@@ -147,13 +148,13 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
         <article className="lg:col-span-2 space-y-8">
           <div className="aspect-video w-full bg-muted rounded-2xl flex items-center justify-center relative overflow-hidden mb-8 border">
             {post.image ? (
-              <img
+              <Image
                 src={post.image}
                 alt={post.title}
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="eager"
-                fetchPriority="high"
-                decoding="async"
+                fill
+                priority
+                sizes="(min-width: 1024px) 66vw, 100vw"
+                className="object-cover"
                 referrerPolicy="no-referrer"
               />
             ) : (

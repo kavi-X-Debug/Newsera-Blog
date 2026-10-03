@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NextImage from 'next/image';
 import { formatDistanceToNowStrict } from 'date-fns';
 import { ArrowRight, Clock } from 'lucide-react';
 import type { Post } from '@/lib/posts';
@@ -32,17 +33,9 @@ function Meta({ post }: { post: Post }) {
   );
 }
 
-function Image({ post, className, priority = false }: { post: Post; className: string; priority?: boolean }) {
+function Image({ post, className, sizes, priority = false }: { post: Post; className: string; sizes: string; priority?: boolean }) {
   return post.image ? (
-    <img
-      src={post.image}
-      alt=""
-      loading={priority ? "eager" : "lazy"}
-      fetchPriority={priority ? "high" : "auto"}
-      decoding="async"
-      referrerPolicy="no-referrer"
-      className={className}
-    />
+    <NextImage src={post.image} alt="" fill sizes={sizes} className={className} priority={priority} referrerPolicy="no-referrer" />
   ) : (
     <div className={`${className} bg-gradient-to-br from-slate-700 to-slate-800`} />
   );
@@ -86,7 +79,8 @@ export default function BreakingNews({ posts, isBreaking }: { posts: Post[]; isB
               <Image
                 priority
                 post={lead}
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.02]"
+                sizes="(min-width: 1024px) 60vw, 100vw"
+                className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.02]"
               />
             </div>
             <div className="mt-4 space-y-2.5">
@@ -124,7 +118,7 @@ export default function BreakingNews({ posts, isBreaking }: { posts: Post[]; isB
                     <Meta post={p} />
                   </div>
                   <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-md bg-slate-800">
-                    <Image post={p} className="h-full w-full object-cover" />
+                    <Image post={p} sizes="112px" className="object-cover" />
                   </div>
                 </li>
               ))}
