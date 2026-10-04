@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/posts';
 import { isThinPromo } from '@/lib/indexing';
+import { getAllAnalyses, getAnalysis } from '@/lib/analysis';
 
 const BASE_URL = 'https://newsera.blog';
 
@@ -46,15 +47,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const posts = getAllPosts();
-  const postRoutes: MetadataRoute.Sitemap = posts.filter((post) => !isThinPromo(post)).map((post) => {
+  const postRoutes: MetadataRoute.Sitemap = posts.filter((post) => !isThinPromo(post) || getAnalysis(post.slug)).map((post) => {
     const categoryPath = mapCategoryToPath(post.category);
     return {
       url: `${BASE_URL}/${categoryPath}/${post.slug}`,
-      lastModified: new Date(post.date),
+      lastModified: new Date(getAnalysis(post.slug)?.date ?? post.date),
       changeFrequency: 'weekly',
       priority: 0.7,
     };
   });
 
-  return [...staticRoutes, ...postRoutes];
+  const analyses = getAllAnalyses();
+  const analysisRoutes: MetadataRoute.Sitemap = analyses.length
+    ? [{ url: `${BASE_URL}/analysis`, lastModified: new Date(analyses[0].date), changeFrequency: 'weekly', priority: 0.8 }]
+    : [];
+
+  return [...staticRoutes, ...analysisRoutes, ...postRoutes];
 }

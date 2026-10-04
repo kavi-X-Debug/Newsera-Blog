@@ -9,7 +9,7 @@ import JsonLd from "@/components/json-ld";
 import AlertBanner from "@/components/alert-banner";
 import { getActiveAlert } from "@/lib/alert";
 import { getLatestPostDate } from "@/lib/breaking";
-import { LISTING_SEO, SITE_KEYWORDS, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from "@/lib/seo";
+import { LISTING_SEO, SITE_ALT_NAMES, SITE_KEYWORDS, SITE_NAME, SITE_TAGLINE, SITE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} – ${SITE_TAGLINE}`,
+    default: `Newsera – ${SITE_TAGLINE}`,
     template: `%s | ${SITE_NAME}`,
   },
   description: LISTING_SEO["/"].description,
@@ -67,6 +67,7 @@ const siteJsonLd = {
       "@type": ["Organization", "NewsMediaOrganization"],
       "@id": `${SITE_URL}/#organization`,
       name: SITE_NAME,
+      alternateName: SITE_ALT_NAMES,
       url: SITE_URL,
       logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png`, width: 394, height: 396 },
       sameAs: ["https://twitter.com/newsera_blog"],
@@ -80,6 +81,7 @@ const siteJsonLd = {
       "@id": `${SITE_URL}/#website`,
       url: SITE_URL,
       name: SITE_NAME,
+      alternateName: SITE_ALT_NAMES,
       description: LISTING_SEO["/"].description,
       inLanguage: "en",
       publisher: { "@id": `${SITE_URL}/#organization` },

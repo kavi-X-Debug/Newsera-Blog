@@ -4,6 +4,8 @@ import type { Post } from '@/lib/posts';
 export const SITE_URL = 'https://newsera.blog';
 export const SITE_NAME = 'News Era';
 export const SITE_TAGLINE = 'Latest Tech, Cybersecurity & AI News Today';
+// People type the name both ways, so tell search engines they are the same site.
+export const SITE_ALT_NAMES = ['Newsera', 'newsera.blog'];
 export const TWITTER_HANDLE = '@newsera_blog';
 
 export const SITE_KEYWORDS = [
@@ -35,10 +37,10 @@ type ListingSeo = {
 // Keyword sets come from the most frequent terms in the existing posts plus search intent.
 export const LISTING_SEO: Record<string, ListingSeo> = {
   '/': {
-    title: `${SITE_NAME} – ${SITE_TAGLINE}`,
+    title: `Newsera – ${SITE_TAGLINE}`,
     heading: 'Latest News',
     description:
-      'News Era delivers the latest tech news, cybersecurity alerts, AI updates, business and science headlines every day, with clear summaries of what happened and why it matters.',
+      'Newsera (News Era) delivers the latest tech news, cybersecurity alerts, AI updates, business and science headlines every day, with clear summaries of what happened and why it matters.',
     keywords: SITE_KEYWORDS,
   },
   '/breaking': {

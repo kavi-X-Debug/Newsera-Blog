@@ -11,7 +11,15 @@ const nextConfig: NextConfig = {
   images: {
     // Article images are resized by our own /api/img route (the free Vercel image quota is too small).
     loader: "custom",
+    deviceSizes: [640, 1080, 1200],
+    imageSizes: [96, 256],
     loaderFile: "./src/lib/image-loader.ts",
+  },
+  outputFileTracingIncludes: {
+    "/[category]/[slug]": ["./content/analysis/**/*"],
+    "/analysis": ["./content/analysis/**/*"],
+    "/": ["./content/analysis/**/*"],
+    "/sitemap.xml": ["./content/analysis/**/*"],
   },
   async rewrites() {
     // Keep the public `?page=N` URLs, but serve them from pre-built, cacheable pages.

@@ -44,6 +44,7 @@ export function getAllPosts(): Post[] {
 }
 
 export function getPostBySlug(slug: string): Post | null {
+  if (slug.includes('/') || slug.includes('\\') || slug.includes('..')) return null;
   const filePath = path.join(postsDir, `${slug}.json`);
   if (!fs.existsSync(filePath)) {
     return null;
