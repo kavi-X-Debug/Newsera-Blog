@@ -81,3 +81,27 @@ export function getSourceName(post: Post): string | null {
     return null;
   }
 }
+
+// A search-result description made of complete sentences (or cut at a word with "…"), at most `max` characters.
+export function getMetaDescription(post: Post, max = 155): string {
+  const text = getDisplaySummary(post);
+  let out = '';
+  for (const s of sentences(text)) {
+    if (!/[.!?]["”’')\]]?$/.test(s)) break;
+    const next = out ? `${out} ${s}` : s;
+    if (next.length > max) break;
+    out = next;
+  }
+  if (!out) {
+    const base = (text || post.description || post.title).replace(/\s+/g, ' ').trim();
+    if (base.length <= max) {
+      out = base;
+    } else {
+      const cut = base.slice(0, max - 1);
+      const at = cut.lastIndexOf(' ');
+      out = `${(at > 60 ? cut.slice(0, at) : cut).replace(/[,;:\s]+$/, '')}…`;
+    }
+  }
+  if (out.length < 50) out = `${post.title.replace(/[.!?\s]+$/, '')}. ${out}`.trim().slice(0, max);
+  return out;
+}

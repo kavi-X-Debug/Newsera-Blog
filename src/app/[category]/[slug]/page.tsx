@@ -11,7 +11,7 @@ import { isThinPromo } from "@/lib/indexing";
 import { getAnalysis } from "@/lib/analysis";
 import MiniMarkdown from "@/components/mini-markdown";
 import { PRERENDER_RECENT_POSTS } from "@/lib/prerender";
-import { getKeyPointsInfo, getDisplaySummary, hasOriginalImpact, getSourceName } from "@/lib/key-points";
+import { getKeyPointsInfo, getDisplaySummary, getMetaDescription, hasOriginalImpact, getSourceName } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
@@ -69,12 +69,11 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 
   const canonicalPath = `/${categoryToPath(post.category)}/${post.slug}`;
   const canonicalUrl = `https://newsera.blog${canonicalPath}`;
-  const desc = (post.description && post.description.trim().length > 0)
-    ? post.description
-    : (post.content?.summary ? post.content.summary.slice(0, 160) : undefined);
+  const desc = getMetaDescription(post);
 
   return {
-    title: post.title,
+    // Keep titles concise: only add the brand when the whole title stays short.
+    title: `${post.title} | News Era`.length <= 65 ? post.title : { absolute: post.title },
     description: desc,
     keywords: postKeywords(post),
     alternates: { canonical: canonicalUrl },
@@ -125,10 +124,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
   const { points: keyPoints, ai: keyPointsAi } = getKeyPointsInfo(post);
   const sourceName = getSourceName(post);
   const analysis = getAnalysis(post.slug);
-  const descriptionText =
-    (post.description && post.description.trim().length > 0)
-      ? post.description
-      : (post.content?.summary ? post.content.summary.slice(0, 160) : "");
+  const descriptionText = getMetaDescription(post);
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
