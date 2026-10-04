@@ -8,6 +8,8 @@ import Image from "next/image";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
 import { isThinPromo } from "@/lib/indexing";
+import { getAnalysis } from "@/lib/analysis";
+import MiniMarkdown from "@/components/mini-markdown";
 import { PRERENDER_RECENT_POSTS } from "@/lib/prerender";
 import { getKeyPointsInfo, getDisplaySummary, hasOriginalImpact, getSourceName } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
@@ -76,7 +78,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     description: desc,
     keywords: postKeywords(post),
     alternates: { canonical: canonicalUrl },
-    ...(isThinPromo(post) ? { robots: { index: false, follow: true } } : {}),
+    ...(isThinPromo(post) && !getAnalysis(post.slug) ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "article",
       url: canonicalUrl,
@@ -122,6 +124,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
 
   const { points: keyPoints, ai: keyPointsAi } = getKeyPointsInfo(post);
   const sourceName = getSourceName(post);
+  const analysis = getAnalysis(post.slug);
   const descriptionText =
     (post.description && post.description.trim().length > 0)
       ? post.description
@@ -191,6 +194,17 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
           </header>
 
           <ShareButtons url={`${SITE_URL}/${categoryToPath(post.category)}/${post.slug}`} title={post.title} />
+
+          {analysis && (
+            <section aria-labelledby="analysis-heading" className="space-y-4 rounded-2xl border-2 border-primary/30 bg-primary/5 p-6">
+              <p className="text-xs font-bold uppercase tracking-widest text-primary">News Era analysis</p>
+              <h2 id="analysis-heading" className="text-2xl font-bold leading-snug">{analysis.headline ?? "What this means"}</h2>
+              <MiniMarkdown text={analysis.body} />
+              <p className="text-sm text-muted-foreground">
+                By {analysis.author} · <time dateTime={analysis.date}>{format(new Date(analysis.date), "MMMM dd, yyyy")}</time>
+              </p>
+            </section>
+          )}
 
           <div className="prose prose-slate dark:prose-invert max-w-none space-y-8">
             <section className="space-y-4">
@@ -270,13 +284,13 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
                 description: descriptionText,
                 image: post.image ? [post.image] : [`${SITE_URL}/opengraph-image`],
                 datePublished: post.date,
-                dateModified: post.date,
+                dateModified: analysis ? analysis.date : post.date,
                 inLanguage: "en",
                 isAccessibleForFree: true,
                 isBasedOn: post.link,
                 articleSection: post.category,
                 keywords: postKeywords(post).join(", "),
-                author: { "@type": "Organization", name: "News Era", url: SITE_URL },
+                author: analysis ? { "@type": "Person", name: analysis.author } : { "@type": "Organization", name: "News Era", url: SITE_URL },
                 publisher: {
                   "@type": "Organization",
                   name: "News Era",

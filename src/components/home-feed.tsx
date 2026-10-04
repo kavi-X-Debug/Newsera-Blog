@@ -4,6 +4,7 @@ import PostCard from "@/components/post-card";
 import Pagination from "@/components/pagination";
 import NewsletterSignup from "@/components/newsletter-signup";
 import BreakingNews from "@/components/breaking-news";
+import LatestAnalysis from "@/components/latest-analysis";
 import { getBreakingStories } from "@/lib/breaking";
 import { paginate } from "@/lib/pagination";
 import { CATEGORIES } from "@/lib/categories";
@@ -25,6 +26,8 @@ export default function HomeFeed({ page }: { page: number }) {
       </section>
 
       {breaking && <BreakingNews posts={breaking.posts} isBreaking={breaking.isBreaking} />}
+
+      {pager.page === 1 && <LatestAnalysis />}
 
       <section className="space-y-6">
         <div className="flex items-center justify-between">
