@@ -1,0 +1,25 @@
+{
+  "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+  "slug": "google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web",
+  "date": "2026-10-03T23:12:34.000Z",
+  "description": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/08/13/Gemini.jpg",
+  "content": {
+    "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Google's Gemini may soon gain access to files on macOS devices.",
+      "It could also open applications and browse the web.",
+      "Gemini might perform actions without repeated permission requests."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+  "author": "Mayank Parmar"
+}
