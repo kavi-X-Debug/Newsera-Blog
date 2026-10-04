@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A security flaw has been found in the Elementor plugin for WordPress.",
+      "This vulnerability could allow an attacker to create administrator accounts.",
+      "The flaw is a cross-site request forgery vulnerability."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
   "author": "Bill Toulas"

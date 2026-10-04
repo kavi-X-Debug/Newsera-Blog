@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A federal jury in San Diego awarded Taction over $5.7 billion in damages.",
+      "Taction sued Apple in 2021, alleging the company infringed two of its patents.",
+      "The lawsuit centered on vibration-based, tactile transducer technology."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
   "author": "News Era Team"

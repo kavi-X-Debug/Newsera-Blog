@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A suspected ShinyHunters hacker, known as \"Rey,\" has reportedly been detained in Jordan.",
+      "The individual is cooperating with the FBI.",
+      "This cooperation aims to locate other members of the extortion group."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
   "author": "Lawrence Abrams"

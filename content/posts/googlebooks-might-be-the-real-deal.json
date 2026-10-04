@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The author traveled to San Francisco to test Meta's new hardware, including Meta VR Glasses.",
+      "The author listened to an interview with Mark Zuckerberg and watched an interview with Apple CEO John Ternus.",
+      "The author also revisited Steve Jobs' \"Antennagate\" press conference Q&A and played games on a Steam Deck using Xreal One Pro glasses."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
   "author": "News Era Team"
