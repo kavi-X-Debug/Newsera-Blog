@@ -1,12 +1,10 @@
-import { getPostBySlug, getAllPosts } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/posts";
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 
+// Redirect pages are created on request, not at build time.
 export async function generateStaticParams() {
-  const posts = getAllPosts();
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  return [];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

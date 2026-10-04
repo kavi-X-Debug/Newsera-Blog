@@ -8,6 +8,7 @@ import Image from "next/image";
 import JsonLd from "@/components/json-ld";
 import ShareButtons from "@/components/share-buttons";
 import { isThinPromo } from "@/lib/indexing";
+import { PRERENDER_RECENT_POSTS } from "@/lib/prerender";
 import { getKeyPointsInfo, getDisplaySummary, hasOriginalImpact, getSourceName } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { postKeywords, SITE_URL } from "@/lib/seo";
@@ -52,7 +53,7 @@ function pathToCanonicalCategory(path: string): Post["category"] | null {
 }
 
 export async function generateStaticParams() {
-  const posts = getAllPosts();
+  const posts = getAllPosts().slice(0, PRERENDER_RECENT_POSTS);
   return posts.map((post) => ({
     category: categoryToPath(post.category),
     slug: post.slug,
