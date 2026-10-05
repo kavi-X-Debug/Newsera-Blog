@@ -1,0 +1,24 @@
+{
+  "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+  "slug": "google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+  "date": "2026-10-04T20:31:07.000Z",
+  "description": "AI slop seems to be overwhelming bug bounty programs.",
+  "category": "Tech",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863",
+  "content": {
+    "summary": "AI slop seems to be overwhelming bug bounty programs....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Google paused its open source bug bounty program.",
+      "This pause was due to a significant increase in AI-generated submissions."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+  "author": "Anthony Ha"
+}
