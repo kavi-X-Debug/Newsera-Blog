@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Waymo is again offering transit discounts to customers. The company teamed up with Visa for this effort. Customers in the San Francisco-Bay Area will receive a credit for using a Visa card for Waymo trips and public transit within two hours."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/998184/waymo-public-transportation-discount-subway-bus-visa",
   "author": "News Era Team"

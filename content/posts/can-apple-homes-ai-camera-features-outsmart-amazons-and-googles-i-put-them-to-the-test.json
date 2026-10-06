@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The piece describes testing AI camera features from Apple, Amazon, and Google.",
+      "The author used Google's Nest Doorbell, Aqara's G400, and the Ring Pro 4K for the tests.",
+      "AI-powered text descriptions can summarize camera events in a single sentence."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
   "author": "News Era Team"

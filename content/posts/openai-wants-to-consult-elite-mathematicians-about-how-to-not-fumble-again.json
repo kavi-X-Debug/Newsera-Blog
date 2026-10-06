@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is consulting mathematicians to avoid future issues after previous mathematical results led to a reputational crisis.",
+      "The company announced a new independent panel of mathematicians to advise AI companies on interacting with mathematical research and the community.",
+      "The panel will offer guidance on how new mathematical results are presented and released."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
   "author": "News Era Team"

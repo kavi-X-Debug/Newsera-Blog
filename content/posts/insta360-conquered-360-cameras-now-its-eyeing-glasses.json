@@ -12,7 +12,11 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Insta360, known for its 360-degree cameras, holds a 73 percent share of the global market. The company has sold 10 million cameras and opened its first US store in New York City. Insta360 is now exploring new product categories beyond 360 cameras."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/999489/insta360-smart-glasses-mirrorless-interview",
   "author": "News Era Team"

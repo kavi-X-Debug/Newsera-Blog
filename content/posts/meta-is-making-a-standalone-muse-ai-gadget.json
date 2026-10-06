@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta is developing a standalone hardware device for its Muse AI agent. The device, named Muse Charm, was previewed by Meta CEO Mark Zuckerberg. It resembles a chunky smartwatch with a large screen, a lanyard, a fingerprint sensor, a camera, and microphones."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
   "author": "News Era Team"

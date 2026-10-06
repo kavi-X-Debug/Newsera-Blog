@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The TechCrunch Founder Summit will be held in Boston on November 4.",
+      "The event aims to provide insights on fundraising, hiring, and AI.",
+      "It is designed to help founders navigate the challenges of starting a company."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
   "author": "TechCrunch Events"
