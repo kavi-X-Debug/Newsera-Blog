@@ -12,7 +12,9 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [],
+    "keyPointsBy": "gemini-rejected"
   },
   "link": "https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river",
   "author": "News Era Team"

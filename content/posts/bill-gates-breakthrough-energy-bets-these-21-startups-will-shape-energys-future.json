@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Breakthrough Energy investors anticipate increased energy demands from electrification.",
+      "They believe future energy needs will surpass current data center demands.",
+      "Breakthrough Energy is preparing for these changes."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/22/bill-gates-breakthrough-energy-bets-these-21-startups-will-shape-energys-future/",
   "author": "Tim De Chant"

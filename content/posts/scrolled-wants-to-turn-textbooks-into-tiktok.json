@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "ScrollEd transforms textbooks into a scrollable feed similar to Instagram.",
+      "This feed includes video, audio, and quizzes.",
+      "The Palo Alto startup was founded by Utsav Gupta and Rebecca Neff."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
   "author": "Rebecca Bellan"
