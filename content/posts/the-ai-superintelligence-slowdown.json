@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Some US AI companies are suggesting a slowdown in advanced AI development. This comes after concerns about AI agents and warnings from researchers. Leaders from major AI companies are discussing the idea of an AI superintelligence slowdown."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
   "author": "News Era Team"

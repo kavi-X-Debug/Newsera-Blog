@@ -1,0 +1,23 @@
+{
+  "title": "Hackers hijack Google domains after breaching ccTLD registries",
+  "slug": "hackers-hijack-google-domains-after-breaching-cctld-registries",
+  "date": "2026-10-07T20:50:13.000Z",
+  "description": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, Ameri",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2023/12/29/google-flare.jpg",
+  "content": {
+    "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Hackers obtained unauthorized HTTPS certificates for several Google domains. They hijacked domains in Ghana, American Samoa, and Sierra Leone's country-code top-level domains. This occurred after compromising third-party operators and modifying authoritative DNS records."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+  "author": "Bill Toulas"
+}

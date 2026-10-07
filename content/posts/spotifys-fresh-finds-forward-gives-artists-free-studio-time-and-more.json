@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Spotify launched Fresh Finds Forward to provide artists with resources.",
+      "The program offers free studio time for US-based artists at select locations.",
+      "Artists also receive early access to Spotify tools and features."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/996505/spotify-fresh-finds-forward",
   "author": "News Era Team"

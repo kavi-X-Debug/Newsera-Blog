@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Claude Code has relaunched its Projects feature. This allows users to manage multiple AI agents in the cloud. The feature enables agents to share memory, goals, and files."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
   "author": "News Era Team"

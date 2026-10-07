@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Thermacell LIV 2.0 is a mosquito-control method.",
+      "It is described as expensive and imperfect.",
+      "However, it outperforms most other methods tried."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/thermacell-liv-smart-mosquito-repellent-system-2/",
   "author": "Christopher Null"

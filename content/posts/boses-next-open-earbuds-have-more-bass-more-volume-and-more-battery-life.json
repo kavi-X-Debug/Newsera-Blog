@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Bose announced a new version of its Ultra Open Earbuds. The second generation earbuds have improved sound quality and battery life. Bose also introduced a cheaper alternative called the Sport Open Earbuds."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/996341/bose-ultra-open-earbuds-second-gen-wireless-sport",
   "author": "News Era Team"

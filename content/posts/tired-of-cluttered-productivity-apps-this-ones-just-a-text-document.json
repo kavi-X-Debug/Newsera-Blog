@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Tasks.txt is a free macOS application.",
+      "It is described as an elegant productivity app.",
+      "The app functions like a text document."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/productivity-app-tasks-txt-is-just-a-text-document/",
   "author": "Justin Pot"

@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new technology aims to provide warnings for flash floods.",
+      "One resident experienced rapid flooding at her home during a heavy rain event.",
+      "The family evacuated safely as floodwaters rose quickly in their area."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning",
   "author": "News Era Team"

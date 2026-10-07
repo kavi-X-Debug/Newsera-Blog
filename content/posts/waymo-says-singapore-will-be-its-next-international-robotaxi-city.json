@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Waymo plans to launch a robotaxi service in Singapore by 2028.",
+      "Vehicles will arrive in Singapore in the coming months for mapping and testing.",
+      "The company needs approval from Singapore's Land Transport Authority before accepting passengers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
   "author": "News Era Team"

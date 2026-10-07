@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The president threatened to ban CNN, MS Now, and Politico from the White House.",
+      "These publications were turned away from the White House.",
+      "White House staff were reportedly surprised by this directive."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/997805/trump-cnn-msnow-politico-ban",
   "author": "News Era Team"

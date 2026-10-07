@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Jaguar has revealed its new electric car, the Type 01.",
+      "The British car manufacturer had a rebrand and did not sell a new vehicle for two years."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/jaguar-finally-reveals-its-biggest-gamble-the-type-01/",
   "author": "Jeremy White"

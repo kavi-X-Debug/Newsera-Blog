@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon Web Services data centers were not designed to withstand war.",
+      "The company stated it cannot recover lost customer data.",
+      "Customer data was permanently lost due to strikes in Iran."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/customer-data-permanently-lost-in-iran-strikes-on-amazon-data-centers/",
   "author": "Jeremy Hsu"
