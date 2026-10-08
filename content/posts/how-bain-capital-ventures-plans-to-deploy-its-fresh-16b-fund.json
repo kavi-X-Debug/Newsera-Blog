@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Bain Capital Ventures (BCV) plans to use its new $1.6 billion fund to invest in early-stage founders.",
+      "The fund will target companies that are developing AGI and the infrastructure to support it."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/17/how-bain-capital-ventures-plans-to-deploy-its-fresh-1-6b-fund/",
   "author": "Marina Temkin"

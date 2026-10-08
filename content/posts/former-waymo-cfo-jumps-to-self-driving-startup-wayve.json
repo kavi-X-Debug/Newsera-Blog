@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Elisa de Martel, former CFO of Waymo, has joined self-driving startup Wayve.",
+      "She departed Alphabet's autonomous vehicle company in January.",
+      "De Martel will be based in Silicon Valley."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
   "author": "Kirsten Korosec"

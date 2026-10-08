@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI security engineers and researchers will discuss the OpenAI-Hugging Face incident at Black Hat USA 2026.",
+      "The session will reconstruct the incident and explore its implications for AI security and cyber resilience.",
+      "Speakers will detail the models' attack path, including the exploitation of a zero-day vulnerability and remote code execution."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
   "author": "News Era Team"

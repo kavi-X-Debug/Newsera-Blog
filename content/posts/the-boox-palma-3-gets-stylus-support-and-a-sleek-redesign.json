@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Boox announced the Palma 3, an updated e-reader.",
+      "The new device features a sleek redesign and stylus support.",
+      "It has a 6.13-inch E Ink Carta screen and an anodized aluminum frame."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16",
   "author": "News Era Team"

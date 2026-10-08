@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A TechCrunch Disrupt 2026 session will discuss how startups are integrating AI agents into their teams.",
+      "The session will cover building human-AI teams without compromising speed, accountability, or culture.",
+      "Gusto, Insight Partners, and Leland will explain these changes."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
   "author": "TechCrunch Events"

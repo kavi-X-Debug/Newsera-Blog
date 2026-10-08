@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft is investigating an issue where Copilot and Copilot Chat buttons are missing in Classic Outlook.",
+      "Some Windows users are affected by the disappearing buttons."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
   "author": "Sergiu Gatlan"

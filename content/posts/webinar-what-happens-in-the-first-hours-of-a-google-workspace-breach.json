@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A webinar will discuss the initial hours following a Google Workspace breach.",
+      "It will analyze real-world breaches to highlight early response decisions.",
+      "The discussion will cover actions that can either limit or worsen the impact of an incident."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
   "author": "BleepingComputer"

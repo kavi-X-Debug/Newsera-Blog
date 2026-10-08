@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Canon announced the EOS R8 Mark II, a new full-frame camera. It features a retro-inspired redesign and in-body stabilization. The camera is lighter and less expensive than the EOS R6 Mark III."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability",
   "author": "News Era Team"

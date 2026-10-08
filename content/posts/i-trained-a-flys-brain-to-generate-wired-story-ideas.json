@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A website called PitchFly was created using an open-source map of a fruit fly's brain.",
+      "The website generated headline suggestions.",
+      "These suggestions were described as delightfully bananas."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/i-trained-a-fly-on-wired-story-ideas/",
   "author": "Will Knight"

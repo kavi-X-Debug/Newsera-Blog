@@ -12,7 +12,11 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A North Korean APT group likely used a new Linux espionage toolkit. This toolkit compromised load balancers and accessed communications. The group further exploited networks."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
   "author": "Robert Lemos"

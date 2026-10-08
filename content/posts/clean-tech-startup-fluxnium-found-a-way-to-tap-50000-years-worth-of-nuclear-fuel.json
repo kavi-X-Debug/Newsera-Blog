@@ -12,7 +12,12 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Fluxnium, a clean tech startup, developed fibers that can extract uranium from seawater.",
+      "This method could access enough nuclear fuel to power many future generations."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/16/clean-tech-startup-fluxnium-found-a-way-to-tap-50000-years-worth-of-nuclear-fuel/",
   "author": "Tim De Chant"
