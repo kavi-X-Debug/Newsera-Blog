@@ -4,6 +4,7 @@ import { format } from 'date-fns';
 import { Post } from '@/lib/posts';
 import { Shield, Cpu, Trophy, Briefcase, Landmark, FlaskConical, Calendar, User } from 'lucide-react';
 import { categoryPath } from '@/lib/categories';
+import { getMetaDescription } from '@/lib/key-points';
 
 export default function PostCard({ post, index = 99 }: { post: Post; index?: number }) {
   const icons: Record<string, typeof Cpu> = {
@@ -14,10 +15,7 @@ export default function PostCard({ post, index = 99 }: { post: Post; index?: num
     'Science & Technology News': FlaskConical,
   };
   const Icon = icons[post.category] ?? Cpu;
-  const previewText =
-    (post.description && post.description.trim().length > 0)
-      ? post.description
-      : (post.content?.summary ? post.content.summary.slice(0, 160) : 'Read the latest update on this topic.');
+  const previewText = getMetaDescription(post, 160);
   return (
     <article className="group relative flex flex-col space-y-3 border rounded-xl overflow-hidden hover:shadow-lg focus-within:ring-2 focus-within:ring-primary transition-all bg-card">
       <div className="aspect-video w-full bg-muted relative flex items-center justify-center overflow-hidden">

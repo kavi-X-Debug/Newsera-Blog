@@ -20,6 +20,10 @@ export default function PrivacyPage() {
         <p>
           If you choose to subscribe to our newsletter, we collect your email address and nothing else. We use it only to send you the newsletter, and we never sell or share it for advertising. Subscriptions are confirmed by a link we email to you (double opt-in). Your email address is stored and the newsletter is sent through our email provider, Buttondown, which processes it on our behalf. Every email contains an unsubscribe link, and you can also contact us to have your address removed.
         </p>
+        <h2 className="text-2xl font-bold mt-8">Comments</h2>
+        <p>
+          Article comments are provided by Giscus and stored in GitHub Discussions. Comments load only after you click &quot;Load comments&quot;; until then, nothing is sent to Giscus or GitHub. To post, you sign in with your GitHub account, and your public GitHub username, avatar and comment are shown. Comments are governed by GitHub&apos;s privacy statement, and we moderate and may remove comments that are abusive, spam or off-topic. To have a comment removed, delete it on GitHub or contact us.
+        </p>
         <h2 className="text-2xl font-bold mt-8">Advertising & Cookies</h2>
         <p>
           We do not currently display third-party advertisements, and we do not use pop-ups or automatic redirects.
