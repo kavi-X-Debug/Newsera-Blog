@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { approve, getApproved, getPending, isAdmin, remove } from '@/lib/comments';
+import { getApproved, getRecent, isAdmin, remove } from '@/lib/comments';
 
 export const dynamic = 'force-dynamic';
 
@@ -9,7 +9,7 @@ export async function GET(request: Request) {
   if (!isAdmin(request)) return json({ ok: false }, 401);
   try {
     const slug = new URL(request.url).searchParams.get('slug');
-    return json({ ok: true, comments: slug ? await getApproved(slug) : await getPending() });
+    return json({ ok: true, comments: slug ? await getApproved(slug) : await getRecent() });
   } catch {
     return json({ ok: false }, 502);
   }
@@ -25,7 +25,7 @@ export async function POST(request: Request) {
   }
   if (typeof b.id !== 'string' || !/^[0-9a-f-]{36}$/.test(b.id)) return json({ ok: false }, 400);
   try {
-    const done = b.action === 'approve' ? await approve(b.id) : b.action === 'delete' ? await remove(b.id) : false;
+    const done = b.action === 'delete' ? await remove(b.id) : false;
     return json({ ok: done });
   } catch {
     return json({ ok: false }, 502);
