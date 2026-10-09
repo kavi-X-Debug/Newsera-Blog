@@ -2,12 +2,13 @@ import { randomUUID, timingSafeEqual } from 'node:crypto';
 
 /**
  * Reader comments, stored in Upstash Redis (free tier, added from the Vercel Marketplace).
- * Every comment is held as "pending" until the editor approves it on /admin/comments.
+ * Comments are published immediately; spam is limited by link blocking, a honeypot and a rate
+ * limit, and the editor can delete anything on /admin/comments.
  *
  * Keys:
  *   comment:<id>        JSON of the comment
  *   approved:<slug>     sorted set of approved ids (score = created time)
- *   pending             sorted set of ids waiting for review
+ *   recent              sorted set of the newest ids across all articles (capped)
  */
 
 export interface Comment {
@@ -64,28 +65,20 @@ export async function getApproved(slug: string): Promise<Comment[]> {
   return load(ids);
 }
 
-export async function getPending(): Promise<Comment[]> {
-  const [ids] = (await run([['ZRANGE', 'pending', 0, 99]])) as [string[]];
+export async function getRecent(): Promise<Comment[]> {
+  const [ids] = (await run([['ZRANGE', 'recent', 0, 99, 'REV']])) as [string[]];
   return load(ids);
 }
 
-export async function addPending(slug: string, name: string, body: string): Promise<void> {
+export async function addComment(slug: string, name: string, body: string): Promise<Comment> {
   const c: Comment = { id: randomUUID(), slug, name, body, createdAt: Date.now() };
   await run([
     ['SET', `comment:${c.id}`, JSON.stringify(c)],
-    ['ZADD', 'pending', c.createdAt, c.id],
+    ['ZADD', `approved:${slug}`, c.createdAt, c.id],
+    ['ZADD', 'recent', c.createdAt, c.id],
+    ['ZREMRANGEBYRANK', 'recent', 0, -101],
   ]);
-}
-
-export async function approve(id: string): Promise<boolean> {
-  const [raw] = await run([['GET', `comment:${id}`]]);
-  const c = parse(raw);
-  if (!c) return false;
-  await run([
-    ['ZADD', `approved:${c.slug}`, c.createdAt, c.id],
-    ['ZREM', 'pending', c.id],
-  ]);
-  return true;
+  return c;
 }
 
 export async function remove(id: string): Promise<boolean> {
@@ -93,7 +86,7 @@ export async function remove(id: string): Promise<boolean> {
   const c = parse(raw);
   if (!c) return false;
   await run([
-    ['ZREM', 'pending', c.id],
+    ['ZREM', 'recent', c.id],
     ['ZREM', `approved:${c.slug}`, c.id],
     ['DEL', `comment:${c.id}`],
   ]);

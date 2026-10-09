@@ -22,7 +22,7 @@ export default function PrivacyPage() {
         </p>
         <h2 className="text-2xl font-bold mt-8">Comments</h2>
         <p>
-          You can comment on articles without creating an account. When you submit a comment we store the name you typed, the comment text and the time. We do not ask for or store your email address. Your IP address is used only briefly to limit spam and is not kept with your comment. Comments are reviewed by our team before they appear, and we may remove comments that are abusive, spam, contain links or are off-topic. The name you enter is shown publicly next to your comment, so please do not use your real name if you prefer not to. To have a comment removed, contact us with the article and the comment text. Comments are stored with our database provider, Upstash.
+          You can comment on articles without creating an account. When you submit a comment we store the name you typed, the comment text and the time. We do not ask for or store your email address. Your IP address is used only briefly to limit spam and is not kept with your comment. Comments are published immediately, and we may remove comments that are abusive, spam, contain links or are off-topic. The name you enter is shown publicly next to your comment, so please do not use your real name if you prefer not to. To have a comment removed, contact us with the article and the comment text. Comments are stored with our database provider, Upstash.
         </p>
         <h2 className="text-2xl font-bold mt-8">Advertising & Cookies</h2>
         <p>

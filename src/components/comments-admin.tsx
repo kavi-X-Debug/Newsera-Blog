@@ -39,7 +39,7 @@ export default function CommentsAdmin() {
     [],
   );
 
-  async function act(id: string, action: 'approve' | 'delete') {
+  async function act(id: string, action: 'delete') {
     await fetch('/api/comments/admin', {
       method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
@@ -77,7 +77,7 @@ export default function CommentsAdmin() {
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
-      <h1 className="text-2xl font-bold">{slug ? 'Approved comments' : 'Pending comments'}</h1>
+      <h1 className="text-2xl font-bold">{slug ? 'Comments on this article' : 'Latest comments'}</h1>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -88,7 +88,7 @@ export default function CommentsAdmin() {
         <input
           value={slug}
           onChange={(e) => setSlug(e.target.value)}
-          placeholder="Article slug (leave empty for pending)"
+          placeholder="Article slug (leave empty for latest)"
           className="h-10 flex-1 rounded-md border bg-background px-3 text-sm"
         />
         <button className="h-10 rounded-md border px-4 text-sm">Show</button>
@@ -104,9 +104,6 @@ export default function CommentsAdmin() {
             </div>
             <p className="whitespace-pre-wrap break-words text-sm">{r.body}</p>
             <div className="flex gap-2">
-              {!slug && (
-                <button onClick={() => act(r.id, 'approve')} className="h-8 rounded-md bg-primary px-3 text-sm text-primary-foreground">Approve</button>
-              )}
               <button onClick={() => act(r.id, 'delete')} className="h-8 rounded-md border px-3 text-sm">Delete</button>
             </div>
           </li>

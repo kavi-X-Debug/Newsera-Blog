@@ -20,7 +20,7 @@ function ago(ts: number): string {
   return new Date(ts).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
-/** Reader comments: no account needed, every comment is reviewed before it appears. */
+/** Reader comments: no account needed, published instantly. */
 export default function Comments({ slug }: { slug: string }) {
   const [enabled, setEnabled] = useState(false);
   const [comments, setComments] = useState<PublicComment[]>([]);
@@ -63,6 +63,7 @@ export default function Comments({ slug }: { slug: string }) {
       const data = await res.json();
       setMessage(data.message ?? '');
       if (data.ok) {
+        if (data.comment) setComments((prev) => [...prev, data.comment]);
         setStatus('ok');
         setBody('');
         try {
@@ -141,7 +142,7 @@ export default function Comments({ slug }: { slug: string }) {
           >
             {status === 'sending' ? 'Sending…' : 'Post comment'}
           </button>
-          <p className="text-xs text-muted-foreground">No account needed. Comments are reviewed before they appear. Links are not allowed.</p>
+          <p className="text-xs text-muted-foreground">No account needed. Please be respectful. Links are not allowed.</p>
         </div>
         <p role="status" aria-live="polite" className={`text-sm ${status === 'error' ? 'text-red-600 dark:text-red-400' : 'text-green-700 dark:text-green-400'}`}>
           {status === 'ok' || status === 'error' ? message : ''}

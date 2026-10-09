@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { addPending, commentsEnabled, getApproved, hasLink, tooManyRequests, MAX_BODY, MAX_NAME, MIN_BODY } from '@/lib/comments';
+import { addComment, commentsEnabled, getApproved, hasLink, tooManyRequests, MAX_BODY, MAX_NAME, MIN_BODY } from '@/lib/comments';
 import { getPostBySlug } from '@/lib/posts';
 
 export const dynamic = 'force-dynamic';
@@ -29,9 +29,8 @@ export async function POST(request: Request) {
     return json({ ok: false, message: 'Invalid request.' }, 400);
   }
 
-  const thanks = { ok: true, message: 'Thanks! Your comment was received and will appear once it has been reviewed.' };
   // Hidden honeypot field: real visitors never fill it in. Answer as if it worked.
-  if (typeof b.website === 'string' && b.website.trim() !== '') return json(thanks);
+  if (typeof b.website === 'string' && b.website.trim() !== '') return json({ ok: true, message: 'Thanks for your comment!' });
 
   const slug = typeof b.slug === 'string' ? b.slug : '';
   const name = typeof b.name === 'string' ? b.name.trim().replace(/\s+/g, ' ') : '';
@@ -51,8 +50,12 @@ export async function POST(request: Request) {
     if (await tooManyRequests(ip, 3, 10 * 60)) {
       return json({ ok: false, message: 'Too many comments. Please try again in a few minutes.' }, 429);
     }
-    await addPending(slug, name, body);
-    return json(thanks);
+    const c = await addComment(slug, name, body);
+    return json({
+      ok: true,
+      message: 'Thanks! Your comment has been posted.',
+      comment: { id: c.id, name: c.name, body: c.body, createdAt: c.createdAt },
+    });
   } catch (err) {
     console.error('comments POST failed', err);
     return json({ ok: false, message: 'Something went wrong. Please try again later.' }, 502);
