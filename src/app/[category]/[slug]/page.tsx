@@ -252,7 +252,7 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
 
           <NewsletterSignup />
 
-          <Comments term={`${categoryToPath(post.category)}/${post.slug}`} />
+          <Comments slug={post.slug} />
 
           <footer className="pt-8 space-y-8">
             <div className="flex items-center justify-between">

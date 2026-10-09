@@ -22,7 +22,7 @@ export default function PrivacyPage() {
         </p>
         <h2 className="text-2xl font-bold mt-8">Comments</h2>
         <p>
-          Article comments are provided by Giscus and stored in GitHub Discussions. Comments load only after you click &quot;Load comments&quot;; until then, nothing is sent to Giscus or GitHub. To post, you sign in with your GitHub account, and your public GitHub username, avatar and comment are shown. Comments are governed by GitHub&apos;s privacy statement, and we moderate and may remove comments that are abusive, spam or off-topic. To have a comment removed, delete it on GitHub or contact us.
+          You can comment on articles without creating an account. When you submit a comment we store the name you typed, the comment text and the time. We do not ask for or store your email address. Your IP address is used only briefly to limit spam and is not kept with your comment. Comments are reviewed by our team before they appear, and we may remove comments that are abusive, spam, contain links or are off-topic. The name you enter is shown publicly next to your comment, so please do not use your real name if you prefer not to. To have a comment removed, contact us with the article and the comment text. Comments are stored with our database provider, Upstash.
         </p>
         <h2 className="text-2xl font-bold mt-8">Advertising & Cookies</h2>
         <p>
