@@ -12,7 +12,11 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Larry Ellison canceled a planned sale of Oracle stock. The sale involved 50 million shares. The shares were valued at approximately $7.5 billion."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
   "author": "Anthony Ha"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Supreme Court blocked efforts to control mail-in voting.",
+      "The ruling prevents the United States Postal Service from implementing restrictions.",
+      "Experts and election officials stated these restrictions would affect November voting."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/the-supreme-court-just-blocked-trumps-efforts-to-control-mail-in-voting-for-the-midterms/",
   "author": "David Gilbert"

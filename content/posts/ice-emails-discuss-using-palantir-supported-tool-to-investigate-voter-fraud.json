@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "ICE emails discussed using a Palantir-supported tool.",
+      "The tool, ELITE, is typically used for deportation targets.",
+      "ICE considered using ELITE to investigate voter fraud."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/ice-emails-discuss-using-palantir-supported-tool-to-investigate-voter-fraud/",
   "author": "David Gilbert"

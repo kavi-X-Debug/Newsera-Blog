@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Valve is still determining how and when to release a Steam Deck 2.",
+      "A Steam Deck 2 will be released when Valve finds a suitable chip.",
+      "The company aims to maintain the balance of price, performance, and battery life."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when",
   "author": "News Era Team"

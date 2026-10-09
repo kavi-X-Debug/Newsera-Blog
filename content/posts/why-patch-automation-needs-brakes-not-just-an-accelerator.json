@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Patch automation helps IT teams manage increasing update volumes.",
+      "However, faster deployment can also accelerate the spread of faulty updates.",
+      "Action1 suggests update rings, success criteria, and human oversight to improve automated patching control."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
   "author": "Sponsored by Action1"

@@ -12,7 +12,12 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This is a replay of a podcasting event in San Francisco.",
+      "The event, titled 'Uncanny Valley', discussed women, technology, and power."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/come-see-uncanny-valley-live/",
   "author": "WIRED Staff"
