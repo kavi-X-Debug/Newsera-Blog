@@ -13,6 +13,7 @@ import MiniMarkdown from "@/components/mini-markdown";
 import { PRERENDER_RECENT_POSTS } from "@/lib/prerender";
 import { getKeyPointsInfo, getDisplaySummary, getMetaDescription, hasOriginalImpact, getSourceName } from "@/lib/key-points";
 import NewsletterSignup from "@/components/newsletter-signup";
+import Comments from "@/components/comments";
 import { postKeywords, SITE_URL } from "@/lib/seo";
 import PostCard from "@/components/post-card";
 
@@ -250,6 +251,8 @@ export default async function PostByCategoryPage({ params }: { params: Promise<{
           </div>
 
           <NewsletterSignup />
+
+          <Comments term={`${categoryToPath(post.category)}/${post.slug}`} />
 
           <footer className="pt-8 space-y-8">
             <div className="flex items-center justify-between">
