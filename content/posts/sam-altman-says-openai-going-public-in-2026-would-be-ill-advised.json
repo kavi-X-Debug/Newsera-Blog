@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI CEO Sam Altman stated that an initial public offering for the company in 2026 would be ill-advised.",
+      "Altman discussed various topics, including a hacking incident and the potential for AI beyond human control.",
+      "He acknowledged the possibility of AI exceeding human control and committed to taking preventative measures."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
   "author": "News Era Team"

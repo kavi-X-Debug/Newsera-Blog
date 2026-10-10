@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Mecka AI, a two-year-old startup, is nearing a $500 million valuation.",
+      "This valuation is part of a Sequoia-led deal.",
+      "The funding round follows Mecka's Series A announcement months prior."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
   "author": "Marina Temkin"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Keychron launched on Kickstarter in 2017.",
+      "The company offers the K2 model.",
+      "Other versions, including an all-wood body, are also available."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
   "author": "Lucas Ropek"

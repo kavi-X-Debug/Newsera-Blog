@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Garry Tan advocates for smaller US open-weight AI labs to use similar training techniques as American frontier AI labs.",
+      "This approach aims to provide the U.S. with more robust open-weight AI options.",
+      "The goal is to offer alternatives to Chinese AI models."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
   "author": "Julie Bort"

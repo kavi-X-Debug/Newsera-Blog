@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists several motorized standing desks.",
+      "These desks are suitable for a home office setting."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/gallery/best-standing-desks/",
   "author": "Nicole Kinning, Matthew Korfhage"
