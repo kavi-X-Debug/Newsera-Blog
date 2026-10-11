@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Ledger crypto wallet users have reported drained accounts, possibly due to tampered hardware.",
+      "The tampered hardware was reportedly sold by CryptoBillis, which Ledger has asked to halt sales.",
+      "An unauthorized hardware implant was found in one affected device, potentially intercepting screen displays like seed passphrases."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
   "author": "News Era Team"

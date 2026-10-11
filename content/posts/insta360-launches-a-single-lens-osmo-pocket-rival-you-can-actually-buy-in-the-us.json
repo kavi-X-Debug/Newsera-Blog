@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Insta360 has released the Luna Pro, a new compact steadycam.",
+      "The Luna Pro is a single-lens model that can record vertical 4K video.",
+      "It features an 8K sensor and a detachable 2-inch touchscreen."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/993837/insta360-luna-pro-steadicam-gimbal-release-price-specs",
   "author": "News Era Team"

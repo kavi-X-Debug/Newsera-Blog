@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is exploring the legality of an AI industry slowdown.",
+      "AI leaders are concerned that antitrust law might hinder efforts to coordinate a slowdown in AI development."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
   "author": "Maxwell Zeff"

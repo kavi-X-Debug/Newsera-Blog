@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Petra Power is modernizing energy for data centers and defense vehicles.",
+      "The startup's fuel cells are highly efficient.",
+      "These fuel cells aim to reduce fuel costs."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
   "author": "Lucas Ropek"

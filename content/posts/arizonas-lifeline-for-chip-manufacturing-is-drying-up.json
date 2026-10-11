@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Arizona is facing a significant reduction in its water supply from the Colorado River.",
+      "The state will lose over a quarter of its typical annual water allocation from the river.",
+      "This reduction impacts Arizona's communities and its role as a hub for chip manufacturing."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/science/993522/water-chip-semiconductor-manufacturing-colorado-river",
   "author": "News Era Team"

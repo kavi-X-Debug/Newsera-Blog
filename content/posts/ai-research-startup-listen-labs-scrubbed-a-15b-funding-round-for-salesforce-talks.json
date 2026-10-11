@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "AI research startup Listen Labs ended a signed Series C term sheet.",
+      "The company was in talks with Salesforce.",
+      "Menlo Ventures was the investor for the funding round."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
   "author": "Marina Temkin"

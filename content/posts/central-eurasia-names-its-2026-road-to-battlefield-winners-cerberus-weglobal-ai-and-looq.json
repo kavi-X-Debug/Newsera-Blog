@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Cerberus, WeGlobal AI, and LOOQ were named the 2026 Road to Battlefield winners for Central Eurasia.",
+      "These companies will represent Central Eurasia in the Startup Battlefield 200.",
+      "This event will take place at TechCrunch Disrupt in San Francisco this October."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/",
   "author": "TechCrunch Events"

@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "European founders and investors are advocating for a strong EU-wide corporate status.",
+      "An open letter from unicorn founders and investors warns against weakening the 'EU Inc' initiative.",
+      "Negotiations are underway for a new corporate status across the European Union."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/10/european-founders-and-vcs-urge-lawmakers-to-get-eu-inc-right/",
   "author": "Anna Heim"

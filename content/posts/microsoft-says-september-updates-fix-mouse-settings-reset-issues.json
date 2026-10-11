@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft has released September updates to resolve an issue.",
+      "The issue caused mouse settings to reset on some Windows 11 systems.",
+      "This problem occurred after installing the KB5120998 August 2026 preview update."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
   "author": "Sergiu Gatlan"

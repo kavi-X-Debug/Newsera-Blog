@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The US Army invested $11M in Tern, an Austin-based GPS alternative.",
+      "Tern's technology is described as a battlefield navigation system."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/10/us-army-places-11m-bet-on-austin-based-gps-alternative-tern/",
   "author": "Sean O'Kane"

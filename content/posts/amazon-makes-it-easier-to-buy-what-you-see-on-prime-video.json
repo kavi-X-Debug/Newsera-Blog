@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon is expanding shopping integrations across Prime Video. Viewers can now discover products related to shows, movies, and live sports. This is available through X-Ray, the shopping app, and a new \"Shop the Scene\" feature."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/10/amazon-makes-it-easier-to-buy-what-you-see-on-prime-video/",
   "author": "Sarah Perez"
