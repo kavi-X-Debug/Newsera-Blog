@@ -1,0 +1,19 @@
+{
+  "title": "Ledger wallet tampering suspected after reports of crypto thefts",
+  "slug": "ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+  "date": "2026-10-10T16:36:44.000Z",
+  "description": "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and it appears to be related to tampered hardware sold by Cr",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK428_CRYPTO_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and it appears to be related to tampered hardware sold by CryptoBillis. Ledger has asked CryptoBillis to pause all sales of its wallets while it conducts an investigation. Ledger has confirmed that \"one of the impacted users' devices contained an unauthorized hardware implant.\" Photos and videos posted on X and Threads appear to show a small circuit board sandwiched under the screen. The implant allegedly intercepts anything displayed on the screen, including the seed passphrase shown during the initial setup. Using an embedded SIM card, the … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ]
+  },
+  "link": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+  "author": "News Era Team"
+}
