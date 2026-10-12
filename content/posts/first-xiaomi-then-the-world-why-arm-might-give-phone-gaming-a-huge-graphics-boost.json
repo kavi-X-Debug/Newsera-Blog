@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new British technology may change mobile gaming. The Xiaomi 18 Fold, launching in China, features an Arm Mali G2-Ultra NX graphics processor. This processor includes an AI gaming graphics accelerator, potentially bringing PC-like gaming to phones."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3",
   "author": "News Era Team"

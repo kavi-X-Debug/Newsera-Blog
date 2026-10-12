@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Mathspace, an online math learning platform, recently disclosed a data breach.",
+      "Attackers stole data from over one million students, staff, and parents.",
+      "The breach occurred after the company's Metabase internal reporting system was compromised."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
   "author": "Sergiu Gatlan"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new foldable iPhone has been released.",
+      "The device features a matte inner screen and a smooth folding mechanism.",
+      "The phone has an IP68 rating and a nearly invisible crease."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/991236/iphone-foldable-hands-on-first-impressions",
   "author": "News Era Team"

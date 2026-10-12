@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "New AirPods Pro with cameras were not announced at the September Apple event.",
+      "Rumors suggested these AirPods Pro with cameras were delayed until 2027.",
+      "Apple announced the iPhone Duo, iPhone 18 Pro and Pro Max, and AirPods 5 with active noise cancellation."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/993064/no-airpods-with-cameras-apple-event",
   "author": "News Era Team"

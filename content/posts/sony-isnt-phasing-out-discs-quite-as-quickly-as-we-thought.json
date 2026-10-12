@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Sony is not phasing out video game discs as quickly as previously thought. Reports indicated a 90 percent reduction in disc production by 2028, but the actual reduction will be 10 percent. This clarification comes from an unnamed Sony DADC spokesperson."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent",
   "author": "News Era Team"

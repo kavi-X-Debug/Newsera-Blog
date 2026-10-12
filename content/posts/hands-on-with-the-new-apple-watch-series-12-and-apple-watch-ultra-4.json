@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple unveiled the Watch Series 12 and Ultra 4.",
+      "The new watches will be available on September 18th.",
+      "The Apple Watch Series 12 starts at $399."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/992568/apple-watch-hands-on-series-12-ultra-4",
   "author": "News Era Team"

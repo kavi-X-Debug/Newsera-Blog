@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple's new iPhone 18 Pro and 18 Pro Max models are launching on September 18th.",
+      "Preorders for these models will begin on September 12th.",
+      "The iPhone 18 Pro starts at $1,199, and the iPhone 18 Pro Max starts at $1,299."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/988501/iphone-18-pro-max-spec-comparison-features",
   "author": "News Era Team"
