@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Boox plans to release its Picco e-reader in November.",
+      "The Picco will feature a 3.97-inch touchscreen e-paper display.",
+      "It includes customizable physical page-turn buttons and uses a microSD card for storage."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa",
   "author": "News Era Team"

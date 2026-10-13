@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Users can create custom Windows 11 notifications.",
+      "These notifications can serve as recurring reminders.",
+      "They can also be triggered by specific events."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
   "author": "David Nield"

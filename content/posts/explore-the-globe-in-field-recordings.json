@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Earth Garden offers a globe to explore with real field recordings from various locations.",
+      "The platform is inspired by Radio Garden, but focuses on environmental sounds instead of radio.",
+      "Users can listen to sounds like waves on remote islands or crickets in Tanzania."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings",
   "author": "News Era Team"

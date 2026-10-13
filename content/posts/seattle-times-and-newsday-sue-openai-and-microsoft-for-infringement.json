@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Seattle Times and Newsday have filed a copyright infringement lawsuit against OpenAI.",
+      "They allege their journalism was used without permission to train OpenAI's AI models.",
+      "Microsoft is also named as a defendant because Copilot uses OpenAI's technology."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
   "author": "News Era Team"

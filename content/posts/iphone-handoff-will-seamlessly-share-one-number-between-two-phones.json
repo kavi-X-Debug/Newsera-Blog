@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new iPhone Handoff feature will allow users to switch between two phones while using the same number.",
+      "This feature was demonstrated in Xcode 27's Device Hub, showing how to pair two iPhones.",
+      "One iPhone acts as the main device, and the other serves as its companion."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/990868/iphone-handoff-ios-27",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Scientists have created cyborg cockroaches.",
+      "These cockroaches have embedded electrodes, cameras, and remote-controlled injection devices.",
+      "They could potentially deliver medication."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
   "author": "Ritsuko Kawai"
