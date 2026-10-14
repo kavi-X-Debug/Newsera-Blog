@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists the best smart speakers that are compatible with Alexa. It includes models like the Echo Dot and Echo Studio."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
   "author": " Nena Farrell "

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Audacity 4 is a complete revamp of the audio editor.",
+      "The update transforms Audacity into a powerful modern tool.",
+      "A major change is the move to a non-destructive editing workflow."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/990658/audacity-4-update-audio-editing",
   "author": "News Era Team"

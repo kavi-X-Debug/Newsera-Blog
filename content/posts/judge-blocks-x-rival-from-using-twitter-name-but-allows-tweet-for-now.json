@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A federal judge temporarily blocked an X competitor from using the Twitter name.",
+      "The judge determined that X likely abandoned the \"Tweet\" trademark and bird logo.",
+      "The startup has since relaunched as Tweet.app."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
   "author": "Sarah Perez"

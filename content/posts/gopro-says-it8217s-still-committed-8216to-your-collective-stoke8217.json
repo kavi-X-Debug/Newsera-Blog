@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "GoPro's CEO stated the company remains committed to making cameras.",
+      "A proposed acquisition by Starman aims to enhance GoPro's content creation technology.",
+      "The merger is also expected to address national security aspects related to cameras, optics, and AI infrastructure."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/990425/gopro-nick-woodman-starman-letter",
   "author": "News Era Team"

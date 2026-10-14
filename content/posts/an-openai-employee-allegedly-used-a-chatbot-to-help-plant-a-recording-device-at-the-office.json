@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "An OpenAI employee allegedly used a chatbot to plan the placement of a recording device.",
+      "The engineer's alleged efforts to set up a covert listening device were revealed through chatbot prompts.",
+      "A listening device was found in an executive meeting room days after these alleged plans."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
   "author": "Paresh Dave, Maddy Varner, Caroline Haskins"

@@ -1,0 +1,25 @@
+{
+  "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+  "slug": "fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested",
+  "date": "2026-10-14T19:41:43.000Z",
+  "description": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/14/doj.jpg",
+  "content": {
+    "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "The U.S. Department of Justice disrupted the Famous Chollima threat group.",
+      "Two suspects were arrested, and 14 individuals were charged.",
+      "Authorities seized nearly 187 laptops used in North Korean remote IT worker schemes."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+  "author": "Bill Toulas"
+}

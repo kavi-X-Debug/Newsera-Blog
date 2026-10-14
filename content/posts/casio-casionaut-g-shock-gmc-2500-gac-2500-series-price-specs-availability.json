@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Casio is expected to release a new luxury watch.",
+      "The new watch may be a follow-up to the \"CasiOak\"."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
   "author": "Jeremy White"

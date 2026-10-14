@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "CD sales increased in the first half of 2026, according to the Recording Industry Association of America.",
+      "About 17.5 million CDs were sold, a 45.7 percent rise from the previous year.",
+      "Sales reached $171.1 million, a 58.6 percent increase."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/990794/cd-sales-are-booming-as-physical-media-continues-its-resurgence",
   "author": "News Era Team"
