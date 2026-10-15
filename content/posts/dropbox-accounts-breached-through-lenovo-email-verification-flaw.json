@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Dropbox has alerted some users about unauthorized access to their accounts.",
+      "A flaw in Lenovo's email verification process was exploited.",
+      "This allowed an unauthorized party to register fraudulent Lenovo IDs."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
   "author": "Bill Toulas"

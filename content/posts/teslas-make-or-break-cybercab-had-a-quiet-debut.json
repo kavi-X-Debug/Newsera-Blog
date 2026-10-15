@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Tesla's Cybercab had a quiet debut at an invite-only event.",
+      "The event took place in Austin, Texas.",
+      "Online fans were not able to follow the event for several hours."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/tesla-cybercab-had-a-quiet-debut/",
   "author": "Aarian Marshall"

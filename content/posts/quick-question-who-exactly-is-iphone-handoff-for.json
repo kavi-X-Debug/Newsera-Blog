@@ -1,0 +1,23 @@
+{
+  "title": "Quick question: Who exactly is iPhone Handoff for?",
+  "slug": "quick-question-who-exactly-is-iphone-handoff-for",
+  "date": "2026-10-15T13:00:00.000Z",
+  "description": "A seamless solution to a problem almost nobody has. | Photo: Allison Johnson / The Verge Last month, Apple announced a feature called iPhone Handoff. Not to b",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04341_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "A seamless solution to a problem almost nobody has. | Photo: Allison Johnson / The Verge Last month, Apple announced a feature called iPhone Handoff. Not to be confused with that Handoff; this is a new one. iPhone Handoff allows you to keep your number active on two iPhones at the same time so you can easily switch between them. According to Apple's support website, you pick one phone as your main phone and set up Handoff on the other as your secondary phone. When you unlock one of them, your number becomes active on that phone - that's where you'll get calls, and that device will be used for Find My. The idea is that your secondary phone will be something you pick up on weekends, for example, with apps and settings configured … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Apple introduced a new feature called iPhone Handoff. This feature allows users to keep their phone number active on two iPhones simultaneously. Users can designate one phone as primary and another as secondary, with the active phone receiving calls and being used for Find My."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/tech/1011338/iphone-handoff-t-mobile-work-iphone",
+  "author": "News Era Team"
+}

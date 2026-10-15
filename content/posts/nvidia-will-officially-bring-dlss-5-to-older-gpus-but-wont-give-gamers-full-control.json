@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia's DLSS 5 AI rendering will officially launch on older RTX 40-series GPUs.",
+      "The company had initially planned for DLSS 5 to be exclusive to its latest RTX 50 GPUs.",
+      "Developers will retain full control over the artistic vision for DLSS 5."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
   "author": "News Era Team"

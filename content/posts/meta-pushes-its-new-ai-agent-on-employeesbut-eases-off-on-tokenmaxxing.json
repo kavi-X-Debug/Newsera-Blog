@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta is encouraging employees to experiment with Hatch, its advanced AI project.",
+      "The company is reducing pressure on workers to use AI tools."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
   "author": "Paresh Dave, Maxwell Zeff"

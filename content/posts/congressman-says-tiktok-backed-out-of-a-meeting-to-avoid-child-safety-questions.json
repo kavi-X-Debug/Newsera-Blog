@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A congressman stated that TikTok withdrew from a scheduled meeting. The company reportedly wanted to avoid questions about its child safety practices. The meeting was intended to address concerns about Chinese government access to user data and TikTok's algorithm."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/989769/tiktok-house-committee-china-kids-online-safety",
   "author": "News Era Team"

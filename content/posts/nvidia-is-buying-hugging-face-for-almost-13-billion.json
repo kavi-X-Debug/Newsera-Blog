@@ -12,7 +12,11 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia is acquiring Hugging Face for $12.93 billion. This acquisition brings a popular hosting platform for open-source AI models, datasets, and tools under Nvidia's ownership. Hugging Face, founded in 2016, provides a space for AI developers to share projects and data."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
   "author": "News Era Team"

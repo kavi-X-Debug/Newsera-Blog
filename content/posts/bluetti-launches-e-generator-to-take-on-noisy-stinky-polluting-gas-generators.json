@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Bluetti introduced a new power station, the Pioneer 5000.",
+      "The device offers up to 18KW of surge power for heavy equipment.",
+      "It is designed to be water and dust resistant, operating in various temperatures."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/986123/bluetti-pioneer-5000-solar-generator",
   "author": "News Era Team"
