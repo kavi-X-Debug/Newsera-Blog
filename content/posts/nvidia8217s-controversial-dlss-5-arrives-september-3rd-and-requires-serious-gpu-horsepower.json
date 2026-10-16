@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia is releasing DLSS 5 this week.",
+      "The AI upscaling technology will be available on RTX 50-series GPUs and GeForce Now.",
+      "NBA 2K27 is the first game to feature DLSS 5, launching on September 3rd."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
   "author": "News Era Team"

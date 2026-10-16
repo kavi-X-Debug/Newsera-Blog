@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Range Rover Electric is now available after previous delays.",
+      "It offers significant performance, range, and off-road capabilities.",
+      "A more affordable model will be available in the US."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/the-range-rover-electric-has-finally-arrived/",
   "author": "Jeremy White"

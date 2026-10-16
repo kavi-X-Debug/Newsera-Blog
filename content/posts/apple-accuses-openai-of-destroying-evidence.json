@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple is seeking expedited discovery in its lawsuit against OpenAI.",
+      "Apple alleges that OpenAI is destroying evidence.",
+      "A MacBook from a former employee reportedly contained discussions about destroying forensic data."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
   "author": "News Era Team"

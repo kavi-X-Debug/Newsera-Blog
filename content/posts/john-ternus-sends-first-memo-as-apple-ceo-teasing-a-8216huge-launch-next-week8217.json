@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple's new CEO, John Ternus, sent his first memo to staff.",
+      "He thanked his predecessor and mentioned a significant launch scheduled for next week.",
+      "Ternus also hinted at future product developments."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/987583/apple-john-ternus-staff-memo",
   "author": "News Era Team"

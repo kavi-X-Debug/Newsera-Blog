@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Attackers accessed the Philippines Nuclear Agency.",
+      "They exploited unpatched flaws in ownCloud.",
+      "This resulted in the theft of reactor databases, personnel records, and credential stores."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
   "author": "Robert Lemos"

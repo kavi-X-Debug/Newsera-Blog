@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Tesla unveiled its new luxury sports car, the Roadster 2, at an event in Texas.",
+      "The vehicle is equipped with thrusters.",
+      "These thrusters allow the car to become airborne."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/tesla-roadster-2-launch/",
   "author": "Aarian Marshall"

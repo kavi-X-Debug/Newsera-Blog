@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia is re-introducing its controversial neural rendering technology, DLSS 5.",
+      "The company states that DLSS 5 preserves artistic intent and respects the rendered frame.",
+      "Nvidia also says that DLSS 5 gives game developers full control."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/986980/nvidias-dlss-5-explained",
   "author": "News Era Team"

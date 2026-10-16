@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Uber is reducing its global workforce by approximately 3,300 employees.",
+      "This reduction represents about 10% of the company's total staff.",
+      "The layoffs aim to streamline management and boost investment in ride-sharing, delivery, and robotaxi divisions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
   "author": "Ram Iyer"
