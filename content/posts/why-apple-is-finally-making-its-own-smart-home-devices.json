@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple launched its own smart home devices, the Home Collection, after a decade of relying on other companies.",
+      "The collection includes cameras, thermostats, sensors, a smart door lock, and a video doorbell, co-developed with LG Electronics and Schneider Electric.",
+      "These devices arrive with HomeView, Apple's first smart display."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
   "author": "News Era Team"

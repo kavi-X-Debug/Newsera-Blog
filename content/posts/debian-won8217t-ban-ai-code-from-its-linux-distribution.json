@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Debian has decided to permit developers to use AI tools in their contributions to the Linux distribution.",
+      "The new policy states that responsible AI use can enhance developer productivity.",
+      "Generative AI is subject to the same standards as other Debian contributions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
   "author": "News Era Team"

@@ -12,7 +12,12 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A multistage attack chain is part of a ClickFix-style campaign.",
+      "This campaign uses reverse tunnels into victim networks."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
   "author": "Alexander Culafi"

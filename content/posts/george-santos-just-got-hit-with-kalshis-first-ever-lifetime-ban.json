@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "George Santos received Kalshi's first lifetime ban.",
+      "The former US representative was also fined over $71,000.",
+      "This fine was for allegedly trying to manipulate the prediction market."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/george-santos-gets-a-lifetime-ban-from-kalshi/",
   "author": "Kate Knibbs"
