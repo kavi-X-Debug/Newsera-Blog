@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Grindr's CEO discussed plans to expand the app into an \"everything app\" for gay men.",
+      "The strategy involves using AI, a premium EDGE tier, and features for healthcare and long-distance matchmaking.",
+      "The CEO aims to address investor skepticism regarding Grindr's potential."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/30/grindr-wants-to-be-the-everything-app-for-gay-men-investors-are-still-deciding-whether-it-can-pull-it-off/",
   "author": "Connie Loizos"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google is addressing memory-hungry Android apps.",
+      "The company published a memo about new memory-usage restrictions for Play Store apps.",
+      "Failing to meet these limits will have consequences for developers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/985679/google-play-android-17-memory-limit",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The 2nd World Humanoid Robot Games recently concluded in Beijing, China.",
+      "The event featured humanoid robots competing in various routines, including boxing.",
+      "Some robots experienced malfunctions, such as losing a leg or tripping during the games."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
   "author": "News Era Team"

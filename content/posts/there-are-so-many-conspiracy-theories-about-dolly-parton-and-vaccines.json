@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Right-wing conspiracy theorists are making false claims about Dolly Parton.",
+      "They are stating that the Covid vaccine killed the singer.",
+      "Dolly Parton is known as a vaccination advocate and philanthropist."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/there-are-so-many-conspiracy-theories-about-dolly-parton-and-vaccines/",
   "author": "David Gilbert"

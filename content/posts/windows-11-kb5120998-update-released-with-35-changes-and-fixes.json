@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft released a preview cumulative update for Windows 11 versions 25H2 and 24H2.",
+      "The update, KB5120998, includes 35 changes and fixes.",
+      "Improvements were made to the Start menu, taskbar, and Windows search."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
   "author": "Sergiu Gatlan"

@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Elon Musk stated that a new SpaceX foundry will allow him to cast turbine blades.",
+      "This could enable gas power to be online 18 months faster than other methods.",
+      "However, this fuel source has been linked to lawsuits and health studies."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
   "author": "Connie Loizos"
