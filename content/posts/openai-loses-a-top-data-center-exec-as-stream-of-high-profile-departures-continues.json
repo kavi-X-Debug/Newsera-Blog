@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI experienced a high-profile departure of a data center executive.",
+      "The company had previously reorganized its infrastructure organization.",
+      "This reshuffle involved a change in reporting lines and a new vice president taking charge."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
   "author": "Lucas Ropek"

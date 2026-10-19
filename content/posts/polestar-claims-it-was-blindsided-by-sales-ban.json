@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Polestar stated it was surprised by a US sales ban.",
+      "The Commerce Department cited national security concerns for the ban on new vehicle sales starting with the 2027 model year.",
+      "Polestar noted that its sister company, Volvo, received authorization to sell vehicles despite similar ownership."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump",
   "author": "News Era Team"

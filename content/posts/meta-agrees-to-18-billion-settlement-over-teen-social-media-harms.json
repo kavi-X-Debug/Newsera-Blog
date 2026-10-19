@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta reached an $18 billion settlement with 52 attorneys general.",
+      "The settlement addresses allegations that Facebook and Instagram were designed to encourage compulsive use by children and teenagers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
   "author": "Lawrence Abrams"

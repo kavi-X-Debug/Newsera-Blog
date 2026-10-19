@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia has reportedly agreed to acquire Hugging Face.",
+      "The acquisition is for $12.9 billion.",
+      "Hugging Face is an open-source AI hub."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
   "author": "Connie Loizos"

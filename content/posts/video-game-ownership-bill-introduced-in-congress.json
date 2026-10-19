@@ -12,7 +12,11 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new bill in Congress addresses video game ownership. The Power To The Players Act would require the FTC to ensure consumers own games they purchase, not just licenses. This aims to prevent games from becoming unplayable if company servers shut down."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
   "author": "News Era Team"

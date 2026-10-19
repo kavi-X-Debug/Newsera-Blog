@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple announced a September launch event for the iPhone. Invitations for the event were sent out on Wednesday. The event will be livestreamed from the Steve Jobs Theater."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date",
   "author": "News Era Team"

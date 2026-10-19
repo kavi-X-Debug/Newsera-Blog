@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Data center growth is linked to an increase in proposed and active gas power projects.",
+      "This expansion of gas power is a clear indicator of the data center boom."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/us-data-centers-drive-gas-power-expansion/",
   "author": "Molly Taft"

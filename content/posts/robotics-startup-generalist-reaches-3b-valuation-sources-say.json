@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Robotics startup Generalist has reportedly achieved a $3 billion valuation.",
+      "This valuation follows a $200 million funding extension.",
+      "The physical AI startup had previously reached a $2 billion valuation months earlier."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
   "author": "Marina Temkin"

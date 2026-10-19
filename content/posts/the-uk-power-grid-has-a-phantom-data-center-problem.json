@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The UK energy regulator is working to prevent speculative data center projects from connecting to the power grid.",
+      "This effort aims to manage the country's AI ambitions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
   "author": "Joel Khalili"

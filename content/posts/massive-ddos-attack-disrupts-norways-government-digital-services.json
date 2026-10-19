@@ -12,7 +12,12 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A significant distributed denial-of-service (DDoS) attack has impacted Norway's shared government digital infrastructure.",
+      "The attack began on Monday and has disrupted services used by the public sector."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
   "author": "Bill Toulas"

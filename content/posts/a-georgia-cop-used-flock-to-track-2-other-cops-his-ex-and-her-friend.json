@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A Georgia police officer used Flock to track a fellow officer after their affair ended. The officer also tracked a man whose vehicle was often seen near hers. These actions were detailed in internal investigation records."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
   "author": "Caroline Haskins"

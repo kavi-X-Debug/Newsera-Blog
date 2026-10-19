@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Garmin released its new Fenix 9 smartwatches.",
+      "The Fenix 9 has an OLED display that is brighter than the previous model.",
+      "It also features more RAM and an upgraded map engine for faster panning."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch",
   "author": "News Era Team"
