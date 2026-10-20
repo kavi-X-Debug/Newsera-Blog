@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "CD Projekt Red is targeting a 2028 release for The Witcher 4. The studio has been developing the game for several years. A Witcher 3 expansion, Songs of the Past, is scheduled for 2027 and will be shown at Gamescom."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/983822/the-witcher-4-release-window-gamescom",
   "author": "News Era Team"

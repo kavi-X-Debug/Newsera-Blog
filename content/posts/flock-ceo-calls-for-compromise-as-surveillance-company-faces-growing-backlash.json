@@ -12,7 +12,12 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Flock Safety is facing increased public criticism.",
+      "Concerns exist that the company's surveillance technology may be misused."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
   "author": "Anthony Ha"

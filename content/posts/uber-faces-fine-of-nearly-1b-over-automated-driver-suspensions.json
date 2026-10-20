@@ -12,7 +12,12 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Dutch Data Protection Authority is fining Uber \",\"825 million.",
+      "This is the second largest penalty issued under Europe\",\"s GDPR."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
   "author": "Anthony Ha"

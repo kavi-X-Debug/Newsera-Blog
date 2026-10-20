@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A judge ordered Abdulrahman Alfozan to remain in custody.",
+      "The former OpenAI engineer is accused of spying on executives.",
+      "The Saudi government offered to secure his release."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
   "author": "Paresh Dave"

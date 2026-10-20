@@ -12,7 +12,11 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A Chinese-speaking cybercrime group, UAT-10147, is targeting Windows and Linux web servers globally. The group uses AI to scale server attacks. The attacks include SPECTRE with EDR bypass and a Linux rootkit."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
   "author": "info@thehackernews.com (The Hacker News)"

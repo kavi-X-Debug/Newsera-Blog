@@ -1,0 +1,25 @@
+{
+  "title": "Zeabur shutting down after second security breach in two months",
+  "slug": "zeabur-shutting-down-after-second-security-breach-in-two-months",
+  "date": "2026-10-20T19:33:02.000Z",
+  "description": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compr",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/20/zeabur.jpg",
+  "content": {
+    "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Zeabur, a development platform, experienced a cybersecurity incident.",
+      "An attacker used leaked internal credentials to compromise its infrastructure.",
+      "Over 3.2 million environment variable records and information for 321,810 accounts were stolen."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+  "author": "Bill Toulas"
+}

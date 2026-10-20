@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Lenovo has acknowledged issues with its Legion Go handheld gaming PCs.",
+      "Some users reported their devices were bricked after a software update.",
+      "Lenovo suggests holding the power button or contacting customer support for fixes."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked",
   "author": "News Era Team"
