@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "US battery startups received $500 million in grants from the Department of Energy.",
+      "This funding provided support to the industry.",
+      "The industry had faced challenges after electric vehicle incentives were reduced."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
   "author": "Tim De Chant"

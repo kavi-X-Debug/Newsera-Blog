@@ -12,7 +12,12 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic's Claude models are not supposed to create sexually explicit content.",
+      "Tests showed that this restriction was easily bypassed."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
   "author": "Rebecca Bellan"

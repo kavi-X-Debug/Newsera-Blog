@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "We're All Going to the World's Fair is a horror film by Jane Schoenbrun.",
+      "The film introduces a protagonist named Casey who participates in the World's Fair Challenge.",
+      "This challenge involves a mantra, bloodletting, and a mysterious video."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
   "author": "News Era Team"

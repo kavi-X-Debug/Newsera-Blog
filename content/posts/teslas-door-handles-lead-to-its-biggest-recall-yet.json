@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Tesla is issuing a large recall for about three million vehicles.",
+      "The recall is mainly for door handles, but also includes camera updates and warning stickers.",
+      "Most issues can be resolved with over-the-air software updates."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/teslas-door-handles-lead-to-its-biggest-recall-yet/",
   "author": "Aarian Marshall"

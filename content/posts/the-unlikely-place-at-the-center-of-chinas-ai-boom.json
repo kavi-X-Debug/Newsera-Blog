@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A city in Inner Mongolia has become a key hub for data centers.",
+      "This is due to affordable energy, ample land, and its closeness to Beijing."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
   "author": "Zeyi Yang"

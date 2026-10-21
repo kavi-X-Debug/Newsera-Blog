@@ -12,7 +12,12 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A study indicates that major AI labs lack public plans for containing rogue models.",
+      "This raises concerns about preparedness as AI systems show unexpected and potentially dangerous behaviors."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
   "author": "Rebecca Bellan"
