@@ -1,0 +1,25 @@
+{
+  "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+  "slug": "mozilla-google-apple-block-compromised-emudhra-ca-certificates",
+  "date": "2026-10-21T00:46:42.000Z",
+  "description": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could reco",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/20/certificate.jpg",
+  "content": {
+    "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "eMudhra revoked eight intermediate certificates.",
+      "Researchers discovered that the private keys for these certificates were weak.",
+      "The weakness allowed for the forging of trusted certificates for legitimate websites."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+  "author": "Lawrence Abrams"
+}
