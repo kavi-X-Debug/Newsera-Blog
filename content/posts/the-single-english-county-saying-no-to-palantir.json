@@ -12,7 +12,12 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The UK government faces calls to cancel a healthcare contract with Palantir.",
+      "Greater Manchester believes it can manage the healthcare services more effectively itself."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/the-single-english-county-saying-no-to-palantir/",
   "author": "Joel Khalili, Matt Burgess"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Pixel 11 introduces new photography features called Camera Looks.",
+      "These features allow users to customize their photo preferences.",
+      "The goal is to move away from an over-processed look in smartphone photos."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
   "author": "News Era Team"

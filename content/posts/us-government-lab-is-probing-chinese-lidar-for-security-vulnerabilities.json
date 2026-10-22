@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A US government lab is examining Chinese lidar for security flaws.",
+      "The Idaho National Laboratory is conducting the security review.",
+      "Funding for this research comes from companies in the electric and autonomous vehicle sectors."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
   "author": "Sean O'Kane"

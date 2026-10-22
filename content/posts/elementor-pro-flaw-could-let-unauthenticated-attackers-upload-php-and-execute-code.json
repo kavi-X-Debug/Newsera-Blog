@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A critical flaw was found in the Elementor Pro WordPress plugin.",
+      "This vulnerability could allow unauthenticated attackers to upload PHP and execute code remotely.",
+      "The flaw is in the Forms module's File."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
   "author": "info@thehackernews.com (The Hacker News)"
