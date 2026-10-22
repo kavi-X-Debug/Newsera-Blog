@@ -1,0 +1,25 @@
+{
+  "title": "YouTube says it isn’t testing hiding the dislike button",
+  "slug": "youtube-says-it-isnt-testing-hiding-the-dislike-button",
+  "date": "2026-10-21T23:46:45.000Z",
+  "description": "On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots o",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK092_03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots of the dislike button moved into the three-dot menu. But a YouTube spokesperson, in a Wednesday statement to The Verge, confirmed that YouTube is \"not testing hiding the dislike button on YouTube for users.\" However, YouTube is introducing a new UI for creators on their uploaded videos where the dislike button will be moved. Here's the full statement, from spokesperson Kimberly Taylor: We are not testing hiding the dislike button on YouTube for users. We're introducing a new UI for … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "YouTube stated it is not testing hiding the dislike button for users.",
+      "Reports had indicated YouTube was testing moving the dislike button into a menu.",
+      "YouTube is introducing a new user interface for creators on their own uploaded videos, where the dislike button will be moved."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/streaming/1016206/youtube-dislike-button-videos",
+  "author": "News Era Team"
+}
