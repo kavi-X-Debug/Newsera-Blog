@@ -1,0 +1,25 @@
+{
+  "title": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
+  "slug": "abandoned-popcorn-time-apps-had-to-be-disabled-to-prevent-a-zombie-army",
+  "date": "2026-10-23T19:35:15.000Z",
+  "description": "Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA's least-favorite a",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15706750/CE_tJ_AUIAA9JV-.0.0.1456496896.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA's least-favorite app of the 2010s has been abandoned for years, but the \"Netflix of Piracy\" software is still installed on millions of devices that are just waiting to join a bot army. Researchers at Eye Security found the updater for a Popcorn Time fork called \"Time4Popcorn\" still running on tons of Windows, macOS, and Android devices located around the world, phoning home to now-abandoned web domains over unencrypted HTTP and running an outdated, insecure version of Chrome. Eye Security's Niels Teus … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Abandoned Popcorn Time apps were disabled to prevent a botnet.",
+      "Researchers found an updater for a Popcorn Time fork still running on many devices.",
+      "The software was phoning home to abandoned domains and running an outdated Chrome version."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+  "author": "News Era Team"
+}
