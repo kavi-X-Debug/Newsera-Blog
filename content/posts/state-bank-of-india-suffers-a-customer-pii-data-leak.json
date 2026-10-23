@@ -1,0 +1,24 @@
+{
+  "title": "State Bank of India Suffers a Customer PII Data Leak",
+  "slug": "state-bank-of-india-suffers-a-customer-pii-data-leak",
+  "date": "2026-10-23T03:30:00.000Z",
+  "description": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
+  "category": "Cybersecurity",
+  "image": null,
+  "content": {
+    "summary": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "The State Bank of India experienced a customer PII data leak.",
+      "Data breaches in India can become serious due to an underground market for trading PII."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+  "author": "Nate Nelson"
+}
