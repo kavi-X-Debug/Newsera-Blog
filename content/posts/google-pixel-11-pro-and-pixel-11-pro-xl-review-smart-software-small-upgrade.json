@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Google Pixel 11 Pro and Pixel 11 Pro XL feature smart software.",
+      "New voice typing is a notable improvement.",
+      "However, gaming performance is subpar and a rear LED is not useful."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
   "author": "Julian Chokkattu"

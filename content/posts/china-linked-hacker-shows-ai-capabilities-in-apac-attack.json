@@ -12,7 +12,11 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A China-linked hacker reportedly used an AI framework in an attack. The attack targeted government agencies, likely in Taiwan. This was described as a near-autonomous nation-state attack."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
   "author": "Robert Lemos"

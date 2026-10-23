@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Peak Design introduced new City Line bags.",
+      "These bags feature integrated BagLev hooks.",
+      "The hooks are designed to keep the bags off the ground."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/980137/peak-design-city-line-review",
   "author": "News Era Team"

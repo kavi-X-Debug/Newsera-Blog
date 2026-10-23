@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta CEO Mark Zuckerberg has a plan to pay California's proposed billionaire tax.",
+      "A new stock class was created to help him pay the tax.",
+      "This measure would allow him to pay the tax without losing control of Meta."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
   "author": "Lucas Ropek"
