@@ -1,0 +1,25 @@
+{
+  "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+  "slug": "php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet",
+  "date": "2026-10-24T15:30:00.000Z",
+  "description": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last",
+  "category": "Tech",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800",
+  "content": {
+    "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Two critical bugs in the PHP web programming language almost broke the internet.",
+      "PHP is used by most of the internet.",
+      "This is unlikely to be the last major software scare."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+  "author": "Zack Whittaker"
+}
