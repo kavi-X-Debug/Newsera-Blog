@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "ChatGPT's new Computer History feature on its macOS desktop app tracks user actions.",
+      "This feature learns user work patterns, suggests automations, and can resume unfinished tasks.",
+      "Users can opt-in, exclude specific apps or websites, and delete entries for more control."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
   "author": "News Era Team"

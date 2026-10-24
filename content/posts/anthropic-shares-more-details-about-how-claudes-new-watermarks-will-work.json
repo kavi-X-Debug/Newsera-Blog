@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic provided further information on the functionality of Claude's new watermarks.",
+      "Details were shared regarding how watermarking operates and its resilience to editing.",
+      "The company also addressed the impact of these watermarks on code."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
   "author": "Anthony Ha"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists Google Workspace promo codes.",
+      "Users can get up to 14% off plans for three months.",
+      "The discount applies to Starter, Standard, and Plus tiers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/google-workspace-promo-code/",
   "author": "Luke Larsen"
