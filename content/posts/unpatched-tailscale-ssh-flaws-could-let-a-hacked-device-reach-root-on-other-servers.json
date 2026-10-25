@@ -1,0 +1,25 @@
+{
+  "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+  "slug": "unpatched-tailscale-ssh-flaws-could-let-a-hacked-device-reach-root-on-other-servers",
+  "date": "2026-10-25T17:44:09.000Z",
+  "description": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published th",
+  "category": "Cybersecurity",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+  "content": {
+    "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Unpatched Tailscale SSH flaws may allow a hacked device to gain root access on other servers.",
+      "A security researcher published these findings this week.",
+      "The attack needs Tailscale SSH with port forwarding and an attacker controlling a device allowed to connect to the target."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+  "author": "info@thehackernews.com (The Hacker News)"
+}
