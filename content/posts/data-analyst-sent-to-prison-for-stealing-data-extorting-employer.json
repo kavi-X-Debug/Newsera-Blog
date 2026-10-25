@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A former data analyst contractor received a two-year prison sentence.",
+      "The sentence was for an extortion scheme targeting his employer.",
+      "The scheme involved Brightly Software and sought $2.5 million."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
   "author": "Sergiu Gatlan"

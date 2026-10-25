@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple proposed a fee structure for digital purchases made outside its App Store.",
+      "This proposal is part of its ongoing legal dispute with Epic Games.",
+      "Epic Games stated that Apple's request exceeds court guidance."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
   "author": "News Era Team"

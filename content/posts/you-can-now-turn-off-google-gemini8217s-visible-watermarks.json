@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google now allows users to remove visible watermarks from AI-generated images, videos, and music.",
+      "A new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow, can be toggled off.",
+      "Invisible SynthID watermarks and C2PA metadata will still be embedded in the background of AI-generated content."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "New York City lawmakers are advocating for stricter rules on biometric surveillance in public venues.",
+      "This push follows a press conference held outside Madison Square Garden.",
+      "Politicians, musicians, and privacy advocates supported these tighter restrictions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg/",
   "author": "Kate Taylor"

@@ -12,7 +12,12 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Belgium's eID system was compromised by vulnerabilities in a browser extension.",
+      "The issues highlight broader problems with browser extensions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
   "author": "Nate Nelson"

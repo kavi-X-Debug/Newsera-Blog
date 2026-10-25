@@ -12,7 +12,11 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new gas plant in Texas will use less efficient technology. This plant is one of several data center power projects using dirty turbines."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/real-reason-data-center-gas-power-plants-are-so-dirty/",
   "author": "Molly Taft"

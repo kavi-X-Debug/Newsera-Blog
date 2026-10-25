@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Unitree G1 robot from China has gained online popularity.",
+      "It is known for being relatively affordable and able to charm people.",
+      "The robot's potential for real-world jobs is being considered."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
   "author": "Zeyi Yang"

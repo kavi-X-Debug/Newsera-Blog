@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A global epidemic of fatty liver affects over a billion people.",
+      "This condition can cause various medical issues.",
+      "AI tools may help detect the condition early to improve outcomes."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
   "author": "David Cox"
