@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Joby Aviation is expanding its defense business.",
+      "The company will acquire Resonant Sciences.",
+      "This acquisition marks the beginning of its new defense operations."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/11/joby-aviation-builds-out-defense-business-with-500m-acquisition/",
   "author": "Kirsten Korosec"
