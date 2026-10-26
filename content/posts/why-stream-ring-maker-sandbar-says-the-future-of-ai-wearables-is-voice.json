@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "AI notetaking hardware has become popular recently.",
+      "Devices like credit-card-sized gadgets, pendants, pins, and earbuds offer meeting summaries and action items.",
+      "A new trend in wearables, particularly rings, aims to capture thoughts and ideas similarly."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
   "author": "Theresa Loconsolo"

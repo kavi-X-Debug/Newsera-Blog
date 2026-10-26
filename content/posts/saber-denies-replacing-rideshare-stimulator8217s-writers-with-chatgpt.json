@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Saber's CEO stated that no writers were replaced by AI for the game Rideshare Stimulator.",
+      "A former lead writer claimed Saber replaced her with ChatGPT during development.",
+      "She also stated that the passenger voices in the game were AI-generated."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
   "author": "News Era Team"

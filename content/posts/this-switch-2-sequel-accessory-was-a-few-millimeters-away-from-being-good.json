@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Crkd Nitro Deck 2 is an accessory for the Nintendo Switch and Switch 2.",
+      "It features improved sticks compared to Nintendo's Joy-Cons.",
+      "However, the face buttons and right stick are positioned too closely, making it difficult to use."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
   "author": "News Era Team"

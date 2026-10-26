@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Clacton parliamentary race includes Nigel Farage and a candidate dressed as a trash can.",
+      "There are 34 candidates on the ballot in this election.",
+      "The race also features a Union Jack bikini and white nationalist conspiracy theories."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/a-candidate-named-count-binface-is-the-most-normal-part-of-this-pivotal-uk-election/",
   "author": "Isabella Ward"

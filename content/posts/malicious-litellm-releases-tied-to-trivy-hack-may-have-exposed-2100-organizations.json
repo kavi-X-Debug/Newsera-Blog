@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Malicious LiteLLM releases on PyPI contained credential-stealing code.",
+      "These releases were present for about 40 minutes in March.",
+      "The code could harvest various secrets from installed systems."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
   "author": "info@thehackernews.com (The Hacker News)"

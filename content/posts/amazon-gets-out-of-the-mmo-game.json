@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon is withdrawing from the MMO game market.",
+      "The company is transferring live operations for Throne and Liberty and Lost Ark to other companies.",
+      "This follows an earlier announcement about reducing work on first-party AAA games, especially MMOs."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/979070/amazon-mmo-throne-and-liberty-lost-ark-live-operations",
   "author": "News Era Team"
