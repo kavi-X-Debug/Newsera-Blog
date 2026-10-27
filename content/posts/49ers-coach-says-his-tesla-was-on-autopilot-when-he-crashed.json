@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A 49ers coach stated his Tesla was on Autopilot during a recent crash.",
+      "The coach accepted responsibility for the accident.",
+      "He has used Autopilot for nine years."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
   "author": "News Era Team"

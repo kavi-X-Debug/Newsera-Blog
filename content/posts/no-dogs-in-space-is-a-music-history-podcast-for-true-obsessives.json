@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "No Dogs in Space is a music history podcast.",
+      "The podcast has not released new episodes since July 2024.",
+      "The show covers various music genres, including experimental rock and punk."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
   "author": "News Era Team"

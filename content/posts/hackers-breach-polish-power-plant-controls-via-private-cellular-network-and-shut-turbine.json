@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Hackers breached a Polish power plant's controls.",
+      "They used the local grid operator's private cellular network.",
+      "Attackers shut down a steam turbine and water treatment system."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
   "author": "info@thehackernews.com (The Hacker News)"

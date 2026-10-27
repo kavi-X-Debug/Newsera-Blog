@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A supply chain attack affected WordPress plugin vendor BdThemes.",
+      "The attack poisoned JSON to create rogue WordPress admins.",
+      "WordPress disabled plugin downloads due to the compromise."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
   "author": "info@thehackernews.com (The Hacker News)"

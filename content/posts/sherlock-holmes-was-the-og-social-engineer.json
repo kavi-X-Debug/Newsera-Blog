@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Sherlock Holmes used disguises, spied on targets, and created intelligence networks.",
+      "These methods were employed long before modern social engineering tactics developed.",
+      "His techniques offer insights for both ethical and non-ethical hackers today."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer",
   "author": "Arielle Waldman"

@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A public policy expert created a framework for protecting ethical hackers.",
+      "The framework addresses global cybercrime laws.",
+      "It aims to safeguard good-faith security research."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk",
   "author": "Arielle Waldman"

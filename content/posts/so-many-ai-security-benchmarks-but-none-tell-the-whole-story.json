@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Measuring AI model security is complex.",
+      "A growing number of benchmarks exist.",
+      "No single benchmark tells the whole story for AI security."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
   "author": "Robert Lemos"
