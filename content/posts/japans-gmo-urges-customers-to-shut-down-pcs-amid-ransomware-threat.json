@@ -1,0 +1,25 @@
+{
+  "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+  "slug": "japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat",
+  "date": "2026-10-27T23:35:51.000Z",
+  "description": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae D",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/27/gmo.jpg",
+  "content": {
+    "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "GMO Group advised customers to disconnect systems and shut down computers.",
+      "This follows a threat actor's ransomware attack warning.",
+      "The threat actor breached the company's Onamae Desktop Cloud."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+  "author": "Bill Toulas"
+}
