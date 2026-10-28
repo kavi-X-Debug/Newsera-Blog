@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nitecore released a new generation of its ultralight NB10000 battery.",
+      "The NB10000 Gen 4 power bank is a good option for endurance athletes and backpackers.",
+      "It is the lightest and most compact 10,000mAh power bank available."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/976506/nitecore-nb10000-gen4-review-adventure-battery",
   "author": "News Era Team"

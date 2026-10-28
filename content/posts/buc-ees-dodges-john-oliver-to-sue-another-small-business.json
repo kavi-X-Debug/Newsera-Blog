@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Buc-ee's, a large convenience store chain, has a history of suing small businesses.",
+      "The company recently declined to sue John Oliver, who challenged them to do so.",
+      "Instead, Buc-ee's is reportedly targeting another small business."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart",
   "author": "News Era Team"

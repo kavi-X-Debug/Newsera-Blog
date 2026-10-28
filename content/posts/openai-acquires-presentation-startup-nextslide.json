@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI acquired NextSlide, a presentation startup.",
+      "NextSlide's team members are now working on ChatGPT."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
   "author": "Anthony Ha"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon is investing in a new power plant for its West Texas data center.",
+      "The plant could be a major producer of greenhouse gases in the U.S.",
+      "It would initially power the data center directly, not connecting to the state grid."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
   "author": "News Era Team"

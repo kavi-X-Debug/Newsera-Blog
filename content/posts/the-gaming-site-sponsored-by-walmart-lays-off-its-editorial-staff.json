@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A gaming website sponsored by Walmart has laid off its entire editorial team.",
+      "The site, Restart, launched in late 2024 and was operated by Moonrock, a content marketing agency.",
+      "Walmart's involvement included providing purchase links to its store for mentioned games."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "X is replacing its revenue-sharing program for creators with a new Original Content Rewards program.",
+      "The new program launched on September 8th and has specific eligibility requirements for creators.",
+      "Creators will earn revenue based on qualified impressions from Premium subscribers on their original content."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
   "author": "News Era Team"

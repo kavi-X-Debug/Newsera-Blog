@@ -1,0 +1,23 @@
+{
+  "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+  "slug": "microsoft-urges-entra-id-admins-to-migrate-users-to-passkeys",
+  "date": "2026-10-28T14:48:32.000Z",
+  "description": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authen",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/Microsoft-logo.jpg",
+  "content": {
+    "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Microsoft is asking Entra ID administrators to move users to phishing-resistant methods. This action aims to prevent sign-in disruptions. Microsoft plans to retire SMS and voice authentication in February 2027."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+  "author": "Sergiu Gatlan"
+}

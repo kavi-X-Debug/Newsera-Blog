@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "N-able released new hotfixes for N-central.",
+      "This is part of an investigation into a security flaw in the RMM product.",
+      "The company is expanding protections due to evolving threat actor techniques."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
   "author": "info@thehackernews.com (The Hacker News)"
