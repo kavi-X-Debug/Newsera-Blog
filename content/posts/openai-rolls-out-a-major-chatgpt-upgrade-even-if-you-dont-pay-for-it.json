@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is upgrading ChatGPT for both paid and free users.",
+      "Plus and Pro subscribers will receive a more reliable version of ChatGPT GPT-5.6 Sol.",
+      "Free users will now have unlimited text chats with GPT-5.6 Luna."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
   "author": "Mayank Parmar"

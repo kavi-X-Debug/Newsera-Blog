@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google's AI team experienced a shakeup with some members moving to new roles.",
+      "Some prominent individuals, including Jeff Dean, are no longer with Google.",
+      "The Vergecast discussed these leadership changes and Google's position in the AI race."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
   "author": "News Era Team"

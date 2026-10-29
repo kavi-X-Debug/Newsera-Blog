@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Cloudflare launched Kitesurf, a cloud-hosted browser for AI agents.",
+      "The browser uses less computing power than Chromium for automation tasks.",
+      "This aims to help developers build browser-based AI agents more efficiently."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
   "author": "Sarah Perez"

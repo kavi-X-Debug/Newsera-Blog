@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Organized crime is using AI to commit large-scale scams.",
+      "AI-enabled voice cloning and deepfake video are being used.",
+      "LLMs and automated translation also assist in these criminal activities."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
   "author": "Tara Seals"

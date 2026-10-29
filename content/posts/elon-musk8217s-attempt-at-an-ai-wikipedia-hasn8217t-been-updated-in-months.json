@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Grokipedia, an AI-generated encyclopedia, has not been updated in months.",
+      "Elon Musk had previously stated that Grokipedia would be an improvement over Wikipedia.",
+      "The platform launched in October 2025 and has over 6,000,000 articles."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
   "author": "News Era Team"

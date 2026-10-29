@@ -1,0 +1,25 @@
+{
+  "title": "The NYT Cooking app is testing AI recipe modifications",
+  "slug": "the-nyt-cooking-app-is-testing-ai-recipe-modifications",
+  "date": "2026-10-29T14:39:37.000Z",
+  "description": "The AI tool provides recommendations and adjusts the recipe accordingly. | Image: The New York Times The New York Times is testing a new AI feature for its Co",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/NYT-Cooking-AI-recipe-modification-feature-hero.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "The AI tool provides recommendations and adjusts the recipe accordingly. | Image: The New York Times The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it's sparked some drama among users. NYT Cooking senior editor Genevieve Ko announced the feature last Friday, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any number of servings, and \"generally make our recipes work for what a cook needs at that moment.\" One of the examples given in the article shows a user asking to use baby spinach instead of kale, with the NYT Cooking app feature advising that because baby spinach wilts faster, it should be added during a later step of the rec … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "The New York Times is testing an AI feature for its Cooking app.",
+      "This tool helps users modify recipes.",
+      "It can recommend ingredient substitutions and scale recipes."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+  "author": "News Era Team"
+}

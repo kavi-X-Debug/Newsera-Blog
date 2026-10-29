@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Uber's CEO addressed reports about a potential Waymo partnership breakup.",
+      "He stated that the partnership remains strong and the companies will continue working together.",
+      "Their collaboration will continue in Atlanta and Austin."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
   "author": "News Era Team"

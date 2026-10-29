@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists TV shows available for streaming this month.",
+      "Some of the recommended shows include Lanterns, Dark Matter, and the original Star Trek."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/the-7-best-shows-to-stream-right-now/",
   "author": "Jennifer M. Wood"

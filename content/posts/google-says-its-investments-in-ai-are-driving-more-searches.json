@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google's parent company, Alphabet, reported that its AI investments are increasing search queries.",
+      "The company stated that its year-over-year search query growth rate is the highest in five years.",
+      "Alphabet's consolidated revenues for the quarter were $127.6 billion, with Google Search revenues up 12 percent."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
   "author": "News Era Team"
