@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Game Freak, the studio known for Pokémon, is exploring new game ideas.",
+      "The studio released Beast of Reincarnation, an action game.",
+      "Beast of Reincarnation reportedly lacks new ideas."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox",
   "author": "News Era Team"

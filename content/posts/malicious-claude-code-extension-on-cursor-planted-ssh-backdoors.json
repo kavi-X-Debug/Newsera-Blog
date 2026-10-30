@@ -1,0 +1,25 @@
+{
+  "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+  "slug": "malicious-claude-code-extension-on-cursor-planted-ssh-backdoors",
+  "date": "2026-10-30T14:36:54.000Z",
+  "description": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/claude-code-attack.jpg",
+  "content": {
+    "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "A malicious version of Anthropic's Claude Code VS Code extension was distributed.",
+      "It was available through Cursor's extension marketplace for about 11 hours.",
+      "The malware installed persistent SSH backdoors."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+  "author": "Bill Toulas"
+}

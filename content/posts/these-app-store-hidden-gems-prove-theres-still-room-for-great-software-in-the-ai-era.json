@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Developers are creating new software rapidly, despite predictions that AI agents might make traditional apps obsolete.",
+      "The App Store features new software, including smarter bookmarking tools and neighborhood marketplaces.",
+      "Other new App Store finds include digital pen pals and nature journals."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
   "author": "Sarah Perez"

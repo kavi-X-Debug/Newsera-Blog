@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Alibaba released its largest and most capable AI model to date.",
+      "The company claims its new model rivals top systems from US labs and domestic competitors.",
+      "Alibaba made the Qwen3.8-Max model widely available to users."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
   "author": "News Era Team"
