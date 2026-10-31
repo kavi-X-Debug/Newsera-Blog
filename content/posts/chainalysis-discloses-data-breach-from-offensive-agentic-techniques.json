@@ -1,0 +1,25 @@
+{
+  "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+  "slug": "chainalysis-discloses-data-breach-from-offensive-agentic-techniques",
+  "date": "2026-10-31T12:50:09.000Z",
+  "description": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/03/18/Blockchain-2.jpg",
+  "content": {
+    "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Chainalysis, a blockchain analytics firm, reported a data breach.",
+      "Attackers used \"offensive agentic techniques\" to access internal systems.",
+      "Customer names, email addresses, user IDs, and organizational roles were exposed."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+  "author": "Ax Sharma"
+}

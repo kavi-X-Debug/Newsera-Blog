@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Uber has partnered with approximately 30 autonomous vehicle companies.",
+      "These partnerships include direct investments in some cases.",
+      "This list details these partnerships and their current status."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
   "author": "Kirsten Korosec"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Alleged specifications and pricing for the Pixel 11 lineup have reportedly surfaced.",
+      "The Pixel 11 may see a price increase but could offer more storage in its base model.",
+      "The Pixel 11 Pro and Pro XL models might feature new chips but with less RAM."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
   "author": "News Era Team"

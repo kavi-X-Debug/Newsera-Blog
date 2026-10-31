@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Donald Trump attributed cyberattacks on Minnesota's water systems to Governor Tim Walz.",
+      "The FBI, EPA, and CISA have not officially blamed Iran, but there is a consensus that Iran is likely responsible.",
+      "Trump's comments followed an FBI warning about spreading cyberattacks on American infrastructure."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/974197/trump-tim-walz-minnesota-water-hacks-iran",
   "author": "News Era Team"

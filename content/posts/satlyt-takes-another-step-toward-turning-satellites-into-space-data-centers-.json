@@ -12,7 +12,11 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Satlyt successfully tested technology to transform spacecraft into virtual data centers. This development moves the company closer to its goal of using satellites as space data centers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
   "author": "Dominic-Madori Davis"

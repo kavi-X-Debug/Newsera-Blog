@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "New EU rules require disclosure when people interact with AI or view AI-generated content.",
+      "This has led to concerns about potential disclosure fatigue among users."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
   "author": "Isabella Ward"
