@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Cybercriminal groups in Southeast Asia are expanding their operations.",
+      "These groups are shifting from trafficking goods to offering services.",
+      "They are involved in human trafficking, affecting people from many countries."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power",
   "author": "Robert Lemos"

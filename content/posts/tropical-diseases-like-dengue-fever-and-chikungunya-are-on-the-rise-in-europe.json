@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Tropical diseases are increasing in Europe.",
+      "Climate change is helping invasive species to establish and survive longer.",
+      "Scientists suggest adapting to these changes."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/tropical-diseases-dengue-fever-and-chikungunya-on-the-rise-in-europe/",
   "author": "Victoria Turk"

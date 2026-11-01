@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The TCL Tab A1 Plus is considered a top budget tablet.",
+      "It meets most user needs despite its low cost.",
+      "However, it may lack power and long-term Android support."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/tcl-tab-a1-plus-tablet/",
   "author": "Scott Gilbertson"

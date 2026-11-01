@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new 4GB graphics card has emerged due to rising RAM prices and component shortages.",
+      "An AMD Radeon RX 9050 with 4GB of VRAM was seen on ASRock's website.",
+      "ASRock also released an 8GB version of the RX 9050."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/971868/asrock-amd-4gb-rx-9050-gpu",
   "author": "News Era Team"

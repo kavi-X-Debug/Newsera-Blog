@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "LinkedIn is not expanding its data centers in the coming year.",
+      "The company is focusing on optimizing current GPU usage.",
+      "Engineers are tasked with maximizing the efficiency of existing resources."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat/",
   "author": "Paresh Dave"

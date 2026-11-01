@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The TechCrunch Founder Summit offers networking opportunities and insights.",
+      "The event aims to help attendees scale their ideas and startups.",
+      "It will take place on November 4 at Boston's SoWa Power Station."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
   "author": "TechCrunch Events"

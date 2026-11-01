@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new survey indicates increasing support for cellphone bans in schools.",
+      "Most US adults support banning cellphones in middle and high school classes.",
+      "Support for all-day cellphone bans has increased, with nearly half of Americans now in favor."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever",
   "author": "News Era Team"

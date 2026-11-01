@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft addressed a high-severity vulnerability this month.",
+      "The flaw allowed a threat actor to escalate privileges.",
+      "It also enabled compromise of an Active Directory environment."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
   "author": "Elizabeth Montalbano"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "HBO Max is introducing a vertical video feed called \"HBO Max Shorts.\"",
+      "This feature aims to help users discover new content.",
+      "It will display trailers, clips, and bonus content based on watch history."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/streaming/971880/hbo-max-vertical-video-feed-shorts",
   "author": "News Era Team"
