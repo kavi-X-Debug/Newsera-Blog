@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "China is releasing its top AI models, like Moonshot AI's Kimi K3, for free. This model reportedly outperforms some US systems at a lower cost. This strategy is causing concern among US companies about the dominance of their closed models."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
   "author": "News Era Team"

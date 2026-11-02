@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Dyson released a new stick vacuum.",
+      "The cordless device can vacuum and mop.",
+      "The product is powerful but pricey."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/dyson-v16-piston-animal-submarine/",
   "author": " Nena Farrell "

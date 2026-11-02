@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The handheld vacuum is a useful household item.",
+      "It is lightweight, powerful, and often inexpensive."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/gallery/the-best-handheld-vacuum/",
   "author": "Molly Higgins"

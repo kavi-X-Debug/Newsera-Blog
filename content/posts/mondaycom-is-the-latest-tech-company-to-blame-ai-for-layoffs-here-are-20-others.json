@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Monday.com is among several tech companies that have attributed recent layoffs to AI.",
+      "This report lists tech companies that have announced significant layoffs this year, citing AI as a factor."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
   "author": "Rebecca Bellan, Connie Loizos"
