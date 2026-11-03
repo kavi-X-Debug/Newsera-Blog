@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "AI guardrails are affecting the work of offensive cybersecurity researchers.",
+      "These researchers identify vulnerabilities and create exploitation tools.",
+      "They discussed the impact of OpenAI's and Anthropic's guardrails on their work."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
   "author": "Lorenzo Franceschi-Bicchierai"

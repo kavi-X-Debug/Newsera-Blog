@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Warner Bros. filed a lawsuit against Amazon.",
+      "The suit alleges Amazon illegally poached executives.",
+      "The case may reignite debates on the enforceability of term employment agreements in California."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
   "author": "Anthony Ha"

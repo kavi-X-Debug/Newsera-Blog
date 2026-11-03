@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Scientists found a contagious cancer in freshwater fish.",
+      "This cancer was discovered in a lake between the US and Canada.",
+      "It is the first known transmissible cancer among freshwater fish."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/contagious-cancer-found-in-north-american-catfish/",
   "author": "Javier Carbajal"

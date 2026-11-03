@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Satellite images of Myanmar show numerous suspected scam compounds have recently emerged.",
+      "This development occurs despite an alleged crackdown on criminal organizations."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/satellite-images-reveal-how-giant-scam-compounds-keep-on-expanding/",
   "author": "Matt Burgess"

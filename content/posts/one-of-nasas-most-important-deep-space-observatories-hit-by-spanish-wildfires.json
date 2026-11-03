@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A wildfire emergency in Spain affected a NASA deep space communications complex.",
+      "Flames burned through the complex near Madrid.",
+      "NASA has not yet assessed the damage."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/spanish-wildfires-nasa-deep-space-observatory/",
   "author": "Brian Kahn"

@@ -12,7 +12,11 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Steam discussion forums are being used in ClickFix attacks. These attacks pose as game or computer problem fixes. They infect devices with cryptominers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
   "author": "Lawrence Abrams"

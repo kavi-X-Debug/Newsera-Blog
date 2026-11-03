@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google's previous agreement with the web, involving data collection and traffic exchange, appears to be ending.",
+      "Websites are now facing the challenge of reduced traffic from Google.",
+      "Discussions include Reddit's AI training deal and publishers considering blocking Google's web crawling."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
   "author": "News Era Team"

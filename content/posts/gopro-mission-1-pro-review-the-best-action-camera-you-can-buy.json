@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "GoPro released new Mission 1 cameras.",
+      "These cameras feature a larger sensor.",
+      "They offer more cinematic footage."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/gopro-mission-1-pro/",
   "author": "Scott Gilbertson"

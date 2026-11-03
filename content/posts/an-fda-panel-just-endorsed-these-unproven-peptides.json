@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "An FDA panel endorsed several unproven peptides.",
+      "Experts suggested adding these amino acids to the FDA's bulks list.",
+      "The recommendations included a \"Wolverine stack\" promoted by influencers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/fda-panel-endorses-unproven-peptides/",
   "author": "Emily Mullin"

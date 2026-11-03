@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Kagi offers a curated search experience.",
+      "It focuses on human-made websites.",
+      "This provides an alternative to sponsored and AI-summarized results."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time/",
   "author": "David Nield"
