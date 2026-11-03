@@ -1,0 +1,25 @@
+{
+  "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+  "slug": "workos-says-attacker-used-artex-ai-to-breach-internal-sales-app",
+  "date": "2026-11-03T21:28:44.000Z",
+  "description": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/03/workos.jpg",
+  "content": {
+    "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "WorkOS experienced a data breach.",
+      "An attacker accessed business contact records.",
+      "Summaries of customer communications were also accessed."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+  "author": "Bill Toulas"
+}
