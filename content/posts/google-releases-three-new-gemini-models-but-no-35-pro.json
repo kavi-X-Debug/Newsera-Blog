@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google released three new Gemini models.",
+      "These models are Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber.",
+      "Gemini 3.5 Pro was not among the new releases."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
   "author": "Rebecca Bellan"

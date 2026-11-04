@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "US utility companies and data center developers are pledging to protect consumers from increased electricity bills due to AI.",
+      "Nearly 200 organizations have signed a pledge aimed at safeguarding consumers from AI-related energy costs.",
+      "The pledge was introduced in March to address concerns about the AI boom's impact on consumer electricity bills."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
   "author": "News Era Team"

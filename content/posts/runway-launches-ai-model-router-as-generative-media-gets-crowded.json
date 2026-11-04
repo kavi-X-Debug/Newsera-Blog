@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Runway introduced its AI model router, aiming to be an infrastructure layer for generative media.",
+      "The company launched Runway Media Router via its developer platform, Runway Dev.",
+      "This platform offers API access to various third-party image, video, and audio models."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
   "author": "Rebecca Bellan"

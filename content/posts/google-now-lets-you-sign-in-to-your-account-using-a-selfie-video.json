@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google now offers selfie video sign-in for accounts. Users can capture a short video of their face for verification. This feature helps if users are locked out or forget their password."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/969361/google-account-sign-in-selfie-video-security",
   "author": "News Era Team"

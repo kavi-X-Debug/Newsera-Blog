@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Lego released a new Donkey Kong arcade machine set.",
+      "The set was designed by Carl Merriam.",
+      "The machine features a functional game, though it does not play exactly like the original Donkey Kong."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/969668/lego-donkey-kong-arcade-machine",
   "author": "News Era Team"

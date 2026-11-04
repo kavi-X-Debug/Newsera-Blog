@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A cyberattack impacted a Japanese frozen-food chain.",
+      "The attack disrupted the supply of frozen food.",
+      "Thousands of clients, including major franchises, were affected."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
   "author": "Robert Lemos"

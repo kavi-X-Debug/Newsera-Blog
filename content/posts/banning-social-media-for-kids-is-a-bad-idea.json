@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Banning children from social media may not solve existing problems.",
+      "It could also create new issues."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/banning-social-media-for-kids-is-a-bad-idea/",
   "author": "Claudia Del Pozo, Nicté Cabañas"

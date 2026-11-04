@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Samsung's next Galaxy Unpacked event is approaching.",
+      "The event will likely feature new foldable devices.",
+      "It is scheduled for July 22nd in London."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/967926/samsung-galaxy-unpacked-july-2026-watch",
   "author": "News Era Team"

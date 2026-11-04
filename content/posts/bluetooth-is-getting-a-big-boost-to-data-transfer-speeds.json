@@ -1,0 +1,25 @@
+{
+  "title": "Bluetooth is getting a big boost to data transfer speeds",
+  "slug": "bluetooth-is-getting-a-big-boost-to-data-transfer-speeds",
+  "date": "2026-11-04T15:19:54.000Z",
+  "description": "The Bluetooth Special Interest Group (SIG) that oversees the wireless standard has formally adopted Bluetooth High Data Throughput (HDT) as an optional feature",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bluetooth1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "The Bluetooth Special Interest Group (SIG) that oversees the wireless standard has formally adopted Bluetooth High Data Throughput (HDT) as an optional feature of the Bluetooth Core 7.0. It's an upgrade the Bluetooth SIG has been previewing over the past year that increases Bluetooth LE's maximum supported bit rate from 2 Mbps to 7.5 Mbps. It will allow for higher resolution audio to be streamed but also improvements to battery life and reliability. The primary application for Bluetooth HDT will once again be for wireless audio, with the first devices supporting the new feature expected to appear sometime in 2027. The increased bit rate wil … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Bluetooth High Data Throughput (HDT) is now an optional feature of Bluetooth Core 7.0.",
+      "This upgrade increases Bluetooth LE's maximum supported bit rate from 2 Mbps to 7.5 Mbps.",
+      "The feature aims to improve wireless audio, battery life, and reliability, with devices expected in 2027."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt",
+  "author": "News Era Team"
+}

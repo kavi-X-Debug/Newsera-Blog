@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A California student newspaper became a free-speech flash point.",
+      "An Instagram post caused the situation."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/",
   "author": "Ara Rosenthal"

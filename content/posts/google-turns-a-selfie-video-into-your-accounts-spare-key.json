@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google is allowing users to use a selfie video for account recovery. This feature can help users regain access to their accounts if they are locked out."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/google-turns-a-selfie-video-into-your-accounts-spare-key/",
   "author": "Reece Rogers"

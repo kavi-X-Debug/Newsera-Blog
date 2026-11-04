@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Tesla's CEO discussed the company's robotaxi program during an earnings call.",
+      "He noted that new cities are being added and more people are using the unsupervised vehicles.",
+      "The CEO also emphasized the company's focus on safety while scaling the robotaxi service."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
   "author": "News Era Team"
