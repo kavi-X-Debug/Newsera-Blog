@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A judge temporarily paused Paramount's attempt to merge with Warner Bros. Discovery.",
+      "This decision followed a request from several state attorneys general.",
+      "The court suggested the merger might violate antitrust laws."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
   "author": "News Era Team"

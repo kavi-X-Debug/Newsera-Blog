@@ -12,7 +12,11 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The FBI will reportedly no longer investigate confrontations involving ICE agents. This reported change follows renewed scrutiny of violence by ICE agents. The DHS and DOJ denied this policy change."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
   "author": "News Era Team"

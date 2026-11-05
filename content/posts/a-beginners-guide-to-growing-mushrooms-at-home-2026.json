@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This piece is a guide to growing mushrooms at home.",
+      "The author tested various mushroom-growing methods for a year."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/mushroom-growing-methods/",
   "author": "Kat Merck"

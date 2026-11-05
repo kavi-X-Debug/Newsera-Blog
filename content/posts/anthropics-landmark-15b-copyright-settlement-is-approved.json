@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A $1.5 billion copyright settlement for Anthropic received final approval.",
+      "This settlement resolves one specific case.",
+      "The broader issue of using copyrighted material for AI training remains unresolved."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
   "author": "Kirsten Korosec"
