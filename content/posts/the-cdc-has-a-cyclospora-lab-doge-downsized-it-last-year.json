@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The CDC's Cyclospora lab was downsized.",
+      "This downsizing could diminish outbreak responses.",
+      "A former CDC lab director expressed concern about the impact."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/cdc-cyclospora-lab-doge-downsized-it-last-year/",
   "author": "Emily Mullin"

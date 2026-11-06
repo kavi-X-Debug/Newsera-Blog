@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "True the Vote is producing a new documentary.",
+      "The film, called Trap, is based on election conspiracy claims.",
+      "These claims were previously dismissed in court."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/the-group-behind-2000-mules-is-back-with-another-election-conspiracy-film/",
   "author": "David Gilbert"

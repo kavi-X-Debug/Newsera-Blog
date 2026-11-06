@@ -12,7 +12,12 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The FIFA World Cup halftime show aims to be the most-viewed in history.",
+      "Performers like Shakira, Justin Bieber, Coldplay, and BTS are expected to participate."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/fifa-world-cup-halftime-show-what-to-expect/",
   "author": "Angela Watercutter"

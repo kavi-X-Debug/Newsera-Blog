@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google is open-sourcing its 3D emoji set.",
+      "The company shared details about its design process for the pictograms.",
+      "Raw .OBJ files are available for community use in VR worlds and other creations."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Prompt injection attacks are stopping AI hacking agents.",
+      "These attacks trick malicious AI agents into shutting down.",
+      "This prevents the agents from causing harm."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/",
   "author": "Dan Goodin, Ars Technica"

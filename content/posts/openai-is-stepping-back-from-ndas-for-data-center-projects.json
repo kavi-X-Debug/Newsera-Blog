@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is changing its approach to non-disclosure agreements (NDAs) for data center projects.",
+      "The company will no longer use NDAs with public officials.",
+      "OpenAI will only use narrow protections for security, trade secrets, or competitive information."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
   "author": "News Era Team"

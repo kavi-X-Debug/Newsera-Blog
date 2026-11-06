@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The author previously thought electric mountain bikes were not good.",
+      "The author's opinion changed after riding an electric mountain bike.",
+      "The M2S motor from Avinox is compact, lightweight, and powerful."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/966964/emtb-riders-are-not-cheaters",
   "author": "News Era Team"

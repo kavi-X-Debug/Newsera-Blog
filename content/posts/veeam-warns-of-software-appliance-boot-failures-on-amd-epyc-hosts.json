@@ -1,0 +1,25 @@
+{
+  "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+  "slug": "veeam-warns-of-software-appliance-boot-failures-on-amd-epyc-hosts",
+  "date": "2026-11-06T15:25:31.000Z",
+  "description": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Veeam.jpg",
+  "content": {
+    "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Veeam issued a warning to customers regarding boot failures.",
+      "These failures affect Software Appliance virtual machines.",
+      "The issue occurs on hosts equipped with AMD EPYC processors."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+  "author": "Sergiu Gatlan"
+}
