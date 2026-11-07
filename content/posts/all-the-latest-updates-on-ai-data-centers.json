@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "New data centers are the physical foundation for tech companies' AI ambitions.",
+      "The expansion of these energy-intensive facilities has caused disputes globally.",
+      "These disputes concern their effects on power grids, utility costs, local areas, and the environment."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
   "author": "News Era Team"

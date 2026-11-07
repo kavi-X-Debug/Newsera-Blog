@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Uber's Chief Product Officer discussed the company's financial-services goals.",
+      "The conversation also covered Uber's relationship with Waymo and its new AV Labs data operation.",
+      "AI integration that will be noticeable to riders and drivers was also a topic."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
   "author": "Connie Loizos"

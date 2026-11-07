@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI researcher Miles Wang is reportedly discussing the launch of an AI drug discovery startup.",
+      "The startup could be valued at $2 billion.",
+      "These discussions show investor interest in using AI for life sciences advancements."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
   "author": "Marina Temkin"

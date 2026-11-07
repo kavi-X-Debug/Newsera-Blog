@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Video-generation startup PixVerse raised $439 million.",
+      "The company's valuation has increased to over $2 billion.",
+      "PixVerse plans to use the funds to expand its world model offering and reach more customers globally."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
   "author": "Ivan Mehta"

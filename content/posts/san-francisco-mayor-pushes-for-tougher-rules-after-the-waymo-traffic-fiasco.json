@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "San Francisco's mayor is advocating for stricter regulations on robotaxi companies.",
+      "This push follows a significant traffic jam caused by Waymo vehicles.",
+      "The mayor has communicated these concerns to state regulators."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
   "author": "Kirsten Korosec"

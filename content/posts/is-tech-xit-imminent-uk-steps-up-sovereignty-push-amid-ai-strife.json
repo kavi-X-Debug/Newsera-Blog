@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The US government restricted frontier models from Anthropic and OpenAI.",
+      "This intensified calls in the UK and other countries to reduce reliance on US tech companies.",
+      "This push for sovereignty has significant cyber implications."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife",
   "author": "Rob Wright"

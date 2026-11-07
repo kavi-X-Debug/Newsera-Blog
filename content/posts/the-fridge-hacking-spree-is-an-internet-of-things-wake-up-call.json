@@ -1,0 +1,24 @@
+{
+  "title": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call",
+  "slug": "the-fridge-hacking-spree-is-an-internet-of-things-wake-up-call",
+  "date": "2026-11-07T13:00:00.000Z",
+  "description": "Escalating hacks affecting blood labs and grocery stores show the very real risks to critical infrastructure that come from basic security lapses involving inte",
+  "category": "Cybersecurity",
+  "image": "https://media.wired.com/photos/6aecfb7f2e9dbd5be69b280e/191:100/w_1280,c_limit/KernelPanic_10312026_v1.jpg",
+  "content": {
+    "summary": "Escalating hacks affecting blood labs and grocery stores show the very real risks to critical infrastructure that come from basic security lapses involving internet-connected devices....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Hacks on blood labs and grocery stores highlight security risks to critical infrastructure.",
+      "These incidents stem from basic security vulnerabilities in internet-connected devices."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
+  "author": "Lily Hay Newman, Matt Burgess"
+}

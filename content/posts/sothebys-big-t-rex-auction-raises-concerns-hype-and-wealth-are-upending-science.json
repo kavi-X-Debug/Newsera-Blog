@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Private buyers are increasingly acquiring fossils, often outbidding museums.",
+      "This trend is making it harder for researchers to study the past.",
+      "Concerns exist that wealth and hype are impacting scientific research."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/sothebys-t-rex-auction-shows-wealth-upending-science/",
   "author": "Kate Wong"
