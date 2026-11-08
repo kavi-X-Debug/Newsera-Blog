@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The iGarden Swim Jet X Pro 10 offers a challenging workout.",
+      "It creates an artificial current for swimming."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/igarden-swim-jet-x-pro-10/",
   "author": "Christopher Null"

@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article reviews external hard drives.",
+      "It covers options for video editing and photo backups."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/best-portable-external-storage-drives/",
   "author": "Scott Gilbertson"

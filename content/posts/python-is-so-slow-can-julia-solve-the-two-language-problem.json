@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Julia code can execute much faster than Python code.",
+      "Julia is not a widely used programming language."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/",
   "author": "Sheon Han"

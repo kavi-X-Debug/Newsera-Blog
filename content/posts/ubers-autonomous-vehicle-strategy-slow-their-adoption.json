@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Uber has reportedly promoted a policy that could benefit its autonomous vehicle strategy.",
+      "This policy may give Uber an advantage over other self-driving car developers.",
+      "The company states it is opposing monopolies."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/",
   "author": "Aarian Marshall"

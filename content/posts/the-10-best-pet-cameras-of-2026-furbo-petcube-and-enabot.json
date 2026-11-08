@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article reviews pet cameras.",
+      "It lists favorite pet cameras."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/gallery/best-pet-cameras/",
   "author": "Molly Higgins"

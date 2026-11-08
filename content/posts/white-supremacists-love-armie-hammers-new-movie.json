@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Extremists are praising the movie Citizen Vigilante.",
+      "Some far-right groups see it as a tool to attract moderates.",
+      "One extremist called it the \".feel-good movie of white-boy summer.\""
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/a-bunch-of-white-supremacists-love-armie-hammers-new-movie/",
   "author": "David Gilbert"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A person experienced symptoms of heat exhaustion at an outdoor party.",
+      "A UV-tracking necklace called Gem notified the wearer of increased UV exposure.",
+      "The wearer had been sitting under an umbrella, believing they were protected from the sun."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
   "author": "News Era Team"
