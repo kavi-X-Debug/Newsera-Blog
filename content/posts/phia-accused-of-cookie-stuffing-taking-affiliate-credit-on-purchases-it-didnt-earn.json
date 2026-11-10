@@ -12,7 +12,12 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A shopping startup is facing accusations of \"cookie stuffing.\"",
+      "This practice allegedly allowed the company to receive commissions for sales it did not generate."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/",
   "author": "Dominic-Madori Davis"

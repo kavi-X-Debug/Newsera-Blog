@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Constantin Koehncke, CEO of Image Line, is responsible for FL Studio.",
+      "He has overseen the introduction of AI-powered features such as stem separation and a chatbot.",
+      "Koehncke previously led Native Instruments, focusing on digital services."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview",
   "author": "News Era Team"

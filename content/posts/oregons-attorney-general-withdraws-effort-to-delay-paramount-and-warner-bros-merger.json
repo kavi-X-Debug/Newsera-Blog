@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Oregon's Attorney General withdrew a request to delay the merger of Paramount and Warner Bros. Discovery.",
+      "The Attorney General had sought documents from Paramount regarding the takeover.",
+      "Paramount expressed satisfaction with the decision to withdraw the request."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
   "author": "News Era Team"
