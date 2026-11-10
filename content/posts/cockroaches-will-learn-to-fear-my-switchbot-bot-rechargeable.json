@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A user found a robotic switch-flipper helpful for turning on lights remotely.",
+      "The SwitchBot Bot Rechargeable attaches near a switch and uses a robotic arm to press or pull it.",
+      "This gadget can automate devices with physical power buttons."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
   "author": "News Era Team"

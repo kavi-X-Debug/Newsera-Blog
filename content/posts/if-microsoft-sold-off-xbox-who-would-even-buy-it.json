@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft made significant cuts to its Xbox business, including layoffs and shedding four studios.",
+      "Xbox CEO Asha Sharma stated these changes were due to the business not being healthy and being spread too thin.",
+      "The future strategy for Xbox is unclear as Microsoft focuses on AI and big games."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Google Nest Thermostat is currently on sale.",
+      "It offers smart controls and energy-saving features.",
+      "Users can adjust the temperature via the Google Home app or voice assistants."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/963475/google-nest-thermostat-deal-sale",
   "author": "News Era Team"

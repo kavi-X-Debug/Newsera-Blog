@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta launched a new AI image generation feature called Muse Image.",
+      "This feature allows users to create and edit images, and generate custom ads.",
+      "Muse Image can generate AI images using photos from public Instagram accounts."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
   "author": "Lauren Forristal"

@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Two new exchange-traded funds (ETFs) are available.",
+      "These funds specifically exclude companies founded, controlled, or led by Elon Musk.",
+      "This means companies like SpaceX and Tesla are not included in these ETFs."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/09/dont-want-to-invest-in-elon-musk-two-new-etfs-explicitly-exclude-him/",
   "author": "Kirsten Korosec"

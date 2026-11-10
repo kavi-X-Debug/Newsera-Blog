@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article provides recommendations on which Microsoft Surface Laptop and Surface Pro models to consider purchasing."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/microsoft-surface-buying-guide/",
   "author": "Luke Larsen"

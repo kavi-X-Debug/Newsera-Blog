@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new electric vehicle startup in Lisbon, Portugal, is introducing a new electric buggy.",
+      "The Amble One is a premium, street-legal buggy with a neo-retro design.",
+      "It is marketed for locations where traditional cars are not needed."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
   "author": "News Era Team"

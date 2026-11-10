@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A former DeepMind executive believes the AI arms race could lead to disaster.",
+      "Verity Harding stated that the US government's nationalistic approach to AI suggests a worst-case scenario is developing."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/",
   "author": "Joel Khalili"

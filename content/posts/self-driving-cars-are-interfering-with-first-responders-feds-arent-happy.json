@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The NHTSA administrator called reports of self-driving cars interfering with emergency scenes unacceptable.",
+      "Self-driving cars have reportedly driven into emergency scenes.",
+      "They have also blocked ambulances and firefighters."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/self-driving-cars-are-interfering-with-first-responders-feds-arent-happy/",
   "author": "Aarian Marshall"

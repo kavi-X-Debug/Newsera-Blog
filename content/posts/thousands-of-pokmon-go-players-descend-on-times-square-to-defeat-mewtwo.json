@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A surprise event for a popular mobile game took place.",
+      "The event fulfilled a promise from the game's original launch trailer."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/thousands-of-pokemon-go-players-descend-on-times-square-to-defeat-mewtwo/",
   "author": "Julian Chokkattu"
