@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic stated that Claude Fable 5 will not be available through Claude subscriptions after July 7.",
+      "The company clarified this is not a permanent change.",
+      "Anthropic expects the model to return outside the usage-based plan soon."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
   "author": "Mayank Parmar"

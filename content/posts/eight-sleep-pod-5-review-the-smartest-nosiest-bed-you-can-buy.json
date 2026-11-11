@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Eight Sleep Pod 5 is a smart bed that monitors sleep.",
+      "It is effective at its function."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/eight-sleep-pod-5/",
   "author": "Boutayna Chokrane "

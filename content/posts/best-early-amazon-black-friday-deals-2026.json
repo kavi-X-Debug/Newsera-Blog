@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon is offering early Black Friday deals.",
+      "The official Black Friday deals begin on November 19."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/amazon-black-friday-november-2026-early-deals/",
   "author": "Les Shu"

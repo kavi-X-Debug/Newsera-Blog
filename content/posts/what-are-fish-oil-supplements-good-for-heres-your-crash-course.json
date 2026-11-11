@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A clinical trial indicated that long-term DHA consumption might not improve cognitive function.",
+      "DHA is an omega-3 fatty acid found in oily fish."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/",
   "author": "Ritsuko Kawai"

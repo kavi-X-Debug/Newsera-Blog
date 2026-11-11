@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "An analysis found that investors in a Trump memecoin lost a significant amount of money.",
+      "Nearly one million people reportedly lost a total of $3.8 billion.",
+      "The analysis also indicated that Trump gained $636 million from the memecoin."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/",
   "author": "Anthony Ha"

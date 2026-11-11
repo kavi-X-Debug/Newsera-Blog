@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google DeepMind unionization talks have encountered difficulties.",
+      "Employees expressed frustration with executives during negotiations.",
+      "Workers believe executives are unwilling to engage with unionization discussions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
   "author": "Joel Khalili"

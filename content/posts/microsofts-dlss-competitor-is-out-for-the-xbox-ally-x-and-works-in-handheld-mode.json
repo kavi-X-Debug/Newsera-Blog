@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft is releasing Automatic Super Resolution (Auto SR) for the Xbox Ally X and select Windows Copilot Plus PCs.",
+      "This upscaling technology is a competitor to Nvidia's DLSS.",
+      "Auto SR now works in handheld mode and supports games running at 1080p."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
   "author": "News Era Team"

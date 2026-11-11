@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "ABC is responding to a government investigation into its program, The View.",
+      "The FCC is examining The View's classification as a news program.",
+      "ABC states that the agency's actions threaten editorial independence."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech",
   "author": "News Era Team"
