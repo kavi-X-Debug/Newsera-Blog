@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Sony is repurposing its PlayStation disc factory.",
+      "The company plans to retrain employees for optical microlens production.",
+      "The Thalgau plant is the headquarters for Sony's disc-making division."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/961203/sony-austria-thalgau-end-disc-production-microlenses-instead",
   "author": "News Era Team"

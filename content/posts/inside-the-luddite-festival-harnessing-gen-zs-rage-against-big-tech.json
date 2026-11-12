@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "New York City's Summer of Ludd festival teaches people how to live offline. The festival focuses on living without Big Tech."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
   "author": "Vittoria Elliott"

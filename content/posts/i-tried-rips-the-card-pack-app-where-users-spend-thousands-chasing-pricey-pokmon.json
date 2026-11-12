@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A user spent hundreds of dollars on a card-pack app in a short time. The app allows users to open digital Pokémon packs. This experience was described as feeling like a future form of gambling."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/i-tried-rips-the-card-pack-app-where-users-spend-thousands-chasing-pricey-pokemon/",
   "author": "Reece Rogers"

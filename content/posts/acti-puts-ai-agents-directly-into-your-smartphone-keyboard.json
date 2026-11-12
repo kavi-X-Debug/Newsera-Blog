@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Acti is a startup that is integrating AI assistants into smartphone keyboards.",
+      "Their new keyboard for iOS and Android allows users to create custom AI-powered shortcuts.",
+      "These shortcuts can be made using natural language and work across different applications."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
   "author": "Sarah Perez"

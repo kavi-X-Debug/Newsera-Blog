@@ -12,7 +12,13 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI reportedly considered offering the US government a 5 percent ownership stake.",
+      "This idea was proposed as a way to ease tensions with the Trump administration and address public concerns about AI.",
+      "CEO Sam Altman reportedly suggested this to the Trump administration early last year."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
   "author": "News Era Team"

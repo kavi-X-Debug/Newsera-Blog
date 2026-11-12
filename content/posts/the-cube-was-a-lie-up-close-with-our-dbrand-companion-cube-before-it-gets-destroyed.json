@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Dbrand canceled its Portal-themed Companion Cube external shell for the Steam Machine.",
+      "This decision followed legal action from Valve.",
+      "The company plans to destroy all manufactured cubes."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/959890/dbrand-companion-cube-photos-hands-on",
   "author": "News Era Team"

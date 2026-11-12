@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Vinton Cerf, a co-creator of internet protocols, is retiring.",
+      "He will leave his role as Google's chief internet evangelist."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
   "author": "Tim Fernholz"

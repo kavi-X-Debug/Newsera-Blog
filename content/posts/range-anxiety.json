@@ -12,7 +12,11 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A storm hit Rivian's electric vehicle factory in Illinois. The supercell storm caused damage to the plant's wall and roof. A company vice president was notified about the incident."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/cs/features/938196/rivian-r2-ev-factory-supply-chain",
   "author": "News Era Team"

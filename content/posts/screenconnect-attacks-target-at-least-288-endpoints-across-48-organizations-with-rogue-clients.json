@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "ConnectWise disabled five third-party extensions due to unauthorized access reports.",
+      "The company found no evidence of infrastructure compromise or ScreenConnect software vulnerability.",
+      "Initial assessments suggest the activity may involve specific actions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
   "author": "info@thehackernews.com (The Hacker News)"
