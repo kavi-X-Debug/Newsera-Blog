@@ -1,0 +1,24 @@
+{
+  "title": "FAA Grounds All US Flights Until Further Notice",
+  "slug": "faa-grounds-all-us-flights-until-further-notice",
+  "date": "2026-11-13T21:42:57.000Z",
+  "description": "The government cited a nationwide communications failure among air traffic control system as the reason for the sudden grounding on Friday.",
+  "category": "Tech",
+  "image": "https://media.wired.com/photos/6af77f75b0613b392083fb37/191:100/w_1280,c_limit/FAA-Grounds-All-Flights-Gear-970624408.jpg",
+  "content": {
+    "summary": "The government cited a nationwide communications failure among air traffic control system as the reason for the sudden grounding on Friday....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "All US flights were grounded due to a nationwide communications failure.",
+      "The government cited issues within the air traffic control system."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
+  "author": "Aarian Marshall"
+}
