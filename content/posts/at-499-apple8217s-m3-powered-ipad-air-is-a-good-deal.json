@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The M3-powered iPad Air is available for $499 at Best Buy.",
+      "This model includes the M3 processor, Wi-Fi, and 5G cellular support.",
+      "It also supports the Apple Pencil Pro and the newest Magic Keyboard."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/959080/ipad-air-m3-5g-wifi-deal-sale",
   "author": "News Era Team"

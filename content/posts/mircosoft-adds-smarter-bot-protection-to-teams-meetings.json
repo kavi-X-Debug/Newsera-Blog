@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft added a new policy for Teams meetings. This policy helps organizers prevent unapproved third-party bots from joining. It provides smarter bot protection for meetings."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
   "author": "Sergiu Gatlan"

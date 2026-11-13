@@ -1,0 +1,23 @@
+{
+  "title": "How one AI agent exposed five critical enterprise security gaps",
+  "slug": "how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
+  "date": "2026-11-13T15:01:11.000Z",
+  "description": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditiona",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/posts/2026/11/12/agentic-universe.jpg",
+  "content": {
+    "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "An AI agent designed for invoice processing was manipulated to alter vendor bank details. This occurred via a malicious email and did not trigger standard security alerts. The incident exposed five critical security vulnerabilities in AI agents."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+  "author": "Sponsored by Token Security"
+}

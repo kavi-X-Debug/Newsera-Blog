@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Netflix is using an AI-generated voice for Gene Wilder in its new reality show, Wonka's The Golden Ticket.",
+      "The company collaborated with AI audio firm ElevenLabs and received consent from Wilder's family.",
+      "This follows previous projects where Netflix recreated the voices of Michael Caine and Stan Lee."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
   "author": "News Era Team"

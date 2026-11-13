@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Business email compromise attacks are succeeding more often.",
+      "These attacks use impersonation instead of malware, making them difficult to detect.",
+      "A webinar will discuss how behavioral AI can help identify these email threats and automate responses."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
   "author": "BleepingComputer"

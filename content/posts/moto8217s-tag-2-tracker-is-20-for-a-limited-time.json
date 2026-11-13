@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Moto Tag 2, a new Bluetooth tracker, is now available in the US.",
+      "It features UWB sensing for accurate tracking and an IP68 rating.",
+      "The device supports Google's Find Hub network and has a replaceable battery lasting up to 600 days."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale",
   "author": "News Era Team"

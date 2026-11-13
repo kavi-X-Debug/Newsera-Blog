@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new e-bike motor was announced at a trade show.",
+      "The motor allows riders to select a preferred pedaling cadence.",
+      "It automatically adjusts gears to maintain speed without a derailleur or cassette."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
   "author": "News Era Team"
