@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Ian Bogost suggests that \"The Small Stuff\" could help people reclaim their lives.",
+      "This idea addresses concerns about dematerialization."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
   "author": "Anthony Ha"

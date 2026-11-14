@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Suno launched Spark, an incubator program for independent artists.",
+      "The program offers grants, mentorship, and marketing support.",
+      "Artists must agree to terms allowing Suno to use their music for remixing."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
   "author": "News Era Team"

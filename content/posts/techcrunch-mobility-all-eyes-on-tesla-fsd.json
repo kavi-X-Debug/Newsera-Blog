@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "TechCrunch Mobility focuses on the future of transportation.",
+      "The publication also examines the role of AI in this sector."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/28/techcrunch-mobility-all-eyes-on-tesla-fsd/",
   "author": "Kirsten Korosec"

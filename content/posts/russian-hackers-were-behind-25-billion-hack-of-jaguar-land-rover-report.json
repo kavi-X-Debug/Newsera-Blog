@@ -12,7 +12,12 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Russian hackers reportedly caused a significant disruption to Jaguar Land Rover last year.",
+      "The incident was among the most damaging and costly hacks in recent years."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
   "author": "Lorenzo Franceschi-Bicchierai"

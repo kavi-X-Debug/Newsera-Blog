@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is developing its own custom inference chip called Jalapeño.",
+      "This chip is being built with Broadcom.",
+      "OpenAI joins other companies like Google, Apple, and SpaceX in creating their own chips."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
   "author": "Theresa Loconsolo"

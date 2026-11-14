@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A fatal Tesla crash in Texas may lead to a legal dispute.",
+      "The role of Tesla's driver assistance feature in a woman's death is being investigated."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/a-fatal-tesla-crash-in-texas-sets-up-a-legal-showdown/",
   "author": "Aarian Marshall"

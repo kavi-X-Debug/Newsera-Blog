@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Teenage Engineering updated its KO II sampler with OS 2.5.",
+      "The update adds features like USB audio and selectable sample rates.",
+      "It also includes sample reverse, an arpeggiator, and extended sample length."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler",
   "author": "News Era Team"

@@ -12,7 +12,11 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "China's Zhipu AI released its GLM-5.2 model. Some researchers claim it matches Mythos in specific cybersecurity tasks. This development has reduced the gap between Chinese and US AI models."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
   "author": "News Era Team"
