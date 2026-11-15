@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A new solar-powered electric bike, the Phosgo Go5, is being sold through a global crowdfunding campaign.",
+      "The company, Phosgo, is a joint venture between Jiaxing Dazhe Solar Energy and Shenzhen Honglianda Technology.",
+      "Dazhe Solar Energy provides the flexible solar technology for the e-bike."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy",
   "author": "News Era Team"

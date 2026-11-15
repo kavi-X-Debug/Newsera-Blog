@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists technology deals available on the third day of Prime Day.",
+      "Discounts are offered on various tech items, including TVs, smart home devices, chargers, and headphones.",
+      "Many products are available at or near their lowest prices."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/956199/best-prime-day-2026-deals-tech-electronics-sale-day-three",
   "author": "News Era Team"
