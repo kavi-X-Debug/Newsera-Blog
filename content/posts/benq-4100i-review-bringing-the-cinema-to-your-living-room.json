@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The BenQ 4100i projector offers impressive color reproduction.",
+      "It also features excellent contrast.",
+      "The projector includes a smooth cinematic mode."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/review-benq-w4100i-projector/",
   "author": "John Brandon"

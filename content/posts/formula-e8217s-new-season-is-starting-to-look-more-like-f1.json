@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Formula E's upcoming season will introduce a new race format and three new locations.",
+      "The schedule includes races at Circuit of the Americas, Brands Hatch, and Zandvoort.",
+      "The series will feature two different race types, including a shorter E-Prix \"Unleashed\" event."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/955011/formula-e-season-13-electric-racing",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A Blue Origin rocket was at Cape Canaveral Space Force Station for a hot-fire test.",
+      "The test involved Amazon Leo satellites for a satellite internet project.",
+      "The rocket exploded before the satellites reached the launch site."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/policy/953944/bead-broadband-funding-trump-musk-bezos",
   "author": "News Era Team"

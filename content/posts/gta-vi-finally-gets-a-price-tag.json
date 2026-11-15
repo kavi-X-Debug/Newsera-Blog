@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Grand Theft Auto VI will cost $79.99 for the standard edition and $99.99 for the Ultimate Edition.",
+      "Preorders for the game begin tonight for PS5 and Xbox Series X/S.",
+      "Both digital and physical editions will be available, with physical copies containing a download code."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/952204/grand-theft-auto-vi-price",
   "author": "News Era Team"

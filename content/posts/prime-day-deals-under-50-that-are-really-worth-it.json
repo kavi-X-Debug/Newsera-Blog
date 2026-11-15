@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists Prime Day deals under $50.",
+      "It includes discounts on products like the Hoto 3.6V Electric Screwdriver Kit Pro and the JBL Go 4 Bluetooth speaker."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/951543/best-prime-day-deals-under-50",
   "author": "News Era Team"

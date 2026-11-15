@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Surface Laptop is available for $835 during Prime Day.",
+      "This is a significant discount on the device."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/surface-laptop-prime-day-deal/",
   "author": "Luke Larsen"

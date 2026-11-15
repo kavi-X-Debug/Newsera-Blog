@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Smart home deals are available for Prime Day.",
+      "Discounts are offered on connected devices across various websites.",
+      "Recommended gadgets include Wi-Fi routers, video doorbells, smart locks, and robot vacuums."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/953017/best-smart-home-deals-robot-vacuums-locks-doorbell",
   "author": "News Era Team"

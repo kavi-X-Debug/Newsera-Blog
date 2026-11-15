@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Pixel 10A is available for $399 on Amazon during Prime Day.",
+      "This price is considered more appropriate given its minor updates over the Pixel 9A.",
+      "The Pixel 10A offers seven years of OS updates, similar to the 9A."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/950195/google-pixel-10a-prime-day-deal-sale",
   "author": "News Era Team"
