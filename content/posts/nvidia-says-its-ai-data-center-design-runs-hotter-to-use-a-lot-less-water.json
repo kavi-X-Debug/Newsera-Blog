@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia states its new AI data center design operates at higher temperatures.",
+      "This design reportedly uses significantly less water and power.",
+      "The company claims its liquid-cooled data centers have nearly eliminated water usage."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
   "author": "News Era Team"

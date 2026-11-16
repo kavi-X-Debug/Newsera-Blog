@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Wyze released a new smart scale that offers body composition analysis for under $80.",
+      "This new scale is a more affordable option compared to a previous model.",
+      "It connects via Bluetooth to sync measurements with health apps and uses an LED display."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/952512/wyze-smart-scale-bodyscan-electrodes-handle-body-composition",
   "author": "News Era Team"

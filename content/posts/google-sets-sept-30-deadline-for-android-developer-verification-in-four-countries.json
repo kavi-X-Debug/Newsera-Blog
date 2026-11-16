@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google will begin enforcing Android developer verification in four countries on September 30, 2026.",
+      "Certified Android phones in Brazil, Indonesia, Singapore, and Thailand will block installs of apps from unregistered developers.",
+      "Developers must register an identity with Google to avoid app installation blocks."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
   "author": "info@thehackernews.com (The Hacker News)"

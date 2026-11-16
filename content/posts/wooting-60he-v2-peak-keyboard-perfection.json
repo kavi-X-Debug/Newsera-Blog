@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Wooting 60HE v2 is a Hall Effect keyboard.",
+      "It is considered a fantastic keyboard."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/review-wooting-60he-v2/",
   "author": "Henri Robbins"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Sony's Xperia 1 VIII flagship phone has undergone an aesthetic overhaul.",
+      "The camera system has been revamped, removing the continuous optical zoom telephoto.",
+      "The phone retains a 3.5mm headphone jack, microSD card slot, and specific design elements."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/952245/sony-xperia-1-viii-review",
   "author": "News Era Team"
