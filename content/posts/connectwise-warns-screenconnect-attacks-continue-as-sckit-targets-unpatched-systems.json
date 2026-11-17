@@ -1,0 +1,25 @@
+{
+  "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+  "slug": "connectwise-warns-screenconnect-attacks-continue-as-sckit-targets-unpatched-systems",
+  "date": "2026-11-17T06:29:27.000Z",
+  "description": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to en",
+  "category": "Cybersecurity",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjErwt0frcFKiESffCoP1OtYh0j23goqdMN0nz-RT02biCz30WlLG4PD5gTyGgbumOWB3Zh1PJfENQoRtOwQVm3Nbg8VsiRhvNk662qVFNGqO8DQ4bFrroSzWgsvfCYGLWFzD1A-f6fcTu_E_dm4o1iUJz96scWy7skw49vzD9hfIfVEILTVPKsvbsEpGca/s1600/screenconnect-flaws.jpg",
+  "content": {
+    "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "ConnectWise completed an investigation into unauthorized access in partner ScreenConnect environments.",
+      "The company advised customers to use ScreenConnect technician client version 26.6.5 or newer.",
+      "Attacks on on-premises environments are ongoing where certain third-party extensions are still enabled."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+  "author": "info@thehackernews.com (The Hacker News)"
+}
