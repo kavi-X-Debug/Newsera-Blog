@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Midjourney Medical introduced its first hardware product, an ultrasound-based full-body scanner.",
+      "The Midjourney Scanner uses a ring of sensors to capture vertical slices of the body.",
+      "It aims for image quality comparable to MRI, examining muscle, fat, bone, and organs."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
   "author": "News Era Team"

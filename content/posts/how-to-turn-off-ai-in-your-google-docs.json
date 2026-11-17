@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article explains how to disable AI features in Google Docs.",
+      "It describes how to stop \"write with Gemini\" pop-ups."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
   "author": "Amanda Silberling"

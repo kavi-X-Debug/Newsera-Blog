@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A recent poll indicates that 63 percent of Americans believe AI technology is progressing too rapidly.",
+      "The use of AI chatbots has significantly increased since 2024.",
+      "Only 16 percent of respondents anticipate a positive societal impact from AI."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
   "author": "News Era Team"
