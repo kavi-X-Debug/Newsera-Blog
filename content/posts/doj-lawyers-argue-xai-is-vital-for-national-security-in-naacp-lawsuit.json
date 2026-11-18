@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "DOJ lawyers argued xAI is vital for national security.",
+      "They claimed the company is integral to military operations.",
+      "This argument was made to dismiss a lawsuit concerning xAI's gas turbines."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/doj-lawyers-argue-xai-vital-national-security-naacp-lawsuit/",
   "author": "Molly Taft"

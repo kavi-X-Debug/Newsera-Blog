@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A China-nexus threat group deployed an undocumented Linux backdoor.",
+      "The group targeted government entities in Honduras, Taiwan, Thailand, and Pakistan."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
   "author": "Rob Wright"

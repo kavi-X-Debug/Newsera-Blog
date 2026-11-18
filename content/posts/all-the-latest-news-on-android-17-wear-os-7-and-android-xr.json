@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google's Android 17 update offers new features such as floating app windows and a split gaming mode for foldable phones.",
+      "Wear OS 7 includes Live Updates and improved battery life for smartwatches.",
+      "The update also prepares connections for new Android XR smart glasses."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/950936/google-android-17-wear-os-android-xr",
   "author": "News Era Team"

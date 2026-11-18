@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Amazon Smart Thermostat is currently on sale.",
+      "It offers features like learning routines and adapting to user presence.",
+      "The device is compatible with most 24-volt HVAC systems."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/950043/amazon-smart-thermostat-early-prime-day-deal-sale",
   "author": "News Era Team"

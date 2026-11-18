@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic recently fought the Trump administration over its new model release.",
+      "The company received a directive to suspend access to its Mythos 5 and Fable 5 AI models for foreign nationals.",
+      "Anthropic determined this would require disabling the products and sought to appeal the decision."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
   "author": "News Era Team"

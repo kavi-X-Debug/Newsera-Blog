@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic leaders met with White House officials in Washington, DC.",
+      "They remain divided on the risks posed by Claude Fable 5 after high-level talks."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/",
   "author": "Hugo Lowell, Lily Hay Newman, Maxwell Zeff"

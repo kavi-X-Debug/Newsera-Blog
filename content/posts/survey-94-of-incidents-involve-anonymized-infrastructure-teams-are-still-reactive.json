@@ -12,7 +12,13 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A survey found that 94% of security incidents involve anonymized infrastructure.",
+      "Security teams are still reactive despite having access to extensive IP data.",
+      "Organizations struggle to identify the entities behind IP addresses due to the volume of information."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
   "author": "info@thehackernews.com (The Hacker News)"

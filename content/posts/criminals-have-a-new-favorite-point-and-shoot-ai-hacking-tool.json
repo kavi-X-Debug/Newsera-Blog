@@ -1,0 +1,25 @@
+{
+  "title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+  "slug": "criminals-have-a-new-favorite-point-and-shoot-ai-hacking-tool",
+  "date": "2026-11-18T16:35:24.000Z",
+  "description": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to",
+  "category": "Cybersecurity",
+  "image": "https://media.wired.com/photos/6afdd3316a27dda013bf584c/191:100/w_1280,c_limit/Security_Criminals%20Have%20a%20New%20Favorite%20AI%20Hacking%20Tool_v2.jpg",
+  "content": {
+    "summary": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Criminals are using new AI hacking tools.",
+      "These tools help new hackers find system vulnerabilities.",
+      "They can launch attacks using chatbot prompts."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.wired.com/story/artex-ai-hacking-tools/",
+  "author": "Matt Burgess"
+}

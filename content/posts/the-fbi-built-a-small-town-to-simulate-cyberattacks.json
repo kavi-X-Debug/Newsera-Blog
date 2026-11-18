@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The FBI opened a Cyber Range in Huntsville, Alabama.",
+      "This facility is a 22,000 square-foot replica of a town.",
+      "It is used for simulating cyberattacks and training."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range",
   "author": "News Era Team"
