@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "President Trump stated that a secret mission transported 100 million barrels of oil through the Strait of Hormuz.",
+      "This claim could not be verified."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/strait-of-hormuz-closed-100-days-why-arent-oil-prices-higher/",
   "author": "Carla Sertin"

@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The UK may ban social media for children under 16.",
+      "This action appears to follow Australia's approach to social media for teens."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/",
   "author": "Anthony Ha"

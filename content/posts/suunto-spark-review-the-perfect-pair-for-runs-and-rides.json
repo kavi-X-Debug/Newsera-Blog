@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Suunto Spark open-ear earbuds use air conduction technology.",
+      "These earbuds are designed for outdoor activities.",
+      "They offer a secure fit for runs and rides."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/suunto-spark/",
   "author": "Michael Sawh"

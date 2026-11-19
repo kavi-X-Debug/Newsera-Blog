@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon security research reportedly influenced the White House's decision to ban Anthropic's Fable 5 and Mythos 5.",
+      "Amazon's research claimed Fable 5 could provide information useful for cyberattacks through specific prompts.",
+      "Following Amazon CEO Andy Jassy's sharing of findings, the government blocked the use of these models by foreign nationals."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
   "author": "News Era Team"

@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OpenAI is under investigation by state attorneys general.",
+      "The investigation covers various aspects, including ad policies and health data handling."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
   "author": "Anthony Ha"

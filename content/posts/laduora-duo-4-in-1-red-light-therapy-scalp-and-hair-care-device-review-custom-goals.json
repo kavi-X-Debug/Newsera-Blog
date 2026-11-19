@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Laduora Duo is a handheld device for scalp and hair care.",
+      "It uses red light therapy, microcurrents, sonic vibration, and warmth.",
+      "The device also incorporates a serum to support healthy hair growth."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/laduora-duo-4-in-1-pod-based-scalp-and-hair-care-device/",
   "author": "Molly Higgins"

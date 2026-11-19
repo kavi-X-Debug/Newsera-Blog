@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The US government has directed Anthropic to prevent foreign nationals from accessing Fable 5 and Mythos 5.",
+      "This order led Anthropic to suspend both models globally.",
+      "Anthropic is complying but disputes the government's reasoning for the ban."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
   "author": "Ax Sharma"
