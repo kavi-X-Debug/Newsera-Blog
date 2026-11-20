@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic is removing Claude Fable 5 from service.",
+      "This action follows a US government order.",
+      "The government reportedly found a way to bypass Fable 5's security."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/",
   "author": "Maxwell Zeff"

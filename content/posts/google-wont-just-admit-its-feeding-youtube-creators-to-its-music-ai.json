@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Independent musicians are suing Google, alleging the company used their YouTube uploads to train its Lyria music AI.",
+      "Google has filed a motion to dismiss the lawsuit.",
+      "Google states the lawsuit is based on an unsupported hypothesis about training on specific works."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
   "author": "News Era Team"

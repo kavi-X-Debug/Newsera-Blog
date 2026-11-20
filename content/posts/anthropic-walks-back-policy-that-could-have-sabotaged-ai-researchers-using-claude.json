@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic reversed a policy that could have hindered AI researchers using Claude.",
+      "Researchers had expressed concerns about the policy.",
+      "The policy might have secretly restricted Claude's capacity to create rival AI models."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
   "author": "Maxwell Zeff"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Boox released a new version of its smallest e-reader, the Go 6 (Gen II).",
+      "This model adds note-taking capabilities and supports the Boox InkSense Plus stylus.",
+      "The device features a 6-inch E Ink screen and has 3GB of RAM."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/947769/boox-onyx-go-6-gen-ii-android-11-e-reader-google-play",
   "author": "News Era Team"

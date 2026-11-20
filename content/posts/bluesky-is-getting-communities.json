@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Bluesky is introducing new community features this year.",
+      "These communities will be smaller, decentralized spaces for users to connect.",
+      "Users can create, join, and post within these new community structures."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/948215/bluesky-communities-at-protocol-atmosphere-reddit",
   "author": "News Era Team"

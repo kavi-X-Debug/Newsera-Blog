@@ -12,7 +12,12 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Elon Musk became the world's first trillionaire.",
+      "SpaceX's stock market debut contributed to his wealth."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/",
   "author": "Paresh Dave"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple's camera chief believes AI can enhance user capabilities.",
+      "Generative features in iOS 27's Photos app will add pixels to images.",
+      "Apple states it is not using AI just for the sake of AI."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/",
   "author": "Julian Chokkattu"

@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Chinese drivers are using small plastic heads to bypass Tesla's Autopilot safeguards.",
+      "These DIY gadgets help drivers circumvent Tesla's distracted-driving controls."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/chinese-drivers-are-using-tiny-plastic-heads-to-fool-teslas-autopilot-safeguards/",
   "author": "Zeyi Yang"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Signal alums introduced \"Encrypted Spaces,\" an open-source project.",
+      "This system aims to create private collaboration applications.",
+      "It could support complex app features with enhanced surveillance protection."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/signal-alums-release-encrypted-spaces-a-new-system-for-building-private-collaboration-apps/",
   "author": "Andy Greenberg"
