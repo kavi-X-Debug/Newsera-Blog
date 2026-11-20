@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A German court ruled Google is responsible for false statements from its AI Overviews.",
+      "The ruling states that companies operating AI systems are liable for damages caused by AI-generated responses."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/",
   "author": "Fernanda González"
