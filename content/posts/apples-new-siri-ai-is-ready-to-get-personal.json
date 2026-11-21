@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple is overhauling Siri.",
+      "Information about the changes was shared at WWDC 2026.",
+      "The overhaul may include a standalone app or a Google Gemini partnership."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
   "author": "Reece Rogers"

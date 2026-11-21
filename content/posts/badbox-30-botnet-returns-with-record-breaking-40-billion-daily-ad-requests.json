@@ -1,0 +1,24 @@
+{
+  "title": "BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
+  "slug": "badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests",
+  "date": "2026-11-21T15:17:27.000Z",
+  "description": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/12/19/android-malware-botnet.jpg",
+  "content": {
+    "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "The BADBOX malware has returned to large-scale ad-fraud operations.",
+      "This malware is found in various generic Android TV boxes."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+  "author": "Bill Toulas"
+}

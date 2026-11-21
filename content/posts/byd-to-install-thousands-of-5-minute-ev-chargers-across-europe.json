@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "BYD plans to install thousands of Flash Chargers across Europe.",
+      "The company has already begun installing these chargers in Germany and the UK.",
+      "These 1,500kW charging stations are more powerful than Tesla's V4 Superchargers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/947553/byd-flash-chargers-uk-europe-ev-blade-battery",
   "author": "News Era Team"

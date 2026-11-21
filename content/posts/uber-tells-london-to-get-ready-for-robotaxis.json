@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Uber plans to introduce robotaxis in London.",
+      "The company is inviting riders to express interest in using Wayve's autonomous vehicles.",
+      "This initiative marks a significant step for Uber in a major market."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/945614/uber-wayve-robotaxi-interest-list-launch-london",
   "author": "News Era Team"
