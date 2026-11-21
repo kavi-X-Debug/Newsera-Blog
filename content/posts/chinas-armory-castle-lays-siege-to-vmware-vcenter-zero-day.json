@@ -1,0 +1,23 @@
+{
+  "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+  "slug": "chinas-armory-castle-lays-siege-to-vmware-vcenter-zero-day",
+  "date": "2026-11-20T21:03:27.000Z",
+  "description": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
+  "category": "Cybersecurity",
+  "image": null,
+  "content": {
+    "summary": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve....",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "A China-linked threat group may have had a new zero-day vulnerability ready during recent VMware vCenter security updates."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+  "author": "Nate Nelson"
+}
