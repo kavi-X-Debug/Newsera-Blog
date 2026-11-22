@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Amazon is changing its gaming strategy.",
+      "The company is relaunching its Luna cloud gaming service.",
+      "The new focus is on party games and AI-powered games."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/943147/amazon-gaming-strategy-james-bond-snoop-dogg-luna",
   "author": "News Era Team"

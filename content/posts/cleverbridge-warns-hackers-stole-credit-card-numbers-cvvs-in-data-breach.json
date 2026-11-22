@@ -1,0 +1,25 @@
+{
+  "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+  "slug": "cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach",
+  "date": "2026-11-22T15:43:04.000Z",
+  "description": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and C",
+  "category": "Cybersecurity",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/22/credit-cards.jpg",
+  "content": {
+    "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]...",
+    "impact": "The implications of this cybersecurity update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Cybersecurity shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Cleverbridge, an e-commerce platform, reported a data breach.",
+      "Hackers accessed customer payment card information.",
+      "Credit card numbers and CVV security codes were stolen."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+  "author": "Lawrence Abrams"
+}

@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Modern browsers allow users to share links that direct to specific text. This feature enables highlighting particular phrases.",
+      "The article explains how this browser function operates."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/how-to-share-a-link-to-a-particular-phrase/",
   "author": "Justin Pot"

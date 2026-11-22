@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta reportedly included unreleased face-recognition code in its smart glasses platform.",
+      "This system is designed to identify individuals using biometric data from user phones."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/",
   "author": "Dhruv Mehrotra, Dell Cameron"

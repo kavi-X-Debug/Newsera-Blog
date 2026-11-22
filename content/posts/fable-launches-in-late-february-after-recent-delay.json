@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft announced a release date for Fable. The game will launch on February 23, 2027. It will be available on Xbox, PC, and PS5."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/939536/fable-xbox-games-showcase-2026",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Valve announced the Steam Machine PC and Steam Frame VR headset are expected to launch this summer.",
+      "The company shared this update in a blog post about its Verified programs for the hardware.",
+      "Valve had previously delayed the launch of these new gadgets."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified",
   "author": "News Era Team"

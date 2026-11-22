@@ -12,7 +12,12 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Anthropic's annualized revenue reached $47 billion in May.",
+      "This marks a significant increase from approximately $9 billion at the end of 2025."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
   "author": "Marina Temkin"

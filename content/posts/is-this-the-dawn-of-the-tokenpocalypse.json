@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "AI companies may increase prices.",
+      "This could happen as they plan to go public."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
   "author": "Anthony Ha"

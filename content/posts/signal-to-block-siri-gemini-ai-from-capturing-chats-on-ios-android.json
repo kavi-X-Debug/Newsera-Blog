@@ -1,0 +1,25 @@
+{
+  "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+  "slug": "signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android",
+  "date": "2026-11-22T15:15:25.000Z",
+  "description": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+  "category": "Tech",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/09/08/Signal.jpg",
+  "content": {
+    "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]...",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "Signal introduced new protections for user privacy.",
+      "The update blocks screenshots on iOS 27 devices.",
+      "It also prevents AI assistants from capturing conversations on supported Android devices."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+  "author": "Bill Toulas"
+}

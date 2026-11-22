@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Halo: Campaign Evolved is a remake of Halo: Combat Evolved's campaign mode.",
+      "It will be released on July 28th for Xbox Series S/X, PC, and PS5.",
+      "The game features updated visuals, animations, music, voice lines, and new prequel missions."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/games/939564/halo-campaign-evolved-xbox-games-showcase-2026",
   "author": "News Era Team"

@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Founders Fund launched a game show.",
+      "The first episode featured tech luminaries.",
+      "Founders Fund's chief marketing officer moderated the show."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/04/founders-fund-launches-game-show-starring-sam-altman-palmer-luckey-and-other-tech-elites/",
   "author": "Lucas Ropek"

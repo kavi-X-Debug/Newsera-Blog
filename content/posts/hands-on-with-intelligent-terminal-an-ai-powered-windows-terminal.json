@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Microsoft developed an open-source version of Windows Terminal called Intelligent Terminal.",
+      "This version integrates AI directly into the Terminal.",
+      "The AI functionality operates without disrupting the regular session."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
   "author": "Mayank Parmar"

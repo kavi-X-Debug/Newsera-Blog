@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "NASA astronauts will wear high-tech Prada long johns on the Moon.",
+      "These garments are part of the Axiom Extravehicular Mobility Unit spacesuit.",
+      "The Liquid Cooling and Ventilation Garment will keep astronauts cool and comfortable."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/design/945540/nasa-axiom-space-prada-lcvg-spacesuit-moon-artemis",
   "author": "News Era Team"

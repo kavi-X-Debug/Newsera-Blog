@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Velotric Nomad 2 Fat Tire Ebike was tested and reviewed.",
+      "This bike can comfortably roll over dirt and gravel.",
+      "It can also handle curbs."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/velotric-nomad-2-fat-tire-ebike/",
   "author": "Maggie Slepian"

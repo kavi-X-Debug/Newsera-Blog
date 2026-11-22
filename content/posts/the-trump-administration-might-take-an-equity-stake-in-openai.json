@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "President Trump is discussing deals for the American people to benefit from AI success."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
   "author": "Anthony Ha"
