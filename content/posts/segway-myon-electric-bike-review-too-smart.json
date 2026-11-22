@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Segway Myon electric bike includes advanced technology.",
+      "Features like app-controlled security and electronic shifting are present.",
+      "The bike also offers radar alerts."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/review/segway-myon-electric-bike/",
   "author": "Stephanie Pearson"

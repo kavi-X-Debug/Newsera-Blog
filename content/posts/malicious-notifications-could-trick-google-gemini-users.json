@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A flaw in Google Gemini's voice assistant allowed attackers to hide malicious commands.",
+      "These commands were hidden in notifications.",
+      "This enabled social engineering tactics."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users",
   "author": "Alexander Culafi"
