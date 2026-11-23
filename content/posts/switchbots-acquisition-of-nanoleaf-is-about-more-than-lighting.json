@@ -12,7 +12,13 @@
       "Analyze how this Business / Economic News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "OneRobotics, SwitchBot's parent company, acquired smart lighting company Nanoleaf.",
+      "Nanoleaf will continue to operate independently with its current leadership.",
+      "The acquisition provides Nanoleaf with resources and plans for product integrations."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/942328/nanoleaf-switchbot-onerobotics-sale-ai-robotics",
   "author": "News Era Team"

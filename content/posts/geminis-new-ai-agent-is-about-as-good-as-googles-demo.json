@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google's new AI agent, Gemini Spark, can perform tasks on a user's behalf.",
+      "The company states that the agent is always under user direction and seeks approval for major actions.",
+      "Users can choose to activate the agent."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
   "author": "News Era Team"

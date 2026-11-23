@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia announced its entry into consumer laptop chips with RTX Spark.",
+      "This could be a significant development for Windows, similar to Apple's M1 chip.",
+      "Nvidia aims to enhance performance, particularly in graphics, for Arm-based Windows laptops."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
   "author": "News Era Team"

@@ -12,7 +12,12 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Enterprise identity and access management (IAM) is becoming fragmented as organizations expand.",
+      "Identity activity is often not visible to centralized IAM systems."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
   "author": "info@thehackernews.com (The Hacker News)"

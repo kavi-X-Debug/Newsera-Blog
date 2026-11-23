@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Florida has filed a lawsuit against OpenAI and Sam Altman.",
+      "The lawsuit is related to violent incidents.",
+      "It partially concerns a shooting at Florida State University and ChatGPT's alleged involvement."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
   "author": "Lucas Ropek"

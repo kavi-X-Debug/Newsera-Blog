@@ -12,7 +12,12 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A government committee in the UK has expressed concerns.",
+      "They state that the country's increasing reliance on a data analytics company is a significant vulnerability."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/uk-government-palantir-warning-report/",
   "author": "Joel Khalili"
