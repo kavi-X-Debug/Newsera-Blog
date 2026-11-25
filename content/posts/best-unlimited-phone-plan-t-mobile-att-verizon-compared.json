@@ -12,7 +12,12 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article compares unlimited phone plans from T-Mobile, AT&T, and Verizon.",
+      "It aims to help users find the best deals on major carriers."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/best-unlimited-phone-plans/",
   "author": "Matthew Korfhage"

@@ -12,7 +12,13 @@
       "Analyze how this Cybersecurity shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A United flight returned to Newark an hour after takeoff.",
+      "The plane turned around due to security concerns about a Bluetooth signal.",
+      "The crew asked passengers to turn off their Bluetooth devices."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/transportation/940486/united-flight-236-bluetooth-speaker-name-bomb",
   "author": "News Era Team"
