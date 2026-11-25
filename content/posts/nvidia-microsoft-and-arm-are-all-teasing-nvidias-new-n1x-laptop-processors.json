@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Nvidia is expected to announce new Arm-powered laptop chips.",
+      "Microsoft, Nvidia, and Arm are teasing this announcement.",
+      "They posted about a \"new era of PC\" with coordinates for Computex in Taipei."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/news/940275/nvidia-n1x-laptop-processor-arm-microsoft-teaser",
   "author": "News Era Team"

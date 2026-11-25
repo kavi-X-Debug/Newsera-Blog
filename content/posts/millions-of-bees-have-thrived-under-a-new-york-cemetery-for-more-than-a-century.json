@@ -12,7 +12,13 @@
       "Analyze how this Science & Technology News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Cornell researchers found a large underground bee colony in a New York cemetery.",
+      "The colony has an estimated population of 5.5 million bees.",
+      "This discovery represents one of the largest bee colonies ever recorded."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/millions-of-bees-have-thrived-under-a-new-york-cemetery-for-more-than-a-century/",
   "author": "Simone Valesini"

@@ -1,0 +1,25 @@
+{
+  "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+  "slug": "fcc-signs-off-on-spacexs-plan-to-put-up-to-1-million-data-center-satellites-into-space",
+  "date": "2026-11-25T17:44:51.000Z",
+  "description": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company'",
+  "category": "Tech",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+  "content": {
+    "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency has granted for a full \"constellation\" of AI satellites. The FCC's approval requires SpaceX to deploy at least one satellite by 2033, and meet the 1 million satellite milestone by 2040. The FCC also deferred SpaceX's request to dispose of satellites located above 600km in space \"graveyard\" orbits, rather than … Read the full story at The Verge....",
+    "impact": "The implications of this tech update are significant for digital infrastructure in Tier-1 nations. Experts suggest that such developments could influence both consumer behavior and enterprise-level security protocols in the US, UK, CA, and AU markets.",
+    "takeaways": [
+      "Analyze how this Tech shift affects your current digital setup.",
+      "Stay proactive by implementing recommended security patches or software updates.",
+      "Monitor News Era for further developments on this story."
+    ],
+    "keyPoints": [
+      "The FCC approved SpaceX's plan to deploy up to one million AI chip-equipped satellites for its Starmind initiative.",
+      "This is the first approval for a full constellation of AI satellites, with other companies also exploring the concept.",
+      "SpaceX must deploy at least one satellite by 2033 and reach one million by 2040."
+    ],
+    "keyPointsBy": "gemini"
+  },
+  "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+  "author": "News Era Team"
+}

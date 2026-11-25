@@ -12,7 +12,12 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The article tests transcription software to determine if paid subscriptions are necessary.",
+      "It compares services like Wispr Flow and other AI-powered options."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
   "author": "Justin Pot"

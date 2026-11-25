@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "MSI introduced a new Claw 8 handheld gaming PC.",
+      "This model features an Intel Arc G3 Extreme processor.",
+      "The device also includes an NVME M.2 SSD slot for storage."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/entertainment/939758/msi-claw-8-ex-ai-plus-gaming-handheld-reveal-computex-2026",
   "author": "News Era Team"

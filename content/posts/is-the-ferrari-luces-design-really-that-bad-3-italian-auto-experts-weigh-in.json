@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The first electric Ferrari is a divisive car.",
+      "Three Italian auto industry professionals discussed the EV's design.",
+      "They explained aspects of the design that make sense and those that do not."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/is-the-ferrari-luce-design-really-bad-we-ask-3-italian-auto-experts/",
   "author": "Lucia Tedesco"
