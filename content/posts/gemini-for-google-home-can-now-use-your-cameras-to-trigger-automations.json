@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Google Home is introducing a new Gemini-powered automation feature.",
+      "This feature allows smart home routines to be triggered by security camera observations.",
+      "The update also includes enhanced voice command support and stability improvements."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/938771/google-home-gemini-ai-camera-automations",
   "author": "News Era Team"
