@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "An analysis suggests that artificial intelligence may have been used in Pope Leo XIV's recent encyclical on AI's impact.",
+      "A forum post indicated that some paragraphs of the document, \"Magnifica Humanitas,\" were potentially AI-generated.",
+      "The analysis noted traits common in AI writing, such as increased use of specific words."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/ai-artificial-intelligence/937801/pope-leo-xiv-magnifica-humanitas-ai-pangram",
   "author": "News Era Team"

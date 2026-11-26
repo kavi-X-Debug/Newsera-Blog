@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Meta is introducing paid subscriptions for Instagram, Facebook, and WhatsApp globally.",
+      "The company is also testing new AI, creator, and business offerings.",
+      "These new services fall under its \"Meta One\" subscription brand."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
   "author": "Sarah Perez"

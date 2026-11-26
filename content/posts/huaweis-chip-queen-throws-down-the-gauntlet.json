@@ -12,7 +12,12 @@
       "Analyze how this Political News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Huawei is adapting to the end of Moore's Law, which affects chip production.",
+      "This adaptation could challenge US dominance in the chip industry."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/huawei-chip-queen-moores-law-tau/",
   "author": "Will Knight"

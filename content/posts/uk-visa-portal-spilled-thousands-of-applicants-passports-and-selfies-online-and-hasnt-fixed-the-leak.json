@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A third-party website involved in the UK visa application process exposed sensitive applicant documents.",
+      "The exposed information included passport details and selfies of thousands of applicants.",
+      "The company reportedly sent attorneys instead of resolving the data leak."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/05/26/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak/",
   "author": "Zack Whittaker"

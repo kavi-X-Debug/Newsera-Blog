@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A Google engineer was charged with insider trading.",
+      "The engineer reportedly made $1.2 million on Polymarket.",
+      "The individual risked over $2.7 million on wagers related to Google's 2025 Year in Search campaign."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/05/27/google-engineer-charged-with-insider-trading-after-making-1-2m-on-polymarket/",
   "author": "Amanda Silberling"

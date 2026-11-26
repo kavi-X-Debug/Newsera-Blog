@@ -12,7 +12,11 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "New mothers in software development are returning to a workplace significantly changed by AI."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/women-parental-leave-return-office-ai/",
   "author": "Joel Khalili"

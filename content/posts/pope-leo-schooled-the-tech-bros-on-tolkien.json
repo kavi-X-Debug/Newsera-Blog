@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "The Pope referenced The Lord of the Rings in an encyclical about AI.",
+      "This reference was seen as an expert troll of tech billionaires.",
+      "These billionaires reportedly misinterpret the series."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.wired.com/story/pope-leo-schooled-the-tech-bros-on-tolkien/",
   "author": "Miles Klee"

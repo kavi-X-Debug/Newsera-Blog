@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "A Google employee was charged with fraud for allegedly using confidential company data.",
+      "He reportedly made $1.2 million on Polymarket bets related to Search trends.",
+      "The employee was arrested and faces charges including commodities fraud and wire fraud."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
   "author": "News Era Team"
