@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "GitHub introduced new npm controls to enhance software supply chain security.",
+      "Maintainers can now approve releases before packages are publicly available.",
+      "This feature, called staged publishing, requires a human maintainer to pass a two-factor authentication challenge for approval."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
   "author": "info@thehackernews.com (The Hacker News)"

@@ -12,7 +12,11 @@
       "Analyze how this Sports News shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article provides news and insights on the future of transportation."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/",
   "author": "Kirsten Korosec"

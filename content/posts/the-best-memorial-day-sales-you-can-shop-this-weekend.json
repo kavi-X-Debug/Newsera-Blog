@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "This article lists various Memorial Day sales available this weekend.",
+      "Deals include portable speakers, solar lights, 4K OLED TVs, and noise-canceling earbuds.",
+      "The sales also feature tents, laptops, and other everyday essentials."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://www.theverge.com/gadgets/936196/best-memorial-day-sales-tech-deals-2026",
   "author": "News Era Team"
