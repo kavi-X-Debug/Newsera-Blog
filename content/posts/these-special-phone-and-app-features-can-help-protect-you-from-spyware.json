@@ -12,7 +12,13 @@
       "Analyze how this Tech shift affects your current digital setup.",
       "Stay proactive by implementing recommended security patches or software updates.",
       "Monitor News Era for further developments on this story."
-    ]
+    ],
+    "keyPoints": [
+      "Apple, Meta, and Google provide special security modes.",
+      "These modes help protect devices from targeted spyware attacks.",
+      "The article explains how these modes work and how to activate them."
+    ],
+    "keyPointsBy": "gemini"
   },
   "link": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/",
   "author": "Lorenzo Franceschi-Bicchierai"
